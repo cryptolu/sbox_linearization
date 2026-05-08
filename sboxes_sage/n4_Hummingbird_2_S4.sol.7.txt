@@ -1,0 +1,40 @@
+3 4 5 8 10 11 15
+Iter#132374 New set #60000 of size 7 (2.2 its/hit = 0.000s/hit): seed=15577612346414542668 [3, 4, 5, 8, 10, 11, 15]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+0 1 2 7 9 13 14
+Iter#13195 New set #6000 of size 7 (2.2 its/hit = 0.000s/hit): seed=13486272542306082896 [0, 1, 2, 7, 9, 13, 14]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+0 2 7 8 9 10 14
+Iter#1545010 New set #700000 of size 7 (2.2 its/hit = 0.000s/hit): seed=15982876524016359362 [0, 2, 7, 8, 9, 10, 14]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+0 1 2 8 10 13 14
+Iter#22062294 New set #10000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=8976548928045430569 [0, 1, 2, 8, 10, 13, 14]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+1 2 4 6 12 13 14
+Iter#176351441 New set #80000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=11215063219285670865 [1, 2, 4, 6, 12, 13, 14]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+0 2 3 4 8 10 15
+Iter#220454459 New set #100000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=6717947437561043140 [0, 2, 3, 4, 8, 10, 15]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+0 4 6 7 9 12 14
+Iter#1986186 New set #900000 of size 7 (2.2 its/hit = 0.000s/hit): seed=2688910213603673802 [0, 4, 6, 7, 9, 12, 14]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+4 5 6 10 11 12 14
+Iter#132269971 New set #60000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=15247753374357377638 [4, 5, 6, 10, 11, 12, 14]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+0 2 4 5 8 10 11
+Iter#88182835 New set #40000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=2764212753132548542 [0, 2, 4, 5, 8, 10, 11]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+
+3 4 6 8 12 14 15
+Iter#198404267 New set #90000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=14433898915115249593 [3, 4, 6, 8, 12, 14, 15]
+logs_sage/n4_Hummingbird_2_S4.txt.bz2.greedyext.20260220_145550.txt
+

@@ -1,0 +1,40 @@
+1 4 6 7 11 13 15
+Iter#22042447 New set #10000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=5173830822023174166 [1, 4, 6, 7, 11, 13, 15]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+0 3 4 6 13 14 15
+Iter#220454477 New set #100000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=16342698730305402411 [0, 3, 4, 6, 13, 14, 15]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+2 5 6 8 9 10 12
+Iter#1323389 New set #600000 of size 7 (2.2 its/hit = 0.000s/hit): seed=18205930769824695578 [2, 5, 6, 8, 9, 10, 12]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+2 5 6 7 8 12 14
+Iter#44087498 New set #20000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=6786042124347973302 [2, 5, 6, 7, 8, 12, 14]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+4 5 6 9 10 13 15
+Iter#176356581 New set #80000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=14738658352164281926 [4, 5, 6, 9, 10, 13, 15]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+5 6 7 9 10 12 14
+Iter#19837620 New set #9000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=1927447978340647820 [5, 6, 7, 9, 10, 12, 14]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+1 5 7 11 12 13 14
+Iter#198409671 New set #90000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=12756399488053244143 [1, 5, 7, 11, 12, 13, 14]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+2 4 6 8 12 13 15
+Iter#66136445 New set #30000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=1804088947137903307 [2, 4, 6, 8, 12, 13, 15]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+0 1 3 7 11 13 14
+Iter#154307778 New set #70000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=975612754214259681 [0, 1, 3, 7, 11, 13, 14]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+
+0 3 5 7 12 13 14
+Iter#4412031 New set #2000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=11447486246874183466 [0, 3, 5, 7, 12, 13, 14]
+logs_sage/n4_CLEFIA_SS0.txt.bz2.greedyext.20260220_143050.txt
+

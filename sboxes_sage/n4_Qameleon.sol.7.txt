@@ -1,0 +1,24 @@
+1 2 6 7 13 14 15
+Iter#32192719 New set #10000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=9724250153041567355 [1, 2, 6, 7, 13, 14, 15]
+logs_sage/n4_Qameleon.txt.bz2.greedyext.20260220_151550.txt
+
+1 2 8 10 12 13 14
+Iter#96535960 New set #30000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=1440699438955338298 [1, 2, 8, 10, 12, 13, 14]
+logs_sage/n4_Qameleon.txt.bz2.greedyext.20260220_151550.txt
+
+1 2 3 4 5 13 14
+Iter#193080235 New set #60000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=10720176173930959613 [1, 2, 3, 4, 5, 13, 14]
+logs_sage/n4_Qameleon.txt.bz2.greedyext.20260220_151550.txt
+
+0 1 2 9 11 13 14
+Iter#225254308 New set #70000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=2338839728377260693 [0, 1, 2, 9, 11, 13, 14]
+logs_sage/n4_Qameleon.txt.bz2.greedyext.20260220_151550.txt
+
+6 7 8 10 12 14 15
+Iter#64366243 New set #20000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=12064074844104670766 [6, 7, 8, 10, 12, 14, 15]
+logs_sage/n4_Qameleon.txt.bz2.greedyext.20260220_151550.txt
+
+0 2 3 4 5 9 11
+Iter#257437724 New set #80000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=17139213141091308820 [0, 2, 3, 4, 5, 9, 11]
+logs_sage/n4_Qameleon.txt.bz2.greedyext.20260220_151550.txt
+

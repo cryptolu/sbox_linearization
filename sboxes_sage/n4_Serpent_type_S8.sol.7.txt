@@ -1,0 +1,40 @@
+1 3 5 9 10 12 13
+Iter#176396252 New set #80000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=3940980358274371749 [1, 3, 5, 9, 10, 12, 13]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+3 5 7 10 11 12 15
+Iter#44097447 New set #20000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=9422920344270481401 [3, 5, 7, 10, 11, 12, 15]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+1 2 4 5 9 13 15
+Iter#220486702 New set #100000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=10295998177426735094 [1, 2, 4, 5, 9, 13, 15]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+2 3 4 7 9 11 15
+Iter#132301595 New set #60000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=17228024151759292635 [2, 3, 4, 7, 9, 11, 15]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+0 3 5 7 11 14 15
+Iter#661192 New set #300000 of size 7 (2.2 its/hit = 0.000s/hit): seed=531615488795161052 [0, 3, 5, 7, 11, 14, 15]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+2 4 6 7 8 9 15
+Iter#11021924 New set #5000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=12539422828255184329 [2, 4, 6, 7, 8, 9, 15]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+3 6 7 8 9 11 15
+Iter#198441354 New set #90000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=10379850838799568524 [3, 6, 7, 8, 9, 11, 15]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+0 1 5 9 11 13 14
+Iter#17631862 New set #8000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=10384782691250115670 [0, 1, 5, 9, 11, 13, 14]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+1 5 6 7 8 9 13
+Iter#1321919 New set #600000 of size 7 (2.2 its/hit = 0.000s/hit): seed=11410719731574100118 [1, 5, 6, 7, 8, 9, 13]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+
+0 3 5 10 11 12 14
+Iter#110250976 New set #50000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=8432207464885722460 [0, 3, 5, 10, 11, 12, 14]
+logs_sage/n4_Serpent_type_S8.txt.bz2.greedyext.20260220_153050.txt
+

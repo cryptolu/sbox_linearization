@@ -1,0 +1,24 @@
+2 7 8 12 13 14 15
+Iter#225255492 New set #70000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=4221196711059857881 [2, 7, 8, 12, 13, 14, 15]
+logs_sage/n4_SATURNIN_1.txt.bz2.greedyext.20260220_152050.txt
+
+3 6 11 12 13 14 15
+Iter#28957403 New set #9000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=3775521859876078657 [3, 6, 11, 12, 13, 14, 15]
+logs_sage/n4_SATURNIN_1.txt.bz2.greedyext.20260220_152050.txt
+
+0 3 4 6 10 11 14
+Iter#64361530 New set #20000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=1337008897795839230 [0, 3, 4, 6, 10, 11, 14]
+logs_sage/n4_SATURNIN_1.txt.bz2.greedyext.20260220_152050.txt
+
+1 2 5 7 8 9 13
+Iter#128718118 New set #40000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=16007874670465166761 [1, 2, 5, 7, 8, 9, 13]
+logs_sage/n4_SATURNIN_1.txt.bz2.greedyext.20260220_152050.txt
+
+0 4 10 12 13 14 15
+Iter#642357 New set #200000 of size 7 (3.2 its/hit = 0.000s/hit): seed=14497570378463093182 [0, 4, 10, 12, 13, 14, 15]
+logs_sage/n4_SATURNIN_1.txt.bz2.greedyext.20260220_152050.txt
+
+1 5 9 12 13 14 15
+Iter#257432416 New set #80000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=7784472302321409020 [1, 5, 9, 12, 13, 14, 15]
+logs_sage/n4_SATURNIN_1.txt.bz2.greedyext.20260220_152050.txt
+

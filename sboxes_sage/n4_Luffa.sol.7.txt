@@ -1,0 +1,60 @@
+4 6 8 9 10 13 14
+Iter#12069223 New set #10000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=2980892918221388183 [4, 6, 8, 9, 10, 13, 14]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+1 5 7 8 12 13 15
+Iter#6034013 New set #5000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=14106409514794503278 [1, 5, 7, 8, 12, 13, 15]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+0 2 9 10 12 13 14
+Iter#96557854 New set #80000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=7588795476217208823 [0, 2, 9, 10, 12, 13, 14]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+2 3 4 6 7 8 10
+Iter#36207464 New set #30000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=7017964396152096704 [2, 3, 4, 6, 7, 8, 10]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+0 4 5 7 11 13 15
+Iter#8453 New set #7000 of size 7 (1.2 its/hit = 0.000s/hit): seed=1979646954997040361 [0, 4, 5, 7, 11, 13, 15]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+0 1 2 5 8 12 14
+Iter#724032 New set #600000 of size 7 (1.2 its/hit = 0.000s/hit): seed=8693848365231525708 [0, 1, 2, 5, 8, 12, 14]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+5 7 9 10 13 14 15
+Iter#120696814 New set #100000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=12534403625045127239 [5, 7, 9, 10, 13, 14, 15]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+2 3 5 6 7 13 15
+Iter#60349389 New set #50000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=7907545282927405958 [2, 3, 5, 6, 7, 13, 15]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 3 6 7 9 11
+Iter#120652 New set #100000 of size 7 (1.2 its/hit = 0.000s/hit): seed=516231229038791451 [1, 2, 3, 6, 7, 9, 11]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+1 3 9 10 11 13 14
+Iter#108628274 New set #90000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=15022872479187798326 [1, 3, 9, 10, 11, 13, 14]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+0 4 6 8 10 11 15
+Iter#84491379 New set #70000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=7522533551225163773 [0, 4, 6, 8, 10, 11, 15]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+1 3 5 8 9 11 12
+Iter#36260 New set #30000 of size 7 (1.2 its/hit = 0.000s/hit): seed=3790828173586653861 [1, 3, 5, 8, 9, 11, 12]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+0 1 3 4 9 11 15
+Iter#241392818 New set #200000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=6063708633428812602 [0, 1, 3, 4, 9, 11, 15]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+1 4 5 6 8 10 12
+Iter#7241817 New set #6000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=17861598856214237911 [1, 4, 5, 6, 8, 10, 12]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+
+0 2 3 6 7 12 14
+Iter#844747 New set #700000 of size 7 (1.2 its/hit = 0.000s/hit): seed=7267539424838824229 [0, 2, 3, 6, 7, 12, 14]
+logs_sage/n4_Luffa.txt.bz2.greedyext.20260220_150550.txt
+

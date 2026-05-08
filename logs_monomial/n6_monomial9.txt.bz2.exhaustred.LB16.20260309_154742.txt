@@ -1,0 +1,109 @@
+Input S-box (n m then space separated integers):
+n = 6, m = 6, 2^n = 64
+0 1 53 1 23 1 53 22 52 22 53 34 23 34 1 1 34 1 1 23 23 35 35 34 52 52 35 22 53 34 53 23 35 23 53 52 53 22 52 34 52 35 22 52 22 22 35 22 34 52 34 1 22 23 1 53 23 34 35 35 23 53 52 35 
+S-box is quadratic? 1
+Computed 64 derivatives (64 unique)
+
+RUNNING WITH LB 16, BATCH index=0 (1/1)
+Options: FULL_STAT 0, X_SPLIT_TESTING 1
+checking masks itr=      10 (00 12) thread 0/8
+checking masks itr=      20 (00 31) thread 0/8
+checking masks itr=      22 (00 11) thread 0/8
+checking masks itr=      45 (00 33) thread 0/8
+checking masks itr=    2622 (00 3c) thread 5/8
+checking masks itr=     126 (00 00) thread 0/8
+checking masks itr=    2657 (00 3b) thread 5/8
+checking masks itr=     196 (00 05) thread 0/8
+checking masks itr=    2798 (00 2c) thread 5/8
+checking masks itr=    2827 (00 0e) thread 5/8
+checking masks itr=     275 (00 01) thread 0/8
+checking masks itr=    1629 (00 30) thread 3/8
+checking masks itr=     288 (00 21) thread 0/8
+checking masks itr=    2875 (00 0b) thread 5/8
+checking masks itr=     301 (00 02) thread 0/8
+checking masks itr=    2252 (00 25) thread 4/8
+checking masks itr=    2880 (00 34) thread 5/8
+checking masks itr=     454 (00 10) thread 0/8
+checking masks itr=    2896 (00 1a) thread 5/8
+checking masks itr=    2274 (00 23) thread 4/8
+checking masks itr=    2925 (00 0c) thread 5/8
+checking masks itr=    2407 (00 26) thread 4/8
+checking masks itr=    2955 (00 36) thread 5/8
+checking masks itr=    2961 (00 19) thread 5/8
+checking masks itr=    2431 (00 24) thread 4/8
+checking masks itr=    1854 (00 22) thread 3/8
+checking masks itr=    2994 (00 03) thread 5/8
+checking masks itr=    2529 (00 18) thread 4/8
+checking masks itr=    3005 (00 0a) thread 5/8
+checking masks itr=    2554 (00 1e) thread 4/8
+checking masks itr=    1867 (00 06) thread 3/8
+checking masks itr=    2557 (00 37) thread 4/8
+checking masks itr=    1883 (00 3e) thread 3/8
+checking masks itr=    1891 (00 09) thread 3/8
+checking masks itr=    1971 (00 14) thread 3/8
+checking masks itr=     662 (00 32) thread 1/8
+checking masks itr=    3615 (00 16) thread 7/8
+checking masks itr=     744 (00 15) thread 1/8
+checking masks itr=    3706 (00 20) thread 7/8
+checking masks itr=     874 (00 28) thread 1/8
+checking masks itr=    3750 (00 0f) thread 7/8
+checking masks itr=     892 (00 07) thread 1/8
+checking masks itr=    3778 (00 13) thread 7/8
+checking masks itr=    3802 (00 2a) thread 7/8
+checking masks itr=     995 (00 35) thread 1/8
+checking masks itr=    3920 (00 17) thread 7/8
+checking masks itr=    3958 (00 2f) thread 7/8
+checking masks itr=    3986 (00 3f) thread 7/8
+checking masks itr=    1029 (00 39) thread 2/8
+checking masks itr=    3087 (00 38) thread 6/8
+checking masks itr=    3224 (00 27) thread 6/8
+checking masks itr=    1034 (00 08) thread 2/8
+checking masks itr=    1047 (00 2b) thread 2/8
+checking masks itr=    3295 (00 29) thread 6/8
+checking masks itr=    1049 (00 2d) thread 2/8
+checking masks itr=    3444 (00 1d) thread 6/8
+checking masks itr=    3465 (00 1b) thread 6/8
+checking masks itr=    1201 (00 2e) thread 2/8
+checking masks itr=    3476 (00 3d) thread 6/8
+checking masks itr=    1253 (00 0d) thread 2/8
+checking masks itr=    1301 (00 1c) thread 2/8
+checking masks itr=    1348 (00 04) thread 2/8
+checking masks itr=    1372 (00 1f) thread 2/8
+checking masks itr=    1445 (00 3a) thread 2/8
+
+depth 0:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 1:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 2:           256 = 2^  8.00 nodes,           136 = 2^  7.09 leaves,           120 = 2^  6.91 non-leaves (46.88 %)
+depth 3:         15360 = 2^ 13.91 nodes,         15360 = 2^ 13.91 leaves,             0 = 2^  -inf non-leaves (0.00 %)
+depth 4:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 5:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 6:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 7:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+  total:         15616 = 2^ 13.93 nodes,         15496 = 2^ 13.92 leaves
+  prefix   skips: 4032 = 2^ 11.98
+  prefix checked: 64 = 2^  6.00
+main loop prefixes checked: 64
+Finished
+	Command being timed: "./exhaustive_reduction/ReductionExhaustive8 16"
+	User time (seconds): 0.06
+	System time (seconds): 0.00
+	Percent of CPU this job got: 406%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 214
+	Voluntary context switches: 9
+	Involuntary context switches: 61
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

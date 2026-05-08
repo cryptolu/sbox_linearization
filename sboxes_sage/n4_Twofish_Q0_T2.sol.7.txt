@@ -1,0 +1,40 @@
+1 2 3 7 8 11 12
+Iter#4410111 New set #2000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=1405782778562927854 [1, 2, 3, 7, 8, 11, 12]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+1 2 3 4 5 8 11
+Iter#198430435 New set #90000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=14580793738186848614 [1, 2, 3, 4, 5, 8, 11]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+2 3 4 5 6 9 13
+Iter#1322820 New set #600000 of size 7 (2.2 its/hit = 0.000s/hit): seed=17126569650091229572 [2, 3, 4, 5, 6, 9, 13]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+1 2 6 8 9 11 13
+Iter#154325232 New set #70000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=12912780981305934650 [1, 2, 6, 8, 9, 11, 13]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+2 6 9 12 13 14 15
+Iter#220473019 New set #100000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=18131836539947191587 [2, 6, 9, 12, 13, 14, 15]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 6 7 9 10 13
+Iter#22049440 New set #10000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=15251528056801313495 [0, 2, 6, 7, 9, 10, 13]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+0 7 10 12 13 14 15
+Iter#1763680 New set #800000 of size 7 (2.2 its/hit = 0.000s/hit): seed=13066755974331407084 [0, 7, 10, 12, 13, 14, 15]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+2 3 4 5 7 8 12
+Iter#88185783 New set #40000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=1735583734674280992 [2, 3, 4, 5, 7, 8, 12]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+3 7 8 12 13 14 15
+Iter#2204404 New set #1000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=3242002757235648946 [3, 7, 8, 12, 13, 14, 15]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+
+0 3 7 8 10 12 13
+Iter#176379973 New set #80000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=16467317889250560126 [0, 3, 7, 8, 10, 12, 13]
+logs_sage/n4_Twofish_Q0_T2.txt.bz2.greedyext.20260220_153050.txt
+

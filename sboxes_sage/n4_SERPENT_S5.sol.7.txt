@@ -1,0 +1,40 @@
+2 5 7 9 10 12 13
+Iter#66151134 New set #30000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=10946564425014060288 [2, 5, 7, 9, 10, 12, 13]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+1 3 8 10 11 14 15
+Iter#8820886 New set #4000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=11850431194753999499 [1, 3, 8, 10, 11, 14, 15]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+0 2 4 6 7 8 11
+Iter#19847621 New set #9000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=18423476161848904131 [0, 2, 4, 6, 7, 8, 11]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+4 7 8 10 11 14 15
+Iter#198439473 New set #90000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=13527262091132865939 [4, 7, 8, 10, 11, 14, 15]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+1 2 3 5 8 10 13
+Iter#88193652 New set #40000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=16827691202790488273 [1, 2, 3, 5, 8, 10, 13]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+0 2 4 6 7 9 12
+Iter#220475015 New set #100000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=4481923831969066132 [0, 2, 4, 6, 7, 9, 12]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+2 4 7 8 9 11 12
+Iter#43896 New set #20000 of size 7 (2.2 its/hit = 0.000s/hit): seed=13155316088960436587 [2, 4, 7, 8, 9, 11, 12]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+1 3 4 7 8 10 11
+Iter#132300513 New set #60000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=17075827545060455875 [1, 3, 4, 7, 8, 10, 11]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+0 2 4 5 6 10 13
+Iter#176406560 New set #80000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=13303966945493816475 [0, 2, 4, 5, 6, 10, 13]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+
+2 5 10 11 13 14 15
+Iter#44098970 New set #20000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=17502999762586132417 [2, 5, 10, 11, 13, 14, 15]
+logs_sage/n4_SERPENT_S5.txt.bz2.greedyext.20260220_152050.txt
+

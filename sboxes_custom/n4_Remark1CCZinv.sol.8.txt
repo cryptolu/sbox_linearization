@@ -1,0 +1,8 @@
+4 5 6 7 9 10 12 15
+Iter#64294164 New set #30000000 of size 8 (2.1 its/hit = 0.000s/hit): seed=7518959937095034854 [4, 5, 6, 7, 9, 10, 12, 15]
+logs_custom/n4_Remark1CCZinv.txt.bz2.txt
+
+0 1 2 3 8 11 13 14
+Iter#42863682 New set #20000000 of size 8 (2.1 its/hit = 0.000s/hit): seed=4967174499899763706 [0, 1, 2, 3, 8, 11, 13, 14]
+logs_custom/n4_Remark1CCZinv.txt.bz2.txt
+

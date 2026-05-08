@@ -1,0 +1,64 @@
+4 5 6 8 9 12 14
+Iter#603312 New set #500000 of size 7 (1.2 its/hit = 0.000s/hit): seed=1446309148362360108 [4, 5, 6, 8, 9, 12, 14]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+1 3 8 10 11 14 15
+Iter#8449678 New set #7000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=1364043639537845601 [1, 3, 8, 10, 11, 14, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 1 5 7 12 13 15
+Iter#120683130 New set #100000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=6939137493891238418 [0, 1, 5, 7, 12, 13, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 1 4 6 12 13 14
+Iter#60343 New set #50000 of size 7 (1.2 its/hit = 0.000s/hit): seed=1257152429876093033 [0, 1, 4, 6, 12, 13, 14]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+2 3 5 6 7 13 15
+Iter#60342155 New set #50000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=3008012374194995696 [2, 3, 5, 6, 7, 13, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+5 7 10 11 13 14 15
+Iter#9735 New set #8000 of size 7 (1.2 its/hit = 0.000s/hit): seed=16730542344673959616 [5, 7, 10, 11, 13, 14, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+4 6 10 11 12 14 15
+Iter#2 New set #2 of size 7 (1.0 its/hit = 0.000s/hit): seed=7259862748671059551 [4, 6, 10, 11, 12, 14, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 2 3 6 7 9 11
+Iter#72407876 New set #60000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=6558958902611562288 [0, 2, 3, 6, 7, 9, 11]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+1 2 3 6 7 8 10
+Iter#24137431 New set #20000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=9389898299699514284 [1, 2, 3, 6, 7, 8, 10]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 1 3 8 10 12 13
+Iter#79 New set #70 of size 7 (1.1 its/hit = 0.000s/hit): seed=13165155068292385018 [0, 1, 3, 8, 10, 12, 13]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 2 4 5 8 9 11
+Iter#84476803 New set #70000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=8166143136598360381 [0, 2, 4, 5, 8, 9, 11]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 1 2 9 11 12 13
+Iter#48274304 New set #40000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=11107677820348440442 [0, 1, 2, 9, 11, 12, 13]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+4 5 7 8 9 13 15
+Iter#108612907 New set #90000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=17238733299338471883 [4, 5, 7, 8, 9, 13, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+1 3 4 5 8 9 10
+Iter#36206885 New set #30000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=8772937985789679357 [1, 3, 4, 5, 8, 9, 10]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+0 2 9 10 11 14 15
+Iter#241373596 New set #200000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=17904766689491408212 [0, 2, 9, 10, 11, 14, 15]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+
+2 3 4 6 7 12 14
+Iter#3621622 New set #3000000 of size 7 (1.2 its/hit = 0.000s/hit): seed=3895654416352019941 [2, 3, 4, 6, 7, 12, 14]
+logs_sage/n4_SKINNY_4.txt.bz2.greedyext.20260220_152550.txt
+

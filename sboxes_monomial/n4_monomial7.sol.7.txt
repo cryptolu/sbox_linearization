@@ -1,0 +1,40 @@
+0 1 2 6 7 12 14
+Iter#173763558 New set #90000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=14797204907902743447 [0, 1, 2, 6, 7, 12, 14]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 2 3 9 10 12 14
+Iter#385296 New set #200000 of size 7 (1.9 its/hit = 0.000s/hit): seed=3950993242216975414 [0, 2, 3, 9, 10, 12, 14]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 1 3 6 7 9 10
+Iter#1734279 New set #900000 of size 7 (1.9 its/hit = 0.000s/hit): seed=4841227373730651273 [0, 1, 3, 6, 7, 9, 10]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 1 5 6 7 8 13
+Iter#115841040 New set #60000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=9981619282043569158 [0, 1, 5, 6, 7, 8, 13]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 3 5 8 9 10 13
+Iter#77228056 New set #40000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=13871169097106011982 [0, 3, 5, 8, 9, 10, 13]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 2 5 8 12 13 14
+Iter#96531553 New set #50000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=11472115491464199513 [0, 2, 5, 8, 12, 13, 14]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 1 4 6 7 11 15
+Iter#19336 New set #10000 of size 7 (1.9 its/hit = 0.000s/hit): seed=17590529428112371267 [0, 1, 4, 6, 7, 11, 15]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 3 4 9 10 11 15
+Iter#193078437 New set #100000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=10369291481003578247 [0, 3, 4, 9, 10, 11, 15]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 4 5 8 11 13 15
+Iter#38616692 New set #20000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=3238158665324641164 [0, 4, 5, 8, 11, 13, 15]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 2 4 11 12 14 15
+Iter#154451326 New set #80000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=15666342924547496806 [0, 2, 4, 11, 12, 14, 15]
+logs_monomial/n4_monomial7.txt.bz2.greedyext.20260220_205834.txt
+

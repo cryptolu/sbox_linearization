@@ -1,0 +1,48 @@
+1 2 5 7 9 10 14
+Iter#25627067 New set #9000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=17014072911461663336 [1, 2, 5, 7, 9, 10, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 5 9 10 14 15
+Iter#199287502 New set #70000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=7886728202761543760 [1, 2, 5, 9, 10, 14, 15]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+0 1 2 6 9 10 12
+Iter#28471505 New set #10000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=5457199132161564282 [0, 1, 2, 6, 9, 10, 12]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+0 1 5 6 10 12 14
+Iter#569929 New set #200000 of size 7 (2.8 its/hit = 0.000s/hit): seed=17358630723452657025 [0, 1, 5, 6, 10, 12, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 4 5 9 10 14
+Iter#170823196 New set #60000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=2593632802889633622 [1, 2, 4, 5, 9, 10, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+2 4 5 7 9 13 14
+Iter#2847142 New set #1000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=10609183268109743777 [2, 4, 5, 7, 9, 13, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 4 5 7 10 13 14
+Iter#1993796 New set #700000 of size 7 (2.8 its/hit = 0.000s/hit): seed=1253354365011329498 [1, 4, 5, 7, 10, 13, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 3 5 9 10 14
+Iter#227768097 New set #80000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=12208657914234039295 [1, 2, 3, 5, 9, 10, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 5 9 10 12 14
+Iter#142348281 New set #50000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=1884115079892121311 [1, 2, 5, 9, 10, 12, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 5 8 9 10 14
+Iter#22781024 New set #8000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=9764022290835124881 [1, 2, 5, 8, 9, 10, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+1 2 5 9 10 11 14
+Iter#85411670 New set #30000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=14529252669772623702 [1, 2, 5, 9, 10, 11, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+
+0 1 2 5 9 10 14
+Iter#256241213 New set #90000000 of size 7 (2.8 its/hit = 0.000s/hit): seed=11387585466111152758 [0, 1, 2, 5, 9, 10, 14]
+logs_sage/n4_Lucifer_S1.txt.bz2.greedyext.20260220_150550.txt
+

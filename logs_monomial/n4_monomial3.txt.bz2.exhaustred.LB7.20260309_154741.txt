@@ -1,0 +1,59 @@
+Input S-box (n m then space separated integers):
+n = 4, m = 4, 2^n = 16
+0 1 8 15 12 10 1 1 10 15 15 12 8 10 8 12 
+S-box is quadratic? 1
+Computed 16 derivatives (16 unique)
+
+RUNNING WITH LB 7, BATCH index=0 (1/1)
+Options: FULL_STAT 0, X_SPLIT_TESTING 1
+checking masks itr=      76 (00 0b) thread 2/8
+checking masks itr=     175 (00 02) thread 5/8
+checking masks itr=      44 (00 0d) thread 1/8
+checking masks itr=      48 (00 0a) thread 1/8
+checking masks itr=      59 (00 0f) thread 1/8
+checking masks itr=     124 (00 0e) thread 3/8
+checking masks itr=     126 (00 00) thread 3/8
+checking masks itr=     137 (00 03) thread 4/8
+checking masks itr=     140 (00 08) thread 4/8
+checking masks itr=     148 (00 07) thread 4/8
+checking masks itr=       8 (00 04) thread 0/8
+checking masks itr=      29 (00 06) thread 0/8
+checking masks itr=     196 (00 05) thread 6/8
+checking masks itr=     202 (00 01) thread 6/8
+checking masks itr=     212 (00 09) thread 6/8
+checking masks itr=     223 (00 0c) thread 6/8
+
+depth 0:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 1:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 2:            64 = 2^  6.00 nodes,            54 = 2^  5.75 leaves,            10 = 2^  3.32 non-leaves (15.62 %)
+depth 3:           320 = 2^  8.32 nodes,           320 = 2^  8.32 leaves,             0 = 2^  -inf non-leaves (0.00 %)
+depth 4:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 5:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+  total:           384 = 2^  8.58 nodes,           374 = 2^  8.55 leaves
+  prefix   skips: 240 = 2^  7.91
+  prefix checked: 16 = 2^  4.00
+main loop prefixes checked: 16
+Finished
+	Command being timed: "./exhaustive_reduction/ReductionExhaustive8 7"
+	User time (seconds): 0.08
+	System time (seconds): 0.00
+	Percent of CPU this job got: 413%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 183
+	Voluntary context switches: 2
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

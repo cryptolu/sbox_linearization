@@ -1,0 +1,40 @@
+1 2 3 7 8 11 12
+Iter#88182060 New set #40000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=3241434240918562490 [1, 2, 3, 7, 8, 11, 12]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+0 3 6 7 8 10 12
+Iter#132277792 New set #60000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=10707902423486139448 [0, 3, 6, 7, 8, 10, 12]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+3 4 7 8 9 10 12
+Iter#198425506 New set #90000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=16091805729070685891 [3, 4, 7, 8, 9, 10, 12]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+0 4 6 7 9 10 12
+Iter#22043263 New set #10000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=13068030291626451737 [0, 4, 6, 7, 9, 10, 12]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+2 3 5 10 13 14 15
+Iter#154322061 New set #70000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=6232088119379811419 [2, 3, 5, 10, 13, 14, 15]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+1 2 5 8 10 11 13
+Iter#1984825 New set #900000 of size 7 (2.2 its/hit = 0.000s/hit): seed=17773565379228489794 [1, 2, 5, 8, 10, 11, 13]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+2 4 5 7 9 10 13
+Iter#110217058 New set #50000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=8420834896347546048 [2, 4, 5, 7, 9, 10, 13]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+2 3 7 8 12 14 15
+Iter#1125 New set #500 of size 7 (2.2 its/hit = 0.000s/hit): seed=5056392609249923642 [2, 3, 7, 8, 12, 14, 15]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+1 2 3 8 11 14 15
+Iter#6612728 New set #3000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=7333210538017826636 [1, 2, 3, 8, 11, 14, 15]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+
+0 2 5 6 10 12 13
+Iter#220479020 New set #100000000 of size 7 (2.2 its/hit = 0.000s/hit): seed=11603118053900564463 [0, 2, 5, 6, 10, 12, 13]
+logs_sage/n4_Optimal_S14.txt.bz2.greedyext.20260220_151050.txt
+

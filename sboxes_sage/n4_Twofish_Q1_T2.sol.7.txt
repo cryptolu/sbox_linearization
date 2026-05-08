@@ -1,0 +1,80 @@
+2 3 5 8 11 13 14
+Iter#12309198 New set #8000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=7482730760263345664 [2, 3, 5, 8, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 1 2 4 7 9 13
+Iter#153840593 New set #100000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=114421044681601755 [0, 1, 2, 4, 7, 9, 13]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+1 2 4 6 7 10 14
+Iter#138454963 New set #90000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=13074659384032469267 [1, 2, 4, 6, 7, 10, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 5 8 11 13 14 15
+Iter#614799 New set #400000 of size 7 (1.5 its/hit = 0.000s/hit): seed=14919053369899875799 [3, 5, 8, 11, 13, 14, 15]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+2 6 8 10 11 13 14
+Iter#30765904 New set #20000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=8935311865591529404 [2, 6, 8, 10, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 5 7 8 11 13 14
+Iter#46149395 New set #30000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=6600398245203103371 [3, 5, 7, 8, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 5 8 10 11 13 14
+Iter#92206 New set #60000 of size 7 (1.5 its/hit = 0.000s/hit): seed=13436148372597630353 [3, 5, 8, 10, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 5 6 9 11 12 13
+Iter#1539042 New set #1000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=4451187726991941336 [3, 5, 6, 9, 11, 12, 13]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 3 4 6 9 12 13
+Iter#9232682 New set #6000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=878143014910730202 [0, 3, 4, 6, 9, 12, 13]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 4 8 9 11 13 14
+Iter#3070 New set #2000 of size 7 (1.5 its/hit = 0.000s/hit): seed=8649644580843388910 [0, 4, 8, 9, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+1 3 5 8 11 13 14
+Iter#15386711 New set #10000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=2450892851007258490 [1, 3, 5, 8, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+2 3 6 9 10 12 14
+Iter#1385446 New set #900000 of size 7 (1.5 its/hit = 0.000s/hit): seed=13088616455265035874 [2, 3, 6, 9, 10, 12, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 5 6 8 9 12 14
+Iter#10713 New set #7000 of size 7 (1.5 its/hit = 0.000s/hit): seed=3806630679508180626 [3, 5, 6, 8, 9, 12, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 4 5 9 10 13 15
+Iter#92301023 New set #60000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=4392648393858321841 [0, 4, 5, 9, 10, 13, 15]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 3 5 10 11 13 15
+Iter#10770001 New set #7000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=12969647816310931681 [0, 3, 5, 10, 11, 13, 15]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 4 5 8 11 13 14
+Iter#307732 New set #200000 of size 7 (1.5 its/hit = 0.000s/hit): seed=10612705943199023876 [3, 4, 5, 8, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 3 5 8 10 14 15
+Iter#922898 New set #600000 of size 7 (1.5 its/hit = 0.000s/hit): seed=18103689341055185491 [0, 3, 5, 8, 10, 14, 15]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+2 3 5 6 8 10 14
+Iter#7673 New set #5000 of size 7 (1.5 its/hit = 0.000s/hit): seed=8319925414794869081 [2, 3, 5, 6, 8, 10, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+0 2 5 6 10 14 15
+Iter#76915235 New set #50000000 of size 7 (1.5 its/hit = 0.000s/hit): seed=2403820305330954449 [0, 2, 5, 6, 10, 14, 15]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+
+3 5 8 9 11 13 14
+Iter#294 New set #200 of size 7 (1.5 its/hit = 0.000s/hit): seed=14688815843096505761 [3, 5, 8, 9, 11, 13, 14]
+logs_sage/n4_Twofish_Q1_T2.txt.bz2.greedyext.20260220_153550.txt
+

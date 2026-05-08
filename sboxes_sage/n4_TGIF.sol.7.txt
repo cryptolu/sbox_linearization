@@ -1,0 +1,96 @@
+0 2 4 6 8 9 12
+Iter#113896237 New set #80000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=1173878968822306180 [0, 2, 4, 6, 8, 9, 12]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 5 6 7 11 14
+Iter#4269332 New set #3000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=13029634624195885332 [1, 3, 5, 6, 7, 11, 14]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 4 6 8 11 12
+Iter#5694374 New set #4000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=1849549776476883589 [0, 2, 4, 6, 8, 11, 12]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 5 7 9 12 15
+Iter#1137752 New set #800000 of size 7 (1.4 its/hit = 0.000s/hit): seed=3181594855711919592 [1, 3, 5, 7, 9, 12, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 4 5 6 10 13
+Iter#42711448 New set #30000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=16354595428489307713 [0, 2, 4, 5, 6, 10, 13]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 5 7 9 14 15
+Iter#10 New set #9 of size 7 (1.1 its/hit = 0.000s/hit): seed=5917303046633053882 [1, 3, 5, 7, 9, 14, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 4 5 6 8 12
+Iter#9965761 New set #7000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=2740774563462531540 [0, 2, 4, 5, 6, 8, 12]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 4 6 8 12 13
+Iter#4233 New set #3000 of size 7 (1.4 its/hit = 0.000s/hit): seed=4499196295544286803 [0, 2, 4, 6, 8, 12, 13]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+2 3 5 9 10 13 15
+Iter#14238122 New set #10000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=8055057584359120071 [2, 3, 5, 9, 10, 13, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 5 7 8 9 15
+Iter#568762 New set #400000 of size 7 (1.4 its/hit = 0.000s/hit): seed=4933434741610286840 [1, 3, 5, 7, 8, 9, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 4 5 7 9 15
+Iter#7119015 New set #5000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=13405330185737385008 [1, 3, 4, 5, 7, 9, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 1 3 5 7 9 15
+Iter#12813179 New set #9000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=16209178997307258203 [0, 1, 3, 5, 7, 9, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 2 3 5 7 9 15
+Iter#1401 New set #1000 of size 7 (1.4 its/hit = 0.000s/hit): seed=17135413021582949954 [1, 2, 3, 5, 7, 9, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+2 3 6 8 11 12 14
+Iter#56952927 New set #40000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=12439374396940661123 [2, 3, 6, 8, 11, 12, 14]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 5 6 7 9 15
+Iter#8541857 New set #6000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=2155060885551083978 [1, 3, 5, 6, 7, 9, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+3 5 6 9 11 14 15
+Iter#142371791 New set #100000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=11063244740735249175 [3, 5, 6, 9, 11, 14, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 4 6 8 12 15
+Iter#853027 New set #600000 of size 7 (1.4 its/hit = 0.000s/hit): seed=5048345139346461409 [0, 2, 4, 6, 8, 12, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 2 3 5 7 10 13
+Iter#1266 New set #900 of size 7 (1.4 its/hit = 0.000s/hit): seed=3164628788842364393 [1, 2, 3, 5, 7, 10, 13]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+2 5 6 8 10 12 13
+Iter#99661495 New set #70000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=18401370374169248575 [2, 5, 6, 8, 10, 12, 13]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 3 4 6 8 12
+Iter#995250 New set #700000 of size 7 (1.4 its/hit = 0.000s/hit): seed=13993565164800002308 [0, 2, 3, 4, 6, 8, 12]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 3 4 6 11 14
+Iter#71190376 New set #50000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=530134961910144686 [0, 2, 3, 4, 6, 11, 14]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 2 4 6 7 8 12
+Iter#128135217 New set #90000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=15674024589349119272 [0, 2, 4, 6, 7, 8, 12]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+0 1 2 4 6 8 12
+Iter#85425858 New set #60000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=13334082910610274527 [0, 1, 2, 4, 6, 8, 12]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+
+1 3 5 7 9 10 15
+Iter#56834 New set #40000 of size 7 (1.4 its/hit = 0.000s/hit): seed=3084609365079506744 [1, 3, 5, 7, 9, 10, 15]
+logs_sage/n4_TGIF.txt.bz2.greedyext.20260220_153050.txt
+

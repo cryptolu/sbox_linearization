@@ -1,0 +1,4 @@
+0 2 3 4 6 9 10 11 12
+Iter#221172604 New set #60000000 of size 9 (3.7 its/hit = 0.000s/hit): seed=12470152341393156281 [0, 2, 3, 4, 6, 9, 10, 11, 12]
+logs_sage/n4_DES_S8_4.txt.bz2.greedyext.20260220_144550.txt
+

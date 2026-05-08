@@ -1,0 +1,292 @@
+17 22 29 38 40 60 75 101 111 121 122
+Iter#941 New set #900 of size 11 (1.0 its/hit = 0.000s/hit): seed=7497002197942963595 [17, 22, 29, 38, 40, 60, 75, 101, 111, 121, 122]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+12 16 18 20 25 62 74 89 94 97 122
+Iter#1044 New set #1000 of size 11 (1.0 its/hit = 0.000s/hit): seed=9435685076898591470 [12, 16, 18, 20, 25, 62, 74, 89, 94, 97, 122]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+4 5 21 35 48 56 64 74 86 88 105
+Iter#6286 New set #6000 of size 11 (1.0 its/hit = 0.000s/hit): seed=5902619791213839733 [4, 5, 21, 35, 48, 56, 64, 74, 86, 88, 105]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+2 15 23 32 54 64 71 75 84 87 108
+Iter#423 New set #400 of size 11 (1.1 its/hit = 0.000s/hit): seed=16472137571727581839 [2, 15, 23, 32, 54, 64, 71, 75, 84, 87, 108]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+4 23 37 43 58 60 70 73 96 106 124
+Iter#9377528 New set #9000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=14838354302678384932 [4, 23, 37, 43, 58, 60, 70, 73, 96, 106, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 4 17 20 29 33 62 78 84 112 122
+Iter#9 New set #8 of size 11 (1.1 its/hit = 0.000s/hit): seed=5799144809996932161 [3, 4, 17, 20, 29, 33, 62, 78, 84, 112, 122]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+14 44 46 51 53 54 56 66 83 114 125
+Iter#7322 New set #7000 of size 11 (1.0 its/hit = 0.000s/hit): seed=12265588178386352186 [14, 44, 46, 51, 53, 54, 56, 66, 83, 114, 125]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 6 27 47 65 86 91 102 106 118 121
+Iter#833336 New set #800000 of size 11 (1.0 its/hit = 0.000s/hit): seed=2283402433333410345 [3, 6, 27, 47, 65, 86, 91, 102, 106, 118, 121]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+7 35 46 64 65 67 88 98 112 118 120
+Iter#5 New set #4 of size 11 (1.2 its/hit = 0.000s/hit): seed=16712790082539801525 [7, 35, 46, 64, 65, 67, 88, 98, 112, 118, 120]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+14 18 20 25 38 47 83 89 99 112 115
+Iter#11 New set #10 of size 11 (1.1 its/hit = 0.000s/hit): seed=9342391581844290125 [14, 18, 20, 25, 38, 47, 83, 89, 99, 112, 115]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+50 62 69 70 75 82 88 102 105 110 124
+Iter#7 New set #6 of size 11 (1.2 its/hit = 0.000s/hit): seed=18437835450060030375 [50, 62, 69, 70, 75, 82, 88, 102, 105, 110, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+8 24 26 70 80 85 93 94 99 121 127
+Iter#104138 New set #100000 of size 11 (1.0 its/hit = 0.000s/hit): seed=5844470125492669993 [8, 24, 26, 70, 80, 85, 93, 94, 99, 121, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+7 16 30 41 54 57 58 64 71 74 101
+Iter#1041740 New set #1000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=11106089898518807699 [7, 16, 30, 41, 54, 57, 58, 64, 71, 74, 101]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 12 13 27 34 41 48 57 82 86 90
+Iter#416712 New set #400000 of size 11 (1.0 its/hit = 0.000s/hit): seed=11693269637077223976 [3, 12, 13, 27, 34, 41, 48, 57, 82, 86, 90]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+18 34 35 40 49 63 72 77 103 104 106
+Iter#43 New set #40 of size 11 (1.1 its/hit = 0.000s/hit): seed=4480201299654778459 [18, 34, 35, 40, 49, 63, 72, 77, 103, 104, 106]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 46 56 59 75 82 89 91 92 108 120
+Iter#4 New set #3 of size 11 (1.3 its/hit = 0.000s/hit): seed=8779183938677739764 [1, 46, 56, 59, 75, 82, 89, 91, 92, 108, 120]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+21 44 49 60 64 68 91 94 99 104 116
+Iter#72886 New set #70000 of size 11 (1.0 its/hit = 0.000s/hit): seed=8819113180851778724 [21, 44, 49, 60, 64, 68, 91, 94, 99, 104, 116]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 17 19 22 32 44 76 81 97 112 120
+Iter#93740 New set #90000 of size 11 (1.0 its/hit = 0.000s/hit): seed=4057044974098396658 [3, 17, 19, 22, 32, 44, 76, 81, 97, 112, 120]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+21 23 28 29 59 70 74 95 98 103 124
+Iter#1 New set #1 of size 11 (1.0 its/hit = 0.000s/hit): seed=9739156179005338500 [21, 23, 28, 29, 59, 70, 74, 95, 98, 103, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+24 44 45 75 87 93 97 106 116 120 122
+Iter#209 New set #200 of size 11 (1.0 its/hit = 0.000s/hit): seed=12977433755100674615 [24, 44, 45, 75, 87, 93, 97, 106, 116, 120, 122]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 19 25 42 47 48 60 65 99 103 126
+Iter#836 New set #800 of size 11 (1.0 its/hit = 0.000s/hit): seed=4910477661028130741 [1, 19, 25, 42, 47, 48, 60, 65, 99, 103, 126]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+5 17 20 44 55 66 76 98 105 109 117
+Iter#52081 New set #50000 of size 11 (1.0 its/hit = 0.000s/hit): seed=1043155904092876250 [5, 17, 20, 44, 55, 66, 76, 98, 105, 109, 117]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+9 18 47 58 73 77 108 114 115 117 123
+Iter#8335474 New set #8000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=16162700270206213620 [9, 18, 47, 58, 73, 77, 108, 114, 115, 117, 123]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 28 31 58 64 81 83 105 111 115 127
+Iter#5209502 New set #5000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=17874286799065596438 [1, 28, 31, 58, 64, 81, 83, 105, 111, 115, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 30 31 43 49 62 103 110 120 124 127
+Iter#312477 New set #300000 of size 11 (1.0 its/hit = 0.000s/hit): seed=2539362019432932278 [3, 30, 31, 43, 49, 62, 103, 110, 120, 124, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+10 20 24 32 40 49 75 94 96 120 125
+Iter#20837391 New set #20000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=5639000347428111961 [10, 20, 24, 32, 40, 49, 75, 94, 96, 120, 125]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+2 19 20 22 34 61 68 84 103 104 110
+Iter#525 New set #500 of size 11 (1.0 its/hit = 0.000s/hit): seed=2925178127617242437 [2, 19, 20, 22, 34, 61, 68, 84, 103, 104, 110]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 2 5 14 19 30 57 66 67 111 118
+Iter#5235 New set #5000 of size 11 (1.0 its/hit = 0.000s/hit): seed=10416058701923322295 [0, 2, 5, 14, 19, 30, 57, 66, 67, 111, 118]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+2 13 15 32 52 55 60 73 95 111 118
+Iter#729098 New set #700000 of size 11 (1.0 its/hit = 0.000s/hit): seed=7088630130914758046 [2, 13, 15, 32, 52, 55, 60, 73, 95, 111, 118]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+2 3 30 33 37 38 48 78 115 121 127
+Iter#74 New set #70 of size 11 (1.1 its/hit = 0.000s/hit): seed=4810045999318288138 [2, 3, 30, 33, 37, 38, 48, 78, 115, 121, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+18 29 47 67 72 75 78 79 95 102 116
+Iter#520816 New set #500000 of size 11 (1.0 its/hit = 0.000s/hit): seed=10861036394401309193 [18, 29, 47, 67, 72, 75, 78, 79, 95, 102, 116]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+4 26 34 48 50 54 57 65 82 92 108
+Iter#21 New set #20 of size 11 (1.0 its/hit = 0.000s/hit): seed=7706355328311759891 [4, 26, 34, 48, 50, 54, 57, 65, 82, 92, 108]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+10 17 19 24 36 48 81 97 113 123 124
+Iter#64 New set #60 of size 11 (1.1 its/hit = 0.000s/hit): seed=486056666977326767 [10, 17, 19, 24, 36, 48, 81, 97, 113, 123, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+8 16 17 24 39 42 45 54 89 105 106
+Iter#625029 New set #600000 of size 11 (1.0 its/hit = 0.000s/hit): seed=12126147521460113413 [8, 16, 17, 24, 39, 42, 45, 54, 89, 105, 106]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+4 10 12 38 43 49 76 90 100 101 122
+Iter#32 New set #30 of size 11 (1.1 its/hit = 0.000s/hit): seed=12353683374499661903 [4, 10, 12, 38, 43, 49, 76, 90, 100, 101, 122]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+11 18 22 31 47 53 58 61 80 98 108
+Iter#7293330 New set #7000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=15184260020381537092 [11, 18, 22, 31, 47, 53, 58, 61, 80, 98, 108]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+13 18 62 68 84 85 88 93 105 123 127
+Iter#53 New set #50 of size 11 (1.1 its/hit = 0.000s/hit): seed=7247128527394348826 [13, 18, 62, 68, 84, 85, 88, 93, 105, 123, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+22 31 36 41 59 66 68 70 71 94 110
+Iter#9422 New set #9000 of size 11 (1.0 its/hit = 0.000s/hit): seed=13576060029685849373 [22, 31, 36, 41, 59, 66, 68, 70, 71, 94, 110]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+8 12 14 19 30 37 42 84 102 108 117
+Iter#3151 New set #3000 of size 11 (1.1 its/hit = 0.000s/hit): seed=6832868603490310906 [8, 12, 14, 19, 30, 37, 42, 84, 102, 108, 117]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 22 43 46 56 65 67 83 95 99 106
+Iter#4183 New set #4000 of size 11 (1.0 its/hit = 0.000s/hit): seed=3961194119136790702 [3, 22, 43, 46, 56, 65, 67, 83, 95, 99, 106]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+18 26 33 71 72 75 82 83 86 99 117
+Iter#20883 New set #20000 of size 11 (1.0 its/hit = 0.000s/hit): seed=2290687468070946772 [18, 26, 33, 71, 72, 75, 82, 83, 86, 99, 117]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+14 20 32 36 51 57 63 78 97 108 110
+Iter#52090809 New set #50000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=16000270456887144110 [14, 20, 32, 36, 51, 57, 63, 78, 97, 108, 110]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+26 28 38 49 59 67 79 101 106 118 123
+Iter#10419526 New set #10000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=7087129924128934886 [26, 28, 38, 49, 59, 67, 79, 101, 106, 118, 123]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 2 15 34 63 72 86 90 98 99 115
+Iter#94 New set #90 of size 11 (1.0 its/hit = 0.000s/hit): seed=9496056269068841894 [1, 2, 15, 34, 63, 72, 86, 90, 98, 99, 115]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+10 36 41 63 89 98 100 112 113 120 123
+Iter#320 New set #300 of size 11 (1.1 its/hit = 0.000s/hit): seed=4338248018606091590 [10, 36, 41, 63, 89, 98, 100, 112, 113, 120, 123]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+30 61 63 77 83 85 90 100 101 111 126
+Iter#208228 New set #200000 of size 11 (1.0 its/hit = 0.000s/hit): seed=14616074282885133106 [30, 61, 63, 77, 83, 85, 90, 100, 101, 111, 126]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 21 24 45 56 57 63 93 99 121 123
+Iter#84 New set #80 of size 11 (1.0 its/hit = 0.000s/hit): seed=5799462185546153068 [3, 21, 24, 45, 56, 57, 63, 93, 99, 121, 123]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+6 12 15 19 27 49 73 88 96 98 110
+Iter#41673737 New set #40000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=7795047885108215605 [6, 12, 15, 19, 27, 49, 73, 88, 96, 98, 110]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 3 4 8 19 80 86 89 102 112 114
+Iter#731 New set #700 of size 11 (1.0 its/hit = 0.000s/hit): seed=8553426377690680173 [0, 3, 4, 8, 19, 80, 86, 89, 102, 112, 114]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 6 15 25 34 50 58 72 76 79 105
+Iter#83345513 New set #80000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=8792078964606001930 [0, 6, 15, 25, 34, 50, 58, 72, 76, 79, 105]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+3 13 29 50 51 59 67 72 99 105 113
+Iter#2083499 New set #2000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=17595150508595597855 [3, 13, 29, 50, 51, 59, 67, 72, 99, 105, 113]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 4 18 19 28 35 47 54 71 88 90
+Iter#627 New set #600 of size 11 (1.0 its/hit = 0.000s/hit): seed=12167722506511149948 [0, 4, 18, 19, 28, 35, 47, 54, 71, 88, 90]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+11 16 24 28 39 49 55 68 71 86 116
+Iter#104 New set #100 of size 11 (1.0 its/hit = 0.000s/hit): seed=12087480827964322414 [11, 16, 24, 28, 39, 49, 55, 68, 71, 86, 116]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+33 49 52 57 77 80 81 90 99 120 124
+Iter#104182402 New set #100000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=3321576963500349436 [33, 49, 52, 57, 77, 80, 81, 90, 99, 120, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 5 15 17 23 46 52 71 82 117 125
+Iter#83311 New set #80000 of size 11 (1.0 its/hit = 0.000s/hit): seed=13699641388009751097 [0, 5, 15, 17, 23, 46, 52, 71, 82, 117, 125]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+16 38 48 52 59 65 66 76 86 120 127
+Iter#6251266 New set #6000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=9328324686829447406 [16, 38, 48, 52, 59, 65, 66, 76, 86, 120, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 19 28 42 58 60 84 94 96 110 122
+Iter#8366 New set #8000 of size 11 (1.0 its/hit = 0.000s/hit): seed=12772428963252322511 [1, 19, 28, 42, 58, 60, 84, 94, 96, 110, 122]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+22 30 31 39 43 60 65 96 111 114 127
+Iter#10 New set #9 of size 11 (1.1 its/hit = 0.000s/hit): seed=6286530183039481519 [22, 30, 31, 39, 43, 60, 65, 96, 111, 114, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 6 13 33 43 66 81 94 108 109 117
+Iter#6 New set #5 of size 11 (1.2 its/hit = 0.000s/hit): seed=11548642750363081711 [1, 6, 13, 33, 43, 66, 81, 94, 108, 109, 117]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+5 16 24 47 66 76 77 79 92 105 127
+Iter#31280 New set #30000 of size 11 (1.0 its/hit = 0.000s/hit): seed=18285819541955254655 [5, 16, 24, 47, 66, 76, 77, 79, 92, 105, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+22 38 47 53 67 69 83 92 116 118 126
+Iter#937561 New set #900000 of size 11 (1.0 its/hit = 0.000s/hit): seed=17146748983678977487 [22, 38, 47, 53, 67, 69, 83, 92, 116, 118, 126]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 10 14 23 38 46 95 96 98 109 124
+Iter#4167496 New set #4000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=13936690132575094630 [0, 10, 14, 23, 38, 46, 95, 96, 98, 109, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+22 24 48 63 78 80 83 88 89 111 124
+Iter#2096 New set #2000 of size 11 (1.0 its/hit = 0.000s/hit): seed=2652758012773229143 [22, 24, 48, 63, 78, 80, 83, 88, 89, 111, 124]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+6 9 22 51 57 70 83 84 104 126 127
+Iter#72926365 New set #70000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=263891039929793950 [6, 9, 22, 51, 57, 70, 83, 84, 104, 126, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 8 12 34 48 63 75 84 94 95 127
+Iter#2 New set #2 of size 11 (1.0 its/hit = 0.000s/hit): seed=16192633437585014054 [1, 8, 12, 34, 48, 63, 75, 84, 94, 95, 127]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 22 32 47 52 70 72 76 78 84 121
+Iter#62507 New set #60000 of size 11 (1.0 its/hit = 0.000s/hit): seed=8635371700758452168 [0, 22, 32, 47, 52, 70, 72, 76, 78, 84, 121]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+11 17 18 25 28 33 43 62 81 94 111
+Iter#31255308 New set #30000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=10066975416489695333 [11, 17, 18, 25, 28, 33, 43, 62, 81, 94, 111]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+17 26 39 43 45 63 67 74 92 93 113
+Iter#93764326 New set #90000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=8481277068607638779 [17, 26, 39, 43, 45, 63, 67, 74, 92, 93, 113]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+14 23 56 57 64 69 71 78 93 98 117
+Iter#10467 New set #10000 of size 11 (1.0 its/hit = 0.000s/hit): seed=6781524091252331783 [14, 23, 56, 57, 64, 69, 71, 78, 93, 98, 117]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+1 4 8 11 17 73 84 90 105 113 118
+Iter#41651 New set #40000 of size 11 (1.0 its/hit = 0.000s/hit): seed=17355312346854078417 [1, 4, 8, 11, 17, 73, 84, 90, 105, 113, 118]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+17 33 59 68 71 72 76 84 105 123 125
+Iter#8 New set #7 of size 11 (1.1 its/hit = 0.000s/hit): seed=3709889427358016756 [17, 33, 59, 68, 71, 72, 76, 84, 105, 123, 125]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+0 16 43 46 55 86 90 94 102 111 119
+Iter#62508925 New set #60000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=13752521809175991367 [0, 16, 43, 46, 55, 86, 90, 94, 102, 111, 119]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+
+8 11 28 29 51 60 73 78 81 115 119
+Iter#3125473 New set #3000000 of size 11 (1.0 its/hit = 0.000s/hit): seed=5984641800277876989 [8, 11, 28, 29, 51, 60, 73, 78, 81, 115, 119]
+logs_monomial/n7_monomial3.txt.bz2.greedyext.20260220_210334.txt
+

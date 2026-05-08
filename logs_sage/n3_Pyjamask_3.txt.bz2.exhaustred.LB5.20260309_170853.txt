@@ -1,0 +1,50 @@
+Input S-box (n m then space separated integers):
+n = 3, m = 3, 2^n = 8
+1 3 6 5 2 4 7 0 
+S-box is quadratic? 1
+Computed 8 derivatives (8 unique)
+
+RUNNING WITH LB 5, BATCH index=0 (1/1)
+Options: FULL_STAT 0, X_SPLIT_TESTING 1
+checking masks itr=       4 (00 01) thread 0/8
+checking masks itr=       8 (00 04) thread 1/8
+checking masks itr=      41 (00 00) thread 5/8
+checking masks itr=      42 (04 05) thread 5/8
+checking masks itr=      33 (04 00) thread 4/8
+checking masks itr=      35 (00 05) thread 4/8
+checking masks itr=      36 (04 01) thread 4/8
+checking masks itr=      24 (04 04) thread 3/8
+
+depth 0:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 1:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 2:            32 = 2^  5.00 nodes,            31 = 2^  4.95 leaves,             1 = 2^  0.00 non-leaves (3.12 %)
+depth 3:            16 = 2^  4.00 nodes,            16 = 2^  4.00 leaves,             0 = 2^  -inf non-leaves (0.00 %)
+depth 4:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+  total:            48 = 2^  5.58 nodes,            47 = 2^  5.55 leaves
+  prefix   skips: 56 = 2^  5.81
+  prefix checked: 8 = 2^  3.00
+main loop prefixes checked: 8
+Finished
+	Command being timed: "./exhaustive_reduction/ReductionExhaustive8 5"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 514%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 180
+	Voluntary context switches: 4
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

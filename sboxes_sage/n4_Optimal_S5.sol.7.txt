@@ -1,0 +1,40 @@
+1 4 6 7 11 13 15
+Iter#173794925 New set #90000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=16788706997607428489 [1, 4, 6, 7, 11, 13, 15]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+0 2 3 5 10 13 14
+Iter#96560240 New set #50000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=15139634888128622274 [0, 2, 3, 5, 10, 13, 14]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+0 3 4 6 13 14 15
+Iter#38631410 New set #20000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=11485756616639227442 [0, 3, 4, 6, 13, 14, 15]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+2 4 5 6 10 13 15
+Iter#9656117 New set #5000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=13045725106518463650 [2, 4, 5, 6, 10, 13, 15]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+0 3 8 9 12 13 14
+Iter#15449664 New set #8000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=4061737264565952336 [0, 3, 8, 9, 12, 13, 14]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+4 6 8 9 12 13 15
+Iter#964246 New set #500000 of size 7 (1.9 its/hit = 0.000s/hit): seed=12271256031899884084 [4, 6, 8, 9, 12, 13, 15]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+2 5 8 9 10 12 13
+Iter#154486248 New set #80000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=15402789023865633471 [2, 5, 8, 9, 10, 12, 13]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+0 1 3 7 11 13 14
+Iter#193095926 New set #100000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=664218546017355984 [0, 1, 3, 7, 11, 13, 14]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+1 2 5 7 10 11 13
+Iter#17380372 New set #9000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=10601548714239791530 [1, 2, 5, 7, 10, 11, 13]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+
+1 7 8 9 11 12 13
+Iter#115868039 New set #60000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=10768566100006156708 [1, 7, 8, 9, 11, 12, 13]
+logs_sage/n4_Optimal_S5.txt.bz2.greedyext.20260220_151550.txt
+

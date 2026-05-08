@@ -1,0 +1,24 @@
+1 2 3 6 7 9 15
+Iter#257435920 New set #80000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=6743339084956973551 [1, 2, 3, 6, 7, 9, 15]
+logs_sage/n4_Whirlpool_R.txt.bz2.greedyext.20260220_153550.txt
+
+0 2 3 6 7 11 12
+Iter#160897363 New set #50000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=15079087346179095032 [0, 2, 3, 6, 7, 11, 12]
+logs_sage/n4_Whirlpool_R.txt.bz2.greedyext.20260220_153550.txt
+
+0 4 7 10 11 12 14
+Iter#28965221 New set #9000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=10529307905112606857 [0, 4, 7, 10, 11, 12, 14]
+logs_sage/n4_Whirlpool_R.txt.bz2.greedyext.20260220_153550.txt
+
+0 5 7 8 11 12 13
+Iter#9656675 New set #3000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=2552266452086354343 [0, 5, 7, 8, 11, 12, 13]
+logs_sage/n4_Whirlpool_R.txt.bz2.greedyext.20260220_153550.txt
+
+0 4 5 8 10 13 14
+Iter#2896489 New set #900000 of size 7 (3.2 its/hit = 0.000s/hit): seed=5355336643330168738 [0, 4, 5, 8, 10, 13, 14]
+logs_sage/n4_Whirlpool_R.txt.bz2.greedyext.20260220_153550.txt
+
+0 1 7 9 11 12 15
+Iter#225257277 New set #70000000 of size 7 (3.2 its/hit = 0.000s/hit): seed=593833214730887899 [0, 1, 7, 9, 11, 12, 15]
+logs_sage/n4_Whirlpool_R.txt.bz2.greedyext.20260220_153550.txt
+

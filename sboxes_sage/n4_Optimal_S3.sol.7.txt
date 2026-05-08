@@ -1,0 +1,40 @@
+1 2 8 9 12 13 15
+Iter#173770673 New set #90000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=12268729475970974211 [1, 2, 8, 9, 12, 13, 15]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+3 4 5 7 11 12 14
+Iter#13461 New set #7000 of size 7 (1.9 its/hit = 0.000s/hit): seed=10131320467894184490 [3, 4, 5, 7, 11, 12, 14]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+0 6 8 9 10 12 13
+Iter#11582578 New set #6000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=29692728607285790 [0, 6, 8, 9, 10, 12, 13]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+1 2 5 7 12 14 15
+Iter#193078951 New set #100000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=16399911749329194991 [1, 2, 5, 7, 12, 14, 15]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+1 2 3 4 11 12 15
+Iter#57924964 New set #30000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=9189844308061014918 [1, 2, 3, 4, 11, 12, 15]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+0 1 2 6 10 12 15
+Iter#154463059 New set #80000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=8952673441685403444 [0, 1, 2, 6, 10, 12, 15]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+3 4 8 9 11 12 13
+Iter#77230075 New set #40000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=3737959280359649248 [3, 4, 8, 9, 11, 12, 13]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+0 5 6 7 10 12 14
+Iter#115847190 New set #60000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=10390924604251382720 [0, 5, 6, 7, 10, 12, 14]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+5 7 8 9 12 13 14
+Iter#38615569 New set #20000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=6048572598720682596 [5, 7, 8, 9, 12, 13, 14]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+
+0 3 4 6 10 11 12
+Iter#96539098 New set #50000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=13435924079391195398 [0, 3, 4, 6, 10, 11, 12]
+logs_sage/n4_Optimal_S3.txt.bz2.greedyext.20260220_151050.txt
+

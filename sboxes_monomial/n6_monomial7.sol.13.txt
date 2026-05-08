@@ -1,0 +1,68 @@
+0 9 12 13 16 19 21 29 31 37 44 46 59
+Iter#63266 New set #2000 of size 13 (31.6 its/hit = 0.000s/hit): seed=9440413505286952272 [0, 9, 12, 13, 16, 19, 21, 29, 31, 37, 44, 46, 59]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 3 7 17 18 24 26 32 38 42 45 58 62
+Iter#15676413 New set #500000 of size 13 (31.4 its/hit = 0.000s/hit): seed=2662944721296836874 [0, 3, 7, 17, 18, 24, 26, 32, 38, 42, 45, 58, 62]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 6 8 22 23 34 35 36 39 41 43 48 63
+Iter#18809759 New set #600000 of size 13 (31.3 its/hit = 0.000s/hit): seed=16666069868401249760 [0, 6, 8, 22, 23, 34, 35, 36, 39, 41, 43, 48, 63]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 10 11 24 26 32 38 50 55 57 58 61 62
+Iter#9407246 New set #300000 of size 13 (31.4 its/hit = 0.000s/hit): seed=3139547404155492999 [0, 10, 11, 24, 26, 32, 38, 50, 55, 57, 58, 61, 62]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 20 22 23 27 33 39 41 47 48 52 53 63
+Iter#623894 New set #20000 of size 13 (31.2 its/hit = 0.000s/hit): seed=7486683604251299039 [0, 20, 22, 23, 27, 33, 39, 41, 47, 48, 52, 53, 63]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 1 8 14 15 20 23 33 35 39 43 48 53
+Iter#62682393 New set #2000000 of size 13 (31.3 its/hit = 0.000s/hit): seed=4306731460400632211 [0, 1, 8, 14, 15, 20, 23, 33, 35, 39, 43, 48, 53]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 2 13 16 21 25 28 29 30 40 46 49 59
+Iter#31317381 New set #1000000 of size 13 (31.3 its/hit = 0.000s/hit): seed=7453474219416035156 [0, 2, 13, 16, 21, 25, 28, 29, 30, 40, 46, 49, 59]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 4 7 11 26 32 42 45 50 56 57 58 60
+Iter#114 New set #3 of size 13 (38.0 its/hit = 0.000s/hit): seed=16419959421393439481 [0, 4, 7, 11, 26, 32, 42, 45, 50, 56, 57, 58, 60]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 2 5 12 19 21 28 30 31 46 51 54 59
+Iter#125332796 New set #4000000 of size 13 (31.3 its/hit = 0.000s/hit): seed=522764932083602420 [0, 2, 5, 12, 19, 21, 28, 30, 31, 46, 51, 54, 59]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 6 8 20 27 33 34 35 36 43 47 52 53
+Iter#25071913 New set #800000 of size 13 (31.3 its/hit = 0.000s/hit): seed=12107685757432471562 [0, 6, 8, 20, 27, 33, 34, 35, 36, 43, 47, 52, 53]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 5 9 21 25 37 40 44 46 49 51 54 59
+Iter#2185468 New set #70000 of size 13 (31.2 its/hit = 0.000s/hit): seed=13355494057929645944 [0, 5, 9, 21, 25, 37, 40, 44, 46, 49, 51, 54, 59]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 2 5 9 13 16 28 29 30 37 44 51 54
+Iter#3123710 New set #100000 of size 13 (31.2 its/hit = 0.000s/hit): seed=17714716512137000265 [0, 2, 5, 9, 13, 16, 28, 29, 30, 37, 44, 51, 54]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 5 12 13 16 19 25 29 31 40 49 51 54
+Iter#21934909 New set #700000 of size 13 (31.3 its/hit = 0.000s/hit): seed=4118620808167715679 [0, 5, 12, 13, 16, 19, 25, 29, 31, 40, 49, 51, 54]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 3 7 10 11 17 18 42 45 50 55 57 61
+Iter#306227 New set #10000 of size 13 (30.6 its/hit = 0.000s/hit): seed=5950116352958867705 [0, 3, 7, 10, 11, 17, 18, 42, 45, 50, 55, 57, 61]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 1 8 14 15 22 27 35 41 43 47 52 63
+Iter#12542980 New set #400000 of size 13 (31.4 its/hit = 0.000s/hit): seed=14171839842535916086 [0, 1, 8, 14, 15, 22, 27, 35, 41, 43, 47, 52, 63]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 3 4 11 17 18 24 38 50 56 57 60 62
+Iter#94056604 New set #3000000 of size 13 (31.4 its/hit = 0.000s/hit): seed=14594224265017715756 [0, 3, 4, 11, 17, 18, 24, 38, 50, 56, 57, 60, 62]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+
+0 1 6 14 15 23 27 34 36 39 47 48 52
+Iter#6282 New set #200 of size 13 (31.4 its/hit = 0.000s/hit): seed=14031786884381193426 [0, 1, 6, 14, 15, 23, 27, 34, 36, 39, 47, 48, 52]
+logs_monomial/n6_monomial7.txt.bz2.greedyext.20260220_205834.txt
+

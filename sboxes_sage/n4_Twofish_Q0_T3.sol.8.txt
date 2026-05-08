@@ -1,0 +1,4 @@
+0 3 7 8 11 13 14 15
+Iter#233359853 New set #50000000 of size 8 (4.7 its/hit = 0.000s/hit): seed=16321703090626781858 [0, 3, 7, 8, 11, 13, 14, 15]
+logs_sage/n4_Twofish_Q0_T3.txt.bz2.greedyext.20260220_153550.txt
+

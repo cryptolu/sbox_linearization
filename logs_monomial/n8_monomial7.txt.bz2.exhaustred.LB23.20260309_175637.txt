@@ -1,0 +1,302 @@
+Input S-box (n m then space separated integers):
+n = 8, m = 8, 2^n = 256
+0 1 128 255 19 226 98 206 117 192 68 79 87 43 199 38 24 174 148 67 189 138 84 33 200 30 36 83 51 93 234 6 156 56 141 137 193 173 26 245 248 58 122 216 85 102 77 61 224 131 187 103 247 45 242 180 184 105 161 15 48 97 39 42 181 222 81 227 221 152 231 88 20 238 16 243 129 108 11 220 197 49 76 126 203 96 8 70 213 100 109 218 73 158 235 25 89 166 142 118 223 54 237 32 22 170 3 120 172 63 12 123 66 82 190 182 94 41 211 159 37 162 202 149 106 179 164 134 140 90 47 14 239 92 196 163 178 29 143 23 254 13 27 252 210 169 10 153 232 135 44 136 147 69 4 250 233 18 50 194 46 110 165 204 201 212 241 230 125 150 74 72 116 251 160 229 198 91 112 219 132 53 21 177 115 145 168 188 176 71 28 62 155 185 249 139 64 217 133 111 175 209 2 236 151 107 205 130 207 104 183 95 157 240 214 215 144 191 246 86 78 146 75 59 154 31 114 121 101 99 17 186 60 55 57 124 225 80 40 244 119 7 195 34 253 127 65 113 35 9 171 208 228 5 52 167 
+S-box is quadratic? 0
+
+RUNNING WITH LB 23, BATCH index=0 (1/1)
+Options: FULL_STAT 0, X_SPLIT_TESTING 1
+checking masks itr=       0 (69 c2) thread 0/128
+checking masks itr=   19458 (ee c2) thread 38/128
+checking masks itr=   52740 (b2 c2) thread 103/128
+checking masks itr=   23045 (59 6b) thread 45/128
+checking masks itr=   58888 (66 9e) thread 115/128
+checking masks itr=   47113 (7b 68) thread 92/128
+checking masks itr=   24073 (40 e3) thread 47/128
+checking masks itr=   52750 (46 57) thread 103/128
+checking masks itr=   34320 (c8 44) thread 67/128
+checking masks itr=   11282 (f2 d5) thread 22/128
+checking masks itr=   17941 (49 52) thread 35/128
+checking masks itr=   33301 (65 e7) thread 65/128
+checking masks itr=   55831 (35 69) thread 109/128
+checking masks itr=    9242 (66 96) thread 18/128
+checking masks itr=   24090 (e7 c9) thread 47/128
+checking masks itr=   64544 (9b cf) thread 126/128
+checking masks itr=   27168 (88 06) thread 53/128
+checking masks itr=   44064 (94 ef) thread 86/128
+checking masks itr=    4133 (9b 04) thread 8/128
+checking masks itr=    5668 (c9 7c) thread 11/128
+checking masks itr=    4137 (8c 18) thread 8/128
+checking masks itr=   25130 (2b 30) thread 49/128
+checking masks itr=   37931 (25 9b) thread 74/128
+checking masks itr=    6189 (9d 57) thread 12/128
+checking masks itr=   53810 (91 6c) thread 105/128
+checking masks itr=   59956 (6a cc) thread 117/128
+checking masks itr=   57394 (7b a1) thread 112/128
+checking masks itr=   15925 (d1 93) thread 31/128
+checking masks itr=   43577 (e4 55) thread 85/128
+checking masks itr=   55867 (b0 fa) thread 109/128
+checking masks itr=   53308 (53 44) thread 104/128
+checking masks itr=   41538 (e0 2b) thread 81/128
+checking masks itr=   26688 (1a 95) thread 52/128
+checking masks itr=   34369 (d0 8a) thread 67/128
+checking masks itr=   19005 (9b 8d) thread 37/128
+checking masks itr=   12870 (df 99) thread 25/128
+checking masks itr=    4172 (d8 02) thread 8/128
+checking masks itr=   14919 (0f 1a) thread 29/128
+checking masks itr=   58444 (ae 42) thread 114/128
+checking masks itr=    2129 (f4 ee) thread 4/128
+checking masks itr=    5195 (1c e5) thread 10/128
+checking masks itr=   42578 (94 28) thread 83/128
+checking masks itr=   29264 (6a f4) thread 57/128
+checking masks itr=   23636 (e7 f3) thread 46/128
+checking masks itr=      78 (b5 5c) thread 0/128
+checking masks itr=   25182 (56 d9) thread 49/128
+checking masks itr=    2143 (e3 f1) thread 4/128
+checking masks itr=   18519 (87 8d) thread 36/128
+checking masks itr=   10851 (13 79) thread 21/128
+checking masks itr=   18523 (d9 77) thread 36/128
+checking masks itr=    6757 (b1 32) thread 13/128
+checking masks itr=   51811 (64 42) thread 101/128
+checking masks itr=   55916 (aa f0) thread 109/128
+checking masks itr=   39017 (50 7c) thread 76/128
+checking masks itr=    6256 (d7 89) thread 12/128
+checking masks itr=   23660 (b5 53) thread 46/128
+checking masks itr=   31349 (dd 1c) thread 61/128
+checking masks itr=   15982 (d8 c2) thread 31/128
+checking masks itr=   13937 (f3 21) thread 27/128
+checking masks itr=   14962 (9e c2) thread 29/128
+checking masks itr=    1147 (c4 4b) thread 2/128
+checking masks itr=   12923 (0e c2) thread 25/128
+checking masks itr=   41603 (f1 b4) thread 81/128
+checking masks itr=    1659 (88 cb) thread 3/128
+checking masks itr=   59010 (d8 2f) thread 115/128
+checking masks itr=   15492 (c4 d1) thread 30/128
+checking masks itr=   12933 (ea db) thread 25/128
+checking masks itr=   47750 (6b bc) thread 93/128
+checking masks itr=   26762 (18 5f) thread 52/128
+checking masks itr=   55955 (91 01) thread 109/128
+checking masks itr=   15505 (4d e1) thread 30/128
+checking masks itr=    6290 (33 2b) thread 12/128
+checking masks itr=   52885 (99 42) thread 103/128
+checking masks itr=   33940 (2e 79) thread 66/128
+checking masks itr=   62618 (d0 54) thread 122/128
+checking masks itr=   10905 (01 01) thread 21/128
+checking masks itr=   45212 (ea 11) thread 88/128
+checking masks itr=    5785 (be 69) thread 11/128
+checking masks itr=    6811 (c4 dc) thread 13/128
+checking masks itr=   14488 (16 d2) thread 28/128
+checking masks itr=   16547 (18 05) thread 32/128
+checking masks itr=   18587 (06 0c) thread 36/128
+checking masks itr=   48287 (84 6d) thread 94/128
+checking masks itr=   29341 (20 da) thread 57/128
+checking masks itr=   15535 (b4 c3) thread 30/128
+checking masks itr=    1694 (14 5f) thread 3/128
+checking masks itr=   30375 (12 d2) thread 59/128
+checking masks itr=   47790 (56 5e) thread 93/128
+checking masks itr=   42665 (69 05) thread 83/128
+checking masks itr=   64687 (78 1b) thread 126/128
+checking masks itr=   35505 (69 4e) thread 69/128
+checking masks itr=    3762 (bf 05) thread 7/128
+checking masks itr=   28337 (73 42) thread 55/128
+checking masks itr=   56505 (a7 71) thread 110/128
+checking masks itr=   34495 (e2 a9) thread 67/128
+checking masks itr=   48828 (28 24) thread 95/128
+checking masks itr=   48830 (ae 1d) thread 95/128
+checking masks itr=   26819 (68 7b) thread 52/128
+checking masks itr=   29373 (c6 34) thread 57/128
+checking masks itr=   43213 (6e 91) thread 84/128
+checking masks itr=   62669 (af 9a) thread 122/128
+checking masks itr=   11983 (11 31) thread 23/128
+checking masks itr=   29906 (c6 73) thread 58/128
+checking masks itr=   11465 (32 7e) thread 22/128
+checking masks itr=   52951 (ca e2) thread 103/128
+checking masks itr=   29389 (b1 54) thread 57/128
+checking masks itr=   34000 (42 15) thread 66/128
+checking masks itr=   19152 (e3 0e) thread 37/128
+checking masks itr=    3280 (41 38) thread 6/128
+checking masks itr=    6368 (bf 1d) thread 12/128
+checking masks itr=   63713 (18 52) thread 124/128
+checking masks itr=   40674 (44 33) thread 79/128
+checking masks itr=   13544 (b9 b3) thread 26/128
+checking masks itr=   40677 (1e ed) thread 79/128
+checking masks itr=   54502 (f5 b2) thread 106/128
+checking masks itr=   30436 (d6 51) thread 59/128
+checking masks itr=   44777 (96 d2) thread 87/128
+checking masks itr=   22247 (da 9a) thread 43/128
+checking masks itr=   48365 (77 23) thread 94/128
+checking masks itr=    1761 (27 b2) thread 3/128
+checking masks itr=   23791 (61 b4) thread 46/128
+checking masks itr=   13045 (61 fb) thread 25/128
+checking masks itr=    6396 (95 fd) thread 12/128
+checking masks itr=   48376 (b2 f4) thread 94/128
+checking masks itr=   18165 (9d 83) thread 35/128
+checking masks itr=   36601 (46 c5) thread 71/128
+checking masks itr=   11009 (c0 8c) thread 21/128
+checking masks itr=   37614 (9b 1f) thread 73/128
+checking masks itr=    7430 (df 03) thread 14/128
+checking masks itr=   64256 (63 b4) thread 125/128
+checking masks itr=   37620 (9c 4b) thread 73/128
+checking masks itr=   40715 (c7 07) thread 79/128
+checking masks itr=     765 (52 be) thread 1/128
+checking masks itr=   60170 (3e 54) thread 117/128
+checking masks itr=   29446 (62 58) thread 57/128
+checking masks itr=   36620 (38 ff) thread 71/128
+checking masks itr=   45336 (82 65) thread 88/128
+checking masks itr=   37636 (d6 09) thread 73/128
+checking masks itr=   24856 (dc 88) thread 48/128
+checking masks itr=   48916 (95 c9) thread 95/128
+checking masks itr=   23822 (3b 72) thread 46/128
+checking masks itr=   16145 (4b cf) thread 31/128
+checking masks itr=   62753 (55 9f) thread 122/128
+checking masks itr=   46869 (20 5f) thread 91/128
+checking masks itr=   36139 (1a 15) thread 70/128
+checking masks itr=   60191 (67 b7) thread 117/128
+checking masks itr=   45358 (3f 83) thread 88/128
+checking masks itr=   39725 (d5 ca) thread 77/128
+checking masks itr=    5934 (0f 34) thread 11/128
+checking masks itr=   49958 (96 6d) thread 97/128
+checking masks itr=   34085 (5b 2e) thread 66/128
+checking masks itr=   15156 (08 44) thread 29/128
+checking masks itr=   51493 (86 52) thread 100/128
+checking masks itr=   12086 (d1 d4) thread 23/128
+checking masks itr=   12601 (13 85) thread 24/128
+checking masks itr=   14641 (9e 73) thread 28/128
+checking masks itr=   56127 (b3 e3) thread 109/128
+checking masks itr=   47926 (b1 19) thread 93/128
+checking masks itr=   13636 (1d 8d) thread 26/128
+checking masks itr=   55087 (63 8e) thread 107/128
+checking masks itr=   62791 (23 78) thread 122/128
+checking masks itr=   27457 (9b 0a) thread 53/128
+checking masks itr=   32589 (ee 7a) thread 63/128
+checking masks itr=   63302 (24 f4) thread 123/128
+checking masks itr=   16193 (a2 cf) thread 31/128
+checking masks itr=   29508 (ee 5c) thread 57/128
+checking masks itr=   62290 (47 d7) thread 121/128
+checking masks itr=   23369 (93 8a) thread 45/128
+checking masks itr=   27974 (a7 35) thread 54/128
+checking masks itr=   59212 (73 d1) thread 115/128
+checking masks itr=   17756 (5a a7) thread 34/128
+checking masks itr=   50523 (22 41) thread 98/128
+checking masks itr=   37706 (56 8d) thread 73/128
+checking masks itr=   63842 (0e 47) thread 124/128
+checking masks itr=   14155 (e5 cd) thread 27/128
+checking masks itr=    9052 (23 76) thread 17/128
+checking masks itr=   31588 (a6 92) thread 61/128
+checking masks itr=    1873 (d9 35) thread 3/128
+checking masks itr=   13675 (07 eb) thread 26/128
+checking masks itr=   49507 (14 7a) thread 96/128
+checking masks itr=   41845 (af 73) thread 81/128
+checking masks itr=   18788 (de c4) thread 36/128
+checking masks itr=   31601 (ba ad) thread 61/128
+checking masks itr=    3430 (d6 8d) thread 6/128
+checking masks itr=   37230 (88 14) thread 72/128
+checking masks itr=   56680 (fa e6) thread 110/128
+checking masks itr=   36222 (bd 47) thread 70/128
+checking masks itr=   56684 (3b d0) thread 110/128
+checking masks itr=   52603 (56 67) thread 102/128
+checking masks itr=   11136 (f5 56) thread 21/128
+checking masks itr=    1897 (bf 6a) thread 3/128
+checking masks itr=   40835 (8f 38) thread 79/128
+checking masks itr=    6027 (f4 d5) thread 11/128
+checking masks itr=   61832 (0b 5c) thread 120/128
+checking masks itr=   37751 (39 1c) thread 73/128
+checking masks itr=   62347 (a5 e8) thread 121/128
+checking masks itr=     377 (0c c2) thread 0/128
+checking masks itr=   36244 (7a ae) thread 70/128
+checking masks itr=    3458 (8b 5a) thread 6/128
+checking masks itr=    6560 (de 41) thread 12/128
+checking masks itr=    8088 (97 78) thread 15/128
+checking masks itr=   19340 (f2 e2) thread 37/128
+checking masks itr=   29588 (ae d9) thread 57/128
+checking masks itr=    6568 (1a 7d) thread 12/128
+checking masks itr=   17826 (be 3f) thread 34/128
+checking masks itr=   53656 (ee 3a) thread 104/128
+checking masks itr=   27023 (1f 6b) thread 52/128
+checking masks itr=   18328 (80 b6) thread 35/128
+checking masks itr=   11682 (76 f6) thread 22/128
+checking masks itr=    1934 (06 15) thread 3/128
+checking masks itr=   30122 (52 7e) thread 58/128
+checking masks itr=    9642 (bc b3) thread 18/128
+checking masks itr=   18339 (9f e2) thread 35/128
+checking masks itr=   42916 (e2 2e) thread 83/128
+checking masks itr=   57263 (78 e1) thread 111/128
+checking masks itr=   41918 (e1 c3) thread 81/128
+checking masks itr=   58790 (4e ee) thread 114/128
+checking masks itr=   42422 (03 a1) thread 82/128
+checking masks itr=   27565 (2a bc) thread 53/128
+checking masks itr=   54712 (4f 43) thread 106/128
+checking masks itr=   27052 (c3 cf) thread 52/128
+checking masks itr=   19381 (29 44) thread 37/128
+checking masks itr=   14773 (32 d9) thread 28/128
+checking masks itr=    4027 (22 73) thread 7/128
+checking masks itr=   61892 (e1 31) thread 120/128
+checking masks itr=   29634 (29 70) thread 57/128
+checking masks itr=   17871 (19 27) thread 34/128
+checking masks itr=   62922 (22 45) thread 122/128
+checking masks itr=   27068 (07 21) thread 52/128
+checking masks itr=   62411 (67 45) thread 121/128
+checking masks itr=   20953 (58 f4) thread 40/128
+checking masks itr=   32213 (e5 11) thread 62/128
+checking masks itr=   30161 (76 e1) thread 58/128
+checking masks itr=   11733 (46 6a) thread 22/128
+checking masks itr=   62420 (9a c6) thread 121/128
+checking masks itr=   28106 (f5 10) thread 54/128
+checking masks itr=   58827 (79 08) thread 114/128
+checking masks itr=   54748 (90 75) thread 106/128
+checking masks itr=   16345 (d9 8b) thread 31/128
+checking masks itr=   48088 (3d 0d) thread 93/128
+checking masks itr=   64483 (0d 49) thread 125/128
+checking masks itr=    4585 (05 c6) thread 8/128
+checking masks itr=   13797 (cd e5) thread 26/128
+checking masks itr=   51169 (a0 32) thread 99/128
+checking masks itr=   55251 (f4 d6) thread 107/128
+checking masks itr=   39395 (47 dd) thread 76/128
+checking masks itr=   14299 (bd 08) thread 27/128
+checking masks itr=     996 (6b 1b) thread 1/128
+checking masks itr=   63995 (a9 96) thread 124/128
+checking masks itr=   35317 (b7 58) thread 68/128
+checking masks itr=   54776 (b6 42) thread 106/128
+checking masks itr=   52731 (7f c4) thread 102/128
+checking masks itr=   30719 (16 b4) thread 59/128
+checking masks itr=   53752 (cd 6d) thread 104/128
+checking masks itr=   24571 (50 79) thread 47/128
+checking masks itr=     504 (58 9c) thread 0/128
+
+depth 0:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 1:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+depth 2:        262144 = 2^ 18.00 nodes,             0 = 2^  -inf leaves,        262144 = 2^ 18.00 non-leaves (100.00 %)
+depth 3:     134217728 = 2^ 27.00 nodes,       5242816 = 2^ 22.32 leaves,     128974912 = 2^ 26.94 non-leaves (96.09 %)
+depth 4:   66035154944 = 2^ 35.94 nodes,   62451734413 = 2^ 35.86 leaves,    3583420531 = 2^ 31.74 non-leaves (5.43 %)
+depth 5:  1834711311872 = 2^ 40.74 nodes,  1834384642483 = 2^ 40.74 leaves,     326669389 = 2^ 28.28 non-leaves (0.02 %)
+depth 6:  167254727168 = 2^ 37.28 nodes,  167252680951 = 2^ 37.28 leaves,       2046217 = 2^ 20.96 non-leaves (0.00 %)
+depth 7:    1047663104 = 2^ 29.96 nodes,    1047657879 = 2^ 29.96 leaves,          5225 = 2^ 12.35 non-leaves (0.00 %)
+depth 8:       2675200 = 2^ 21.35 nodes,       2675200 = 2^ 21.35 leaves,             0 = 2^  -inf non-leaves (0.00 %)
+depth 9:             0 = 2^  -inf nodes,             0 = 2^  -inf leaves,             0 = 2^  -inf non-leaves (-nan %)
+  total:  2069186012160 = 2^ 40.91 nodes,  2065144633742 = 2^ 40.91 leaves
+  prefix   skips: 0 = 2^  -inf
+  prefix checked: 65536 = 2^ 16.00
+main loop prefixes checked: 65536
+Finished
+	Command being timed: "./exhaustive_reduction/ReductionExhaustive8 23"
+	User time (seconds): 193988.67
+	System time (seconds): 0.89
+	Percent of CPU this job got: 12159%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 26:35.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1330
+	Voluntary context switches: 668
+	Involuntary context switches: 508654
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

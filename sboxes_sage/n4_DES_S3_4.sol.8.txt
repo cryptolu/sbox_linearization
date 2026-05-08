@@ -1,0 +1,40 @@
+1 2 8 11 12 13 14 15
+Iter#14208175 New set #10000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=9364379020277861130 [1, 2, 8, 11, 12, 13, 14, 15]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 1 2 8 9 11 13 14
+Iter#56833968 New set #40000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=14163002286752849559 [0, 1, 2, 8, 9, 11, 13, 14]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+1 2 3 8 10 11 13 14
+Iter#99201 New set #70000 of size 8 (1.4 its/hit = 0.000s/hit): seed=501934401928876733 [1, 2, 3, 8, 10, 11, 13, 14]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 1 2 8 9 11 12 15
+Iter#99456344 New set #70000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=1006207221572347561 [0, 1, 2, 8, 9, 11, 12, 15]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 1 3 5 6 8 9 10
+Iter#425689 New set #300000 of size 8 (1.4 its/hit = 0.000s/hit): seed=17475506010863643564 [0, 1, 3, 5, 6, 8, 9, 10]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 2 3 4 7 9 10 11
+Iter#85177 New set #60000 of size 8 (1.4 its/hit = 0.000s/hit): seed=637167419654004931 [0, 2, 3, 4, 7, 9, 10, 11]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 3 4 5 6 7 9 10
+Iter#142081181 New set #100000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=569703786809291515 [0, 3, 4, 5, 6, 7, 9, 10]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 2 3 5 6 9 10 11
+Iter#1419837 New set #1000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=11282761466460463181 [0, 2, 3, 5, 6, 9, 10, 11]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+1 2 3 8 10 11 12 15
+Iter#85248769 New set #60000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=2108771830525529256 [1, 2, 3, 8, 10, 11, 12, 15]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+
+0 1 3 4 7 8 9 10
+Iter#71041104 New set #50000000 of size 8 (1.4 its/hit = 0.000s/hit): seed=2251197555484320236 [0, 1, 3, 4, 7, 8, 9, 10]
+logs_sage/n4_DES_S3_4.txt.bz2.greedyext.20260220_144050.txt
+

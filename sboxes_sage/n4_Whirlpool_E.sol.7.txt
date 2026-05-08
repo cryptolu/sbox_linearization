@@ -1,0 +1,40 @@
+4 6 8 11 12 13 15
+Iter#135169242 New set #70000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=15828337364493355040 [4, 6, 8, 11, 12, 13, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+2 3 8 11 12 14 15
+Iter#96547164 New set #50000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=8487283545254856138 [2, 3, 8, 11, 12, 14, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+1 7 8 9 11 12 15
+Iter#11583325 New set #6000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=4646498997044403077 [1, 7, 8, 9, 11, 12, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+2 3 4 6 13 14 15
+Iter#38514 New set #20000 of size 7 (1.9 its/hit = 0.000s/hit): seed=17448932319940518864 [2, 3, 4, 6, 13, 14, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+0 4 5 6 10 13 15
+Iter#173794711 New set #90000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=5746918990431512109 [0, 4, 5, 6, 10, 13, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+1 2 3 7 9 14 15
+Iter#19304256 New set #10000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=12996653758059897817 [1, 2, 3, 7, 9, 14, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+0 2 3 5 10 14 15
+Iter#154485218 New set #80000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=1604699166937809027 [0, 2, 3, 5, 10, 14, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+0 1 5 7 9 10 15
+Iter#193113970 New set #100000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=3126319242595446138 [0, 1, 5, 7, 9, 10, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+1 4 6 7 9 13 15
+Iter#77235121 New set #40000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=8175052530750673418 [1, 4, 6, 7, 9, 13, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+
+0 5 8 10 11 12 15
+Iter#17373685 New set #9000000 of size 7 (1.9 its/hit = 0.000s/hit): seed=14928575221028102343 [0, 5, 8, 10, 11, 12, 15]
+logs_sage/n4_Whirlpool_E.txt.bz2.greedyext.20260220_153550.txt
+

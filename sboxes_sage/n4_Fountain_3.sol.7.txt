@@ -1,0 +1,96 @@
+0 2 4 6 8 9 12
+Iter#2849930 New set #2000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=6349539900103757716 [0, 2, 4, 6, 8, 9, 12]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 5 6 7 11 14
+Iter#71328 New set #50000 of size 7 (1.4 its/hit = 0.000s/hit): seed=11961171505496933953 [1, 3, 5, 6, 7, 11, 14]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 4 6 8 11 12
+Iter#128146949 New set #90000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=11770319530481832106 [0, 2, 4, 6, 8, 11, 12]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 5 7 9 12 15
+Iter#2779 New set #2000 of size 7 (1.4 its/hit = 0.000s/hit): seed=3184613868665590553 [1, 3, 5, 7, 9, 12, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 4 5 6 10 13
+Iter#285541 New set #200000 of size 7 (1.4 its/hit = 0.000s/hit): seed=1980403603591008307 [0, 2, 4, 5, 6, 10, 13]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 5 7 9 14 15
+Iter#693 New set #500 of size 7 (1.4 its/hit = 0.000s/hit): seed=17533833958490224606 [1, 3, 5, 7, 9, 14, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 4 5 6 8 12
+Iter#4273752 New set #3000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=17347833386221784903 [0, 2, 4, 5, 6, 8, 12]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 4 6 8 12 13
+Iter#9967321 New set #7000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=9122200139670198152 [0, 2, 4, 6, 8, 12, 13]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+2 3 5 9 10 13 15
+Iter#56955508 New set #40000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=8144650156723041128 [2, 3, 5, 9, 10, 13, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 5 7 8 9 15
+Iter#99667224 New set #70000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=13623151135442505548 [1, 3, 5, 7, 8, 9, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 4 5 7 9 15
+Iter#42719138 New set #30000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=2218218584910867427 [1, 3, 4, 5, 7, 9, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 1 3 5 7 9 15
+Iter#142383059 New set #100000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=16202853412624903896 [0, 1, 3, 5, 7, 9, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 2 3 5 7 9 15
+Iter#28478570 New set #20000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=9180414932711041079 [1, 2, 3, 5, 7, 9, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+2 3 6 8 11 12 14
+Iter#113905932 New set #80000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=1035648784988646479 [2, 3, 6, 8, 11, 12, 14]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 5 6 7 9 15
+Iter#85462 New set #60000 of size 7 (1.4 its/hit = 0.000s/hit): seed=17333550280492022486 [1, 3, 5, 6, 7, 9, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+3 5 6 9 11 14 15
+Iter#14240591 New set #10000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=3392182582876756516 [3, 5, 6, 9, 11, 14, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 4 6 8 12 15
+Iter#8543711 New set #6000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=10347346967749370198 [0, 2, 4, 6, 8, 12, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 2 3 5 7 10 13
+Iter#1282016 New set #900000 of size 7 (1.4 its/hit = 0.000s/hit): seed=9187983512699801760 [1, 2, 3, 5, 7, 10, 13]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+2 5 6 8 10 12 13
+Iter#28449 New set #20000 of size 7 (1.4 its/hit = 0.000s/hit): seed=17604325934524910140 [2, 5, 6, 8, 10, 12, 13]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 3 4 6 8 12
+Iter#550 New set #400 of size 7 (1.4 its/hit = 0.000s/hit): seed=2889348870113930214 [0, 2, 3, 4, 6, 8, 12]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 3 4 6 11 14
+Iter#56987 New set #40000 of size 7 (1.4 its/hit = 0.000s/hit): seed=4632268412120467527 [0, 2, 3, 4, 6, 11, 14]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 2 4 6 7 8 12
+Iter#1107 New set #800 of size 7 (1.4 its/hit = 0.000s/hit): seed=6756618971553461885 [0, 2, 4, 6, 7, 8, 12]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+0 1 2 4 6 8 12
+Iter#71192499 New set #50000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=11094337802520442857 [0, 1, 2, 4, 6, 8, 12]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+
+1 3 5 7 9 10 15
+Iter#12816364 New set #9000000 of size 7 (1.4 its/hit = 0.000s/hit): seed=15899220461699041326 [1, 3, 5, 7, 9, 10, 15]
+logs_sage/n4_Fountain_3.txt.bz2.greedyext.20260220_144550.txt
+

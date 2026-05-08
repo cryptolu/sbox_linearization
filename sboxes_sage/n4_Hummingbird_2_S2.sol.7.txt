@@ -1,0 +1,36 @@
+0 1 3 5 10 13 14
+Iter#22400132 New set #9000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=5288395329599681844 [0, 1, 3, 5, 10, 13, 14]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+2 3 4 5 6 8 12
+Iter#248884394 New set #100000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=10898511923716712750 [2, 3, 4, 5, 6, 8, 12]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+0 7 8 9 10 11 12
+Iter#498374 New set #200000 of size 7 (2.5 its/hit = 0.000s/hit): seed=10861477543975627351 [0, 7, 8, 9, 10, 11, 12]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+1 5 8 9 10 11 14
+Iter#149331797 New set #60000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=9635457578704840939 [1, 5, 8, 9, 10, 11, 14]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+0 2 6 7 8 11 12
+Iter#9954328 New set #4000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=17343991256473349034 [0, 2, 6, 7, 8, 11, 12]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+0 3 7 11 12 13 14
+Iter#224004666 New set #90000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=12758230164837658062 [0, 3, 7, 11, 12, 13, 14]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+2 6 8 9 10 11 12
+Iter#199119287 New set #80000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=11429663457953727470 [2, 6, 8, 9, 10, 11, 12]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+1 2 3 4 5 10 14
+Iter#49769158 New set #20000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=3985727740537369183 [1, 2, 3, 4, 5, 10, 14]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
+0 2 3 4 5 13 14
+Iter#74669668 New set #30000000 of size 7 (2.5 its/hit = 0.000s/hit): seed=6118429631628881832 [0, 2, 3, 4, 5, 13, 14]
+logs_sage/n4_Hummingbird_2_S2.txt.bz2.greedyext.20260220_145550.txt
+
