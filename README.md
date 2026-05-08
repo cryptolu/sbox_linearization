@@ -8,7 +8,7 @@ by Alex Biryukov, Philip Tureček, Aleksei Udovenko.
 
 The work was funded by Luxembourg's FNR projects CryptoFin (C22/IS/17415825) and PQseal (C24/IS/18978392).
 
-```
+```bib
 @InProceedings{EC:BirTurUdo26,
     author="Biryukov, Alex and Ture{\v{c}}ek, Philip and Udovenko, Aleksei",
     editor="Daemen, Joan and Thom{\'e}, Emmanuel",
