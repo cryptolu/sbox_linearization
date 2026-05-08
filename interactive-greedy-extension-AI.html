@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greedy Extension (DDT) Algorithm</title>
+<style>
+head, style, script, link, meta, title { display: none !important; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root, [data-theme="dark"] {
+  --bg: #0e1015;
+  --surface: #181b24;
+  --surface2: #222631;
+  --border: #2d3248;
+  --text: #dfe1e8;
+  --text2: #777d93;
+  --accent: #5e8aff;
+  --accent2: #3d6bef;
+  --green: #34d399;
+  --red: #f87171;
+  --orange: #fb923c;
+  --purple: #a78bfa;
+  --cyan: #22d3ee;
+  --yellow: #facc15;
+  --pink: #f472b6;
+  --grp-hi-border: rgba(255,255,255,.15);
+  --hover-bg: rgba(94,138,255,.25);
+  --sel-hint-bg: rgba(94,138,255,.07);
+  --log-divider: rgba(45,50,72,.4);
+  --tip-shadow: rgba(0,0,0,.5);
+  --cliq-alpha: .13;
+  --cliq-border-alpha: .3;
+}
+[data-theme="light"] {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface2: #ebedf2;
+  --border: #cdd1dc;
+  --text: #1a1d27;
+  --text2: #5a5f73;
+  --accent: #2d5fd3;
+  --accent2: #3a6be0;
+  --green: #0e8a5f;
+  --red: #d63031;
+  --orange: #c9600a;
+  --purple: #6c3fc7;
+  --cyan: #0891a2;
+  --yellow: #a67c00;
+  --pink: #c4388a;
+  --grp-hi-border: rgba(0,0,0,.18);
+  --hover-bg: rgba(45,90,210,.12);
+  --sel-hint-bg: rgba(45,90,210,.06);
+  --log-divider: rgba(180,185,200,.5);
+  --tip-shadow: rgba(0,0,0,.15);
+  --cliq-alpha: .14;
+  --cliq-border-alpha: .35;
+}
+
+body {
+  font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ── Layout ── */
+.app {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 16px 20px;
+}
+
+/* ── Header ── */
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+header h1 {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+header p {
+  font-size: 0.85em;
+  color: var(--text2);
+}
+header a { color: var(--accent); text-decoration: none; }
+
+/* ── Controls ── */
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.controls label {
+  font-size: 0.85em;
+  color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.controls select, .controls button {
+  font-family: inherit;
+  font-size: 0.85em;
+  padding: 6px 14px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  cursor: pointer;
+}
+.controls button:hover { background: var(--accent2); border-color: var(--accent); }
+.controls button.primary { background: var(--accent2); border-color: var(--accent); color: #fff; }
+.controls button.primary:hover { background: var(--accent); }
+.controls button.danger { background: #7f1d1d; border-color: #b91c1c; color: #fca5a5; }
+.controls button.danger:hover { background: var(--red); color: #000; }
+[data-theme="light"] .controls button.danger { background: #fde8e8; border-color: #e74c3c; color: #b91c1c; }
+[data-theme="light"] .controls button.danger:hover { background: #e74c3c; color: #fff; }
+.controls button:disabled { opacity: .35; cursor: default; pointer-events: none; }
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 0.82em; color: var(--text2); cursor: pointer;
+  user-select: none;
+}
+.theme-toggle .toggle-track {
+  width: 36px; height: 20px;
+  background: var(--border);
+  border-radius: 10px;
+  position: relative;
+  transition: background .2s;
+}
+.theme-toggle .toggle-track::after {
+  content: '';
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 16px; height: 16px;
+  background: var(--text);
+  border-radius: 50%;
+  transition: transform .2s;
+}
+[data-theme="light"] .theme-toggle .toggle-track { background: var(--accent); }
+[data-theme="light"] .theme-toggle .toggle-track::after {
+  transform: translateX(16px);
+  background: #fff;
+}
+
+/* ── Info bar ── */
+.info-bar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 0.85em;
+}
+.info-bar .stat { color: var(--text2); }
+.info-bar .stat b { font-weight: 600; }
+.info-bar .stat.s1 b { color: var(--green); }
+.info-bar .stat.s2 b { color: var(--orange); }
+.info-bar .stat.s3 b { color: var(--purple); }
+.info-bar .stat.s4 b { color: var(--accent); }
+
+/* ── Main layout ── */
+.main-layout {
+  display: flex;
+  gap: 10px;
+}
+.grid-container { flex: 1; min-width: 0; position: relative; }
+.lines-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 50;
+}
+.lines-overlay line {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  opacity: .35;
+}
+.lines-overlay line.sel-line {
+  stroke: var(--green);
+  stroke-width: 2;
+  opacity: .5;
+  stroke-dasharray: 6 4;
+}
+.sidebar { width: 300px; flex-shrink: 0; }
+
+/* ── Sidebar panels ── */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.panel h3 {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.log {
+  max-height: 450px;
+  overflow-y: auto;
+  font-size: 0.8em;
+  line-height: 1.55;
+  color: var(--text2);
+}
+.log .entry { padding: 1px 0; border-bottom: 1px solid var(--log-divider); }
+.log .stp { color: var(--accent); font-weight: 700; }
+.log .dx { color: var(--cyan); }
+.log .sz { color: var(--green); font-weight: 700; }
+
+.about { font-size: 0.8em; color: var(--text2); line-height: 1.6; }
+.about strong { color: var(--text); }
+
+/* ── Selection hint ── */
+.sel-hint {
+  font-size: 0.85em;
+  color: var(--text2);
+  text-align: center;
+  padding: 5px 8px;
+  background: var(--sel-hint-bg);
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+.sel-hint strong { color: var(--accent); }
+
+/* ── Grid ── */
+.grid {
+  display: grid;
+  gap: 2px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.cell {
+  background: var(--surface2);
+  border-radius: 3px;
+  padding: 3px;
+  cursor: pointer;
+  transition: border-color .12s, box-shadow .12s;
+  border: 2.5px solid transparent;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 32px;
+  max-height: 500px;
+}
+.cell:hover { border-color: var(--accent); z-index: 2; }
+.cell.sel1 { border-color: var(--green); box-shadow: 0 0 10px rgba(52,211,153,.45); }
+.cell.sel2 { border-color: var(--orange); box-shadow: 0 0 10px rgba(251,146,60,.45); }
+
+.cell .clabel { display: none; }
+
+.cell .groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.cell .grp {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border-radius: 4px;
+  padding: 4px 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  margin: 1px;
+  position: relative;
+  transition: border-color .1s, box-shadow .1s, background .1s;
+}
+.cell .grp:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 8px rgba(94,138,255,.3);
+}
+
+.cell .pt {
+  font-size: var(--pt-size, 11px);
+  line-height: 1.3;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: background .08s;
+  white-space: nowrap;
+}
+.cell .pt:hover { background: var(--hover-bg); }
+.cell .pt.hi {
+  font-weight: 800;
+  text-shadow: 0 0 4px currentColor;
+}
+.cell .pt.best {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.grp.has-hi { border-color: var(--grp-hi-border); }
+
+.merge-badge {
+  position: absolute;
+  bottom: 1px;
+  right: 2px;
+  font-size: 0.6em;
+  font-weight: 600;
+  color: var(--yellow);
+  opacity: .75;
+  line-height: 1;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.merge-badge.dim {
+  opacity: .35;
+}
+[data-theme="light"] .merge-badge {
+  color: #92600a;
+}
+
+/* Tooltip */
+.tip {
+  position: fixed;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 0.68em;
+  color: var(--text);
+  pointer-events: none;
+  z-index: 100;
+  max-width: 280px;
+  display: none;
+  box-shadow: 0 3px 10px var(--tip-shadow);
+  line-height: 1.5;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* Light mode button overrides */
+[data-theme="light"] .controls button.primary { color: #fff; }
+[data-theme="light"] .controls button.primary:hover { background: var(--accent); color: #fff; }
+
+@media (max-width: 960px) {
+  .main-layout { flex-direction: column; }
+  .sidebar { width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>⬢ Greedy Extension (DDT)</h1>
+    <p>Interactive S-box linearization &mdash; <a href="https://github.com/cryptolu/sbox_linearization">Biryukov, Tureček, Udovenko (EUROCRYPT 2026)</a></p>
+  </header>
+
+  <div class="controls">
+    <label>S-box:
+      <select id="sel-sbox">
+        <option value="aes">AES (VecLin=18)</option>
+        <option value="skinny" selected>SKINNY-8 (VecLin=47)</option>
+        <option value="snow3g">SNOW-3G SQ (VecLin=26)</option>
+        <option value="random">Random 8-bit</option>
+      </select>
+    </label>
+    <button id="btn-copy-sbox" title="Copy S-box as [...]">⎘</button>
+    <button id="btn-undo" disabled>⟵ Undo</button>
+    <button id="btn-step">Step $</button>
+    <button id="btn-auto" class="primary">▶ Auto</button>
+    <button id="btn-run-all">Run All</button>
+    <button id="btn-best">★ Run best</button>
+    <button id="btn-reset" class="danger">↻ Reset</button>
+    <span style="flex:1"></span>
+    <label>Delay:
+      <select id="sel-speed">
+        <option value="800">Slow</option>
+        <option value="350" selected>Normal</option>
+        <option value="80">Fast</option>
+      </select>
+    </label>
+    <div class="theme-toggle" id="theme-toggle" title="Toggle light/dark theme">
+      <span>☾</span><div class="toggle-track"></div><span>☀</span>
+    </div>
+  </div>
+
+  <div class="info-bar">
+    <div class="stat s4">Step <b id="st-step">0/8</b></div>
+    <div class="stat s1">Largest clique <b id="st-cliq">1</b></div>
+    <div class="stat s2">Cosets <b id="st-cos">256</b></div>
+    <div class="stat s3">LS dim <b id="st-dim">0</b></div>
+    <div class="stat">Selection <b id="st-sel">-</b></div>
+    <div class="stat">Upper bound <b id="st-ub">256</b></div>
+    <div class="stat" id="st-dist-wrap" style="display:none">Cliques <b id="st-dist"></b></div>
+  </div>
+
+  <div class="sel-hint">
+    <strong>Manual:</strong> Click a group in one coset, then a group in a <em>different</em> coset to merge.
+  </div>
+
+  <div class="main-layout">
+    <div class="grid-container">
+      <div class="grid" id="grid"></div>
+    </div>
+    <div class="sidebar">
+      <div class="panel">
+        <h3>📝 Log</h3>
+        <div class="log" id="log"></div>
+      </div>
+      <div class="panel">
+        <h3>ℹ️ About</h3>
+        <div class="about">
+          <p>The grid shows 256 inputs of an 8-bit S-box, partitioned into <strong>cosets</strong> of the known linear subspace LS<sub>x</sub>.</p>
+          <p style="margin-top:4px">Each step picks two groups from different cosets, learns δ<sub>x</sub> → δ<sub>y</sub>, and uses the DDT to find &amp; merge compatible pairs.</p>
+          <p style="margin-top:4px">Highlighted points = <strong>largest clique</strong>. After 8 steps, the clique gives the affine approximation A with |{x : S(x)=A(x)}| = clique size.</p>
+          <p style="margin-top:4px">Cosets are ordered by an affine complement basis: merging any pair automatically pairs all other cosets at the same grid offset. Click groups to do manual merges, or use Auto/Step.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<svg class="lines-overlay" id="lines-overlay"></svg>
+<div class="tip" id="tip"></div>
+
+<script>
+"use strict";
+
+// ── S-box Tables ──
+const SBOX = {
+  aes: [0x63,0x7c,0x77,0x7b,0xf2,0x6b,0x6f,0xc5,0x30,0x01,0x67,0x2b,0xfe,0xd7,0xab,0x76,0xca,0x82,0xc9,0x7d,0xfa,0x59,0x47,0xf0,0xad,0xd4,0xa2,0xaf,0x9c,0xa4,0x72,0xc0,0xb7,0xfd,0x93,0x26,0x36,0x3f,0xf7,0xcc,0x34,0xa5,0xe5,0xf1,0x71,0xd8,0x31,0x15,0x04,0xc7,0x23,0xc3,0x18,0x96,0x05,0x9a,0x07,0x12,0x80,0xe2,0xeb,0x27,0xb2,0x75,0x09,0x83,0x2c,0x1a,0x1b,0x6e,0x5a,0xa0,0x52,0x3b,0xd6,0xb3,0x29,0xe3,0x2f,0x84,0x53,0xd1,0x00,0xed,0x20,0xfc,0xb1,0x5b,0x6a,0xcb,0xbe,0x39,0x4a,0x4c,0x58,0xcf,0xd0,0xef,0xaa,0xfb,0x43,0x4d,0x33,0x85,0x45,0xf9,0x02,0x7f,0x50,0x3c,0x9f,0xa8,0x51,0xa3,0x40,0x8f,0x92,0x9d,0x38,0xf5,0xbc,0xb6,0xda,0x21,0x10,0xff,0xf3,0xd2,0xcd,0x0c,0x13,0xec,0x5f,0x97,0x44,0x17,0xc4,0xa7,0x7e,0x3d,0x64,0x5d,0x19,0x73,0x60,0x81,0x4f,0xdc,0x22,0x2a,0x90,0x88,0x46,0xee,0xb8,0x14,0xde,0x5e,0x0b,0xdb,0xe0,0x32,0x3a,0x0a,0x49,0x06,0x24,0x5c,0xc2,0xd3,0xac,0x62,0x91,0x95,0xe4,0x79,0xe7,0xc8,0x37,0x6d,0x8d,0xd5,0x4e,0xa9,0x6c,0x56,0xf4,0xea,0x65,0x7a,0xae,0x08,0xba,0x78,0x25,0x2e,0x1c,0xa6,0xb4,0xc6,0xe8,0xdd,0x74,0x1f,0x4b,0xbd,0x8b,0x8a,0x70,0x3e,0xb5,0x66,0x48,0x03,0xf6,0x0e,0x61,0x35,0x57,0xb9,0x86,0xc1,0x1d,0x9e,0xe1,0xf8,0x98,0x11,0x69,0xd9,0x8e,0x94,0x9b,0x1e,0x87,0xe9,0xce,0x55,0x28,0xdf,0x8c,0xa1,0x89,0x0d,0xbf,0xe6,0x42,0x68,0x41,0x99,0x2d,0x0f,0xb0,0x54,0xbb,0x16],
+  skinny: [0x65,0x4c,0x6a,0x42,0x4b,0x63,0x43,0x6b,0x55,0x75,0x5a,0x7a,0x53,0x73,0x5b,0x7b,0x35,0x8c,0x3a,0x81,0x89,0x33,0x80,0x3b,0x95,0x25,0x98,0x2a,0x90,0x23,0x99,0x2b,0xe5,0xcc,0xe8,0xc1,0xc9,0xe0,0xc0,0xe9,0xd5,0xf5,0xd8,0xf8,0xd0,0xf0,0xd9,0xf9,0xa5,0x1c,0xa8,0x12,0x1b,0xa0,0x13,0xa9,0x05,0xb5,0x0a,0xb8,0x03,0xb0,0x0b,0xb9,0x32,0x88,0x3c,0x85,0x8d,0x34,0x84,0x3d,0x91,0x22,0x9c,0x2c,0x94,0x24,0x9d,0x2d,0x62,0x4a,0x6c,0x45,0x4d,0x64,0x44,0x6d,0x52,0x72,0x5c,0x7c,0x54,0x74,0x5d,0x7d,0xa1,0x1a,0xac,0x15,0x1d,0xa4,0x14,0xad,0x02,0xb1,0x0c,0xbc,0x04,0xb4,0x0d,0xbd,0xe1,0xc8,0xec,0xc5,0xcd,0xe4,0xc4,0xed,0xd1,0xf1,0xdc,0xfc,0xd4,0xf4,0xdd,0xfd,0x36,0x8e,0x38,0x82,0x8b,0x30,0x83,0x39,0x96,0x26,0x9a,0x28,0x93,0x20,0x9b,0x29,0x66,0x4e,0x68,0x41,0x49,0x60,0x40,0x69,0x56,0x76,0x58,0x78,0x50,0x70,0x59,0x79,0xa6,0x1e,0xaa,0x11,0x19,0xa3,0x10,0xab,0x06,0xb6,0x08,0xba,0x00,0xb3,0x09,0xbb,0xe6,0xce,0xea,0xc2,0xcb,0xe3,0xc3,0xeb,0xd6,0xf6,0xda,0xfa,0xd3,0xf3,0xdb,0xfb,0x31,0x8a,0x3e,0x86,0x8f,0x37,0x87,0x3f,0x92,0x21,0x9e,0x2e,0x97,0x27,0x9f,0x2f,0x61,0x48,0x6e,0x46,0x4f,0x67,0x47,0x6f,0x51,0x71,0x5e,0x7e,0x57,0x77,0x5f,0x7f,0xa2,0x18,0xae,0x16,0x1f,0xa7,0x17,0xaf,0x01,0xb2,0x0e,0xbe,0x07,0xb7,0x0f,0xbf,0xe2,0xca,0xee,0xc6,0xcf,0xe7,0xc7,0xef,0xd2,0xf2,0xde,0xfe,0xd7,0xf7,0xdf,0xff],
+  snow3g: [0x25,0x24,0x73,0x67,0xD7,0xAE,0x5C,0x30,0xA4,0xEE,0x6E,0xCB,0x7D,0xB5,0x82,0xDB,0xE4,0x8E,0x48,0x49,0x4F,0x5D,0x6A,0x78,0x70,0x88,0xE8,0x5F,0x5E,0x84,0x65,0xE2,0xD8,0xE9,0xCC,0xED,0x40,0x2F,0x11,0x28,0x57,0xD2,0xAC,0xE3,0x4A,0x15,0x1B,0xB9,0xB2,0x80,0x85,0xA6,0x2E,0x02,0x47,0x29,0x07,0x4B,0x0E,0xC1,0x51,0xAA,0x89,0xD4,0xCA,0x01,0x46,0xB3,0xEF,0xDD,0x44,0x7B,0xC2,0x7F,0xBE,0xC3,0x9F,0x20,0x4C,0x64,0x83,0xA2,0x68,0x42,0x13,0xB4,0x41,0xCD,0xBA,0xC6,0xBB,0x6D,0x4D,0x71,0x21,0xF4,0x8D,0xB0,0xE5,0x93,0xFE,0x8F,0xE6,0xCF,0x43,0x45,0x31,0x22,0x37,0x36,0x96,0xFA,0xBC,0x0F,0x08,0x52,0x1D,0x55,0x1A,0xC5,0x4E,0x23,0x69,0x7A,0x92,0xFF,0x5B,0x5A,0xEB,0x9A,0x1C,0xA9,0xD1,0x7E,0x0D,0xFC,0x50,0x8A,0xB6,0x62,0xF5,0x0A,0xF8,0xDC,0x03,0x3C,0x0C,0x39,0xF1,0xB8,0xF3,0x3D,0xF2,0xD5,0x97,0x66,0x81,0x32,0xA0,0x00,0x06,0xCE,0xF6,0xEA,0xB7,0x17,0xF7,0x8C,0x79,0xD6,0xA7,0xBF,0x8B,0x3F,0x1F,0x53,0x63,0x75,0x35,0x2C,0x60,0xFD,0x27,0xD3,0x94,0xA5,0x7C,0xA1,0x05,0x58,0x2D,0xBD,0xD9,0xC7,0xAF,0x6B,0x54,0x0B,0xE0,0x38,0x04,0xC8,0x9D,0xE7,0x14,0xB1,0x87,0x9C,0xDF,0x6F,0xF9,0xDA,0x2A,0xC4,0x59,0x16,0x74,0x91,0xAB,0x26,0x61,0x76,0x34,0x2B,0xAD,0x99,0xFB,0x72,0xEC,0x33,0x12,0xDE,0x98,0x3B,0xC0,0x9B,0x3E,0x18,0x10,0x3A,0x56,0xE1,0x77,0xC9,0x1E,0x9E,0x95,0xA3,0x90,0x19,0xA8,0x6C,0x09,0xD0,0xF0,0x86],
+};
+
+const N = 8, SIZE = 256;
+
+// Optimal merge sequences (pairs [a,b] for each step)
+const BEST_STEPS = {
+  aes:    [[179,239],[179,8],[179,99],[179,1],[179,29],[179,74],[179,47],[179,0]],
+  skinny: [[16,127],[16,32],[16,25],[16,194],[16,66],[16,0],[16,2],[16,8]],
+  snow3g: [[137,21],[137,109],[137,0],[137,7],[137,1],[137,50],[137,42],[137,113]],
+};
+
+// ── Precomputed best-solution clique for each named S-box ──
+let bestCliqueSet = new Set(); // elements in the optimal clique (for underlining)
+
+function computeBestClique(sboxArr, steps) {
+  // Simulate the full algorithm on a private copy of state
+  const N = 8, SZ = 256;
+  const lPar = Array.from({length:SZ},(_,i)=>i);
+  const lRnk = new Uint8Array(SZ);
+  const lCsz = new Uint16Array(SZ).fill(1);
+  let lLSx = new Set([0]);
+  let lLSxy = [[0,0]];
+
+  // Build DDT
+  const lDdt = new Map();
+  for (let dx = 0; dx < SZ; dx++)
+    for (let x = 0; x < SZ; x++) {
+      const k = (dx << 8) | (sboxArr[x] ^ sboxArr[x ^ dx]);
+      const a = lDdt.get(k); if (a) a.push(x); else lDdt.set(k, [x]);
+    }
+  function lDdtGet(dx,dy) { return lDdt.get((dx<<8)|dy) || []; }
+
+  function lFind(x) { while (lPar[x]!==x) { lPar[x]=lPar[lPar[x]]; x=lPar[x]; } return x; }
+  function lUnite(a,b) {
+    a=lFind(a); b=lFind(b);
+    if (a===b) return false;
+    if (lRnk[a]<lRnk[b]) [a,b]=[b,a];
+    lPar[b]=a; if (lRnk[a]===lRnk[b]) lRnk[a]++;
+    lCsz[a]+=lCsz[b]; lCsz[b]=0; return true;
+  }
+
+  for (const [a,b] of steps) {
+    const dx = a^b, dy = sboxArr[a]^sboxArr[b];
+    // Expand LSx
+    const add = [];
+    for (const v of lLSx) { const w=v^dx; if (!lLSx.has(w)) add.push(w); }
+    for (const w of add) lLSx.add(w);
+    // Merge cliques
+    const n = lLSxy.length;
+    for (let i=0;i<n;i++) {
+      const tdx = lLSxy[i][0]^dx, tdy = lLSxy[i][1]^dy;
+      for (const x of lDdtGet(tdx,tdy)) lUnite(x, x^tdx);
+    }
+    // Expand LSxy
+    for (let i=0;i<n;i++) lLSxy.push([lLSxy[i][0]^dx, lLSxy[i][1]^dy]);
+  }
+
+  // Find the largest clique and collect its members
+  let bestRoot = 0, bestSz = 0;
+  for (let x = 0; x < SZ; x++) {
+    if (lFind(x)===x && lCsz[x]>bestSz) { bestSz=lCsz[x]; bestRoot=x; }
+  }
+  const result = new Set();
+  for (let x = 0; x < SZ; x++) {
+    if (lFind(x)===bestRoot) result.add(x);
+  }
+  return result;
+}
+
+// ── State ──
+let S = [];
+let ddt; // Map: (dx<<8)|dy -> [x, ...]
+let par, rnk, csz; // DSU
+let LSx, LSxy;
+let step;
+let sel1, sel2; // selection
+let autoRun, autoTid;
+let cosetRepOrder = []; // ordered list of coset reps after each step (derived from compBasis)
+let compBasis = [];     // full GF(2)^8 basis: [0..step-1]=LSx generators, [step..7]=complement
+
+// ── Undo/redo ──
+let history = [];    // array of {a, b} choices, one per completed step
+let snapshots = [];  // snapshots[i] = state snapshot BEFORE step i+1 was performed
+let historyPos = 0;  // how many steps currently applied (0 = initial)
+
+function takeSnapshot() {
+  return {
+    par: par.slice(),
+    rnk: rnk.slice(),
+    csz: csz.slice(),
+    LSx: new Set(LSx),
+    LSxy: LSxy.map(v => [v[0], v[1]]),
+    step,
+    cosetRepOrder: cosetRepOrder.slice(),
+    compBasis: compBasis.slice(),
+  };
+}
+function restoreSnapshot(snap) {
+  par = snap.par.slice();
+  rnk = snap.rnk.slice();
+  csz = snap.csz.slice();
+  LSx = new Set(snap.LSx);
+  LSxy = snap.LSxy.map(v => [v[0], v[1]]);
+  step = snap.step;
+  cosetRepOrder = snap.cosetRepOrder.slice();
+  compBasis = snap.compBasis.slice();
+}
+
+const hex = v => v.toString(16).padStart(2,'0');
+
+// ── DDT ──
+function buildDDT() {
+  ddt = new Map();
+  for (let dx = 0; dx < SIZE; dx++)
+    for (let x = 0; x < SIZE; x++) {
+      const k = (dx << 8) | (S[x] ^ S[x ^ dx]);
+      const a = ddt.get(k);
+      if (a) a.push(x); else ddt.set(k, [x]);
+    }
+}
+function ddtGet(dx, dy) { return ddt.get((dx<<8)|dy) || []; }
+
+// ── DSU ──
+function find(x) { while (par[x]!==x) { par[x]=par[par[x]]; x=par[x]; } return x; }
+function unite(a,b) {
+  a=find(a); b=find(b);
+  if (a===b) return false;
+  if (rnk[a]<rnk[b]) [a,b]=[b,a];
+  par[b]=a;
+  if (rnk[a]===rnk[b]) rnk[a]++;
+  csz[a]+=csz[b]; csz[b]=0;
+  return true;
+}
+
+// ── Linear space ──
+function lsHas(v) { return LSx.has(v); }
+function lsExpand(d) {
+  const add = [];
+  for (const v of LSx) { const w=v^d; if (!LSx.has(w)) add.push(w); }
+  for (const w of add) LSx.add(w);
+}
+function lsxyExpand(dx,dy) {
+  const n = LSxy.length;
+  for (let i=0;i<n;i++) LSxy.push([LSxy[i][0]^dx, LSxy[i][1]^dy]);
+}
+
+// ── Affine coset ordering via complement basis ──
+// compBasis[0..7]: full GF(2)^8 basis in RREF (each has a unique pivot bit).
+// [0..step-1] = LSx basis, [step..7] = complement.
+// Coset at grid index i = Σ compBasis[step+j] * bit_j(i).
+// After merge with dx, dx is absorbed into the LSx part; the complement
+// shrinks by one dimension. Adjacent pairs (i vs i^1) always correspond
+// to XOR by compBasis[step], stride-2 pairs to compBasis[step+1], etc.
+
+function highestBit(v) {
+  if (v === 0) return 0;
+  let b = 128; while (b > 0 && !(v & b)) b >>= 1;
+  return b;
+}
+
+
+// RREF a list of GF(2) vectors. Returns a new RREF'd array.
+function gf2RREF(vecs) {
+  const B = vecs.slice();
+  for (let col = 128; col >= 1; col >>= 1) {
+    let pivotRow = -1;
+    for (let i = 0; i < B.length; i++) {
+      if (highestBit(B[i]) === col) { pivotRow = i; break; }
+    }
+    if (pivotRow < 0) continue;
+    for (let i = 0; i < B.length; i++) {
+      if (i !== pivotRow && (B[i] & col)) B[i] ^= B[pivotRow];
+    }
+  }
+  return B.filter(v => v !== 0);
+}
+
+function reorderCosets(dx) {
+  const s = step - 1; // slot for new LSx generator (step already incremented)
+
+  // 1. RREF the LSx part (slots 0..s-1) — these are already correct,
+  //    but redo for safety after snapshot restores.
+  const lsVecs = compBasis.slice(0, s);
+  const lsRREF = gf2RREF(lsVecs);
+
+  // 2. Project dx onto complement by canceling LSx components
+  let dxComp = dx;
+  for (const b of lsRREF) {
+    if (dxComp & highestBit(b)) dxComp ^= b;
+  }
+  if (dxComp === 0) return; // dx in LSx already
+
+  // 3. Add dxComp to LSx basis → new LSx RREF
+  const newLsRREF = gf2RREF([...lsRREF, dxComp]);
+
+  // 4. Project old complement vectors (slots s..7) onto new complement:
+  //    cancel any new LSx components.
+  const oldComp = compBasis.slice(s); // includes slot s which we're replacing
+  const projComp = [];
+  for (const v of oldComp) {
+    let p = v;
+    for (const b of newLsRREF) {
+      if (p & highestBit(b)) p ^= b;
+    }
+    if (p !== 0) projComp.push(p);
+  }
+
+  // 5. RREF the complement part
+  const compRREF = gf2RREF(projComp);
+
+  // 6. Sort complement by pivot bit ascending (small bit → bit 0 → adjacent pairs)
+  compRREF.sort((a, b) => highestBit(a) - highestBit(b));
+
+  // 7. Assemble: LSx basis then complement
+  compBasis = [...newLsRREF];
+  while (compBasis.length < step) compBasis.push(0); // shouldn't happen
+  for (const v of compRREF) compBasis.push(v);
+  while (compBasis.length < 8) compBasis.push(0); // shouldn't happen
+
+  rebuildCosetOrder();
+}
+
+// Rebuild cosetRepOrder from complement basis compBasis[step..7]
+function rebuildCosetOrder() {
+  const numCosets = 1 << (8 - step);
+  const order = new Array(numCosets);
+  for (let i = 0; i < numCosets; i++) {
+    let elem = 0;
+    for (let j = 0; j < 8 - step; j++) {
+      if (i & (1 << j)) elem ^= compBasis[step + j];
+    }
+    order[i] = cosetRep(elem);
+  }
+  cosetRepOrder = order;
+}
+
+// ── Coset representative (min element) ──
+function cosetRep(x) {
+  let m = x;
+  for (const v of LSx) m = Math.min(m, x^v);
+  return m;
+}
+
+// ── Fisher-Yates shuffle ──
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// ── Perform one greedy step ──
+function doStep(chosenA, chosenB) {
+  if (step >= N) return null;
+
+  // Save snapshot BEFORE any find() calls (which do path compression)
+  const snap = takeSnapshot();
+
+  let a, b, isManual = (chosenA != null && chosenB != null);
+  if (isManual) {
+    a = chosenA; b = chosenB;
+  } else {
+    // Find two largest cliques in different cosets (randomized ties)
+    const roots = [];
+    for (let x = 0; x < SIZE; x++)
+      if (find(x)===x && csz[x]>0) roots.push(x);
+    // Shuffle before sorting so equal-size cliques get random order
+    shuffle(roots);
+    roots.sort((p,q) => csz[q]-csz[p]);
+    a = roots[0];
+    b = null;
+    for (let i=1;i<roots.length;i++)
+      if (!lsHas(a^roots[i])) { b=roots[i]; break; }
+    if (b===null) return null;
+  }
+
+  // Store the pre-step snapshot (only for new steps, not replays)
+  if (historyPos >= history.length) {
+    snapshots[historyPos] = snap;
+    history.push({a, b});
+  } else if (isManual && (a !== history[historyPos].a || b !== history[historyPos].b)) {
+    // Manual choice diverges from stored history — truncate forward
+    snapshots[historyPos] = snap;
+    history.length = historyPos;
+    history.push({a, b});
+    snapshots.length = historyPos + 1;
+  }
+  // else: replaying stored choice, keep existing snapshot
+  historyPos++;
+
+  const dx = a^b, dy = S[a]^S[b];
+  lsExpand(dx);
+
+  let merges = 0;
+  const n = LSxy.length;
+  for (let i=0;i<n;i++) {
+    const tdx = LSxy[i][0]^dx, tdy = LSxy[i][1]^dy;
+    for (const x of ddtGet(tdx,tdy))
+      if (unite(x, x^tdx)) merges++;
+  }
+  lsxyExpand(dx,dy);
+  step++;
+
+  // Reorder cosets: affine basis ordering so paired cosets are adjacent
+  reorderCosets(dx);
+
+  let best=0, bestR=0;
+  for (let x=0;x<SIZE;x++) if (find(x)===x && csz[x]>best) { best=csz[x]; bestR=x; }
+
+  return { a, b, dx, dy, merges, best, bestR };
+}
+
+// ── Rendering ──
+const gridEl = document.getElementById('grid');
+const logEl = document.getElementById('log');
+const tipEl = document.getElementById('tip');
+
+function render() {
+  // Compute cosets
+  const cosetMap = new Map(); // rep -> [points]
+  for (let x=0;x<SIZE;x++) {
+    const r = cosetRep(x);
+    const a = cosetMap.get(r);
+    if (a) a.push(x); else cosetMap.set(r, [x]);
+  }
+  // Use tracked ordering if available, else sort by value
+  let reps;
+  if (cosetRepOrder.length > 0) {
+    // Filter to only existing reps (in case of mismatch)
+    const repSet = new Set(cosetMap.keys());
+    reps = cosetRepOrder.filter(r => repSet.has(r));
+    // Add any missing reps at end
+    for (const r of repSet) if (!reps.includes(r)) reps.push(r);
+  } else {
+    reps = Array.from(cosetMap.keys()).sort((a,b)=>a-b);
+  }
+  const numCosets = reps.length;
+
+  // Determine grid columns: paired layout for smooth transitions
+  const colMap = {256:16, 128:16, 64:8, 32:8, 16:4, 8:4, 4:2, 2:2, 1:1};
+  let cols = colMap[numCosets] || Math.ceil(Math.sqrt(numCosets));
+
+  gridEl.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+
+  // Adaptive point font size
+  const ptSize = numCosets >= 128 ? '11px' :
+                 numCosets >= 32 ? '12px' :
+                 numCosets >= 8 ? '13px' :
+                 numCosets >= 2 ? '14px' : '15px';
+  gridEl.style.setProperty('--pt-size', ptSize);
+
+  // Find all cliques with size >= 2, track max
+  const bigCliques = new Set();
+  let bestSz=0;
+  for (let x=0;x<SIZE;x++) {
+    if (find(x)===x && csz[x]>=2) bigCliques.add(x);
+    if (find(x)===x && csz[x]>bestSz) bestSz=csz[x];
+  }
+
+  // Color mapping: clique size -> hue (large=red/warm, small=cyan/cool)
+  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+  function cliqueColor(sz) {
+    if (sz < 2 || bestSz < 2) return null;
+    const t = (sz - 2) / Math.max(bestSz - 2, 1);
+    const hue = 180 - t * 180; // 180=cyan, 0=red
+    const sat = isLight ? 65 + t * 25 : 70 + t * 20;
+    const lit = isLight ? 38 + t * 7 : 62 + t * 8;
+    return { hue, sat, lit };
+  }
+  const cliqAlpha = isLight ? .14 : .13;
+  const cliqBorderAlpha = isLight ? .35 : .3;
+
+  // Merge preview: when sel1 is set, compute new-edge count for each candidate clique
+  const mergePreview = new Map(); // root -> edge count
+  if (sel1 && !sel2 && step < N) {
+    const sa = sel1.root;
+    for (let x = 0; x < SIZE; x++) {
+      if (find(x) !== x) continue; // not a root
+      if (lsHas(sa ^ x)) continue; // same coset
+      const br = x;
+      const dx = sa ^ br, dy = S[sa] ^ S[br];
+      let cnt = 0;
+      const n = LSxy.length;
+      for (let i = 0; i < n; i++) {
+        const tdx = LSxy[i][0] ^ dx, tdy = LSxy[i][1] ^ dy;
+        for (const x of ddtGet(tdx, tdy))
+          if (find(x) !== find(x ^ tdx)) cnt++;
+      }
+      mergePreview.set(br, cnt >> 1);
+    }
+  }
+
+  gridEl.innerHTML = '';
+  let upperBound = 0; // sum of max clique per coset
+
+  reps.forEach((rep, idx) => {
+    const points = cosetMap.get(rep);
+    // Group by clique
+    const gmap = new Map();
+    for (const p of points) {
+      const r = find(p);
+      const a = gmap.get(r);
+      if (a) a.push(p); else gmap.set(r, [p]);
+    }
+    const groups = Array.from(gmap.entries())
+      .sort((a,b) => b[1].length-a[1].length || a[1][0]-b[1][0]);
+    upperBound += groups[0][1].length; // largest group in this coset
+
+    const cell = document.createElement('div');
+    cell.className = 'cell';
+    if (sel1 && sel1.idx===idx) cell.classList.add('sel1');
+    if (sel2 && sel2.idx===idx) cell.classList.add('sel2');
+
+    // Groups container
+    const gc = document.createElement('div');
+    gc.className = 'groups';
+
+    groups.forEach(([root, pts], gi) => {
+      const isBig = pts.length >= 2;
+      const gd = document.createElement('div');
+      gd.className = 'grp';
+      gd.dataset.root = root;
+      gd.dataset.cosetIdx = idx;
+      const col = isBig ? cliqueColor(pts.length) : null;
+      if (col) {
+        gd.style.background = `hsla(${col.hue},${col.sat}%,${col.lit}%,${cliqAlpha})`;
+        gd.style.borderColor = `hsla(${col.hue},${col.sat}%,${col.lit}%,${cliqBorderAlpha})`;
+      }
+      pts.sort((a,b)=>a-b);
+      let groupHasHi = false;
+      for (const p of pts) {
+        const sp = document.createElement('span');
+        sp.className = 'pt';
+        if (isBig && bigCliques.has(find(p))) {
+          sp.classList.add('hi');
+          sp.style.color = `hsl(${col.hue},${col.sat}%,${col.lit}%)`;
+          groupHasHi = true;
+        }
+        if (bestCliqueSet.has(p)) sp.classList.add('best');
+        sp.textContent = hex(p);
+        gd.appendChild(sp);
+      }
+      if (groupHasHi) gd.classList.add('has-hi');
+      gd.addEventListener('click', e => {
+        e.stopPropagation();
+        onGroupClick(idx, root, rep);
+      });
+      if (mergePreview.has(root)) {
+        const badge = document.createElement('span');
+        badge.className = 'merge-badge' + (pts.length < 2 ? ' dim' : '');
+        badge.textContent = '+' + mergePreview.get(root);
+        gd.appendChild(badge);
+      }
+      gc.appendChild(gd);
+    });
+    cell.appendChild(gc);
+
+    // Tooltip
+    cell.addEventListener('mouseenter', e => {
+      const ng = groups.length;
+      const szs = groups.map(([_,p])=>p.length).join(', ');
+      tipEl.innerHTML = `<b>Coset ${hex(rep)}</b> (${points.length} pts)<br>${ng} group${ng>1?'s':''}: [${szs}]`;
+      tipEl.style.display = 'block';
+    });
+    cell.addEventListener('mousemove', e => {
+      tipEl.style.left = (e.clientX+10)+'px';
+      tipEl.style.top = (e.clientY+10)+'px';
+    });
+    cell.addEventListener('mouseleave', () => tipEl.style.display='none');
+
+    gridEl.appendChild(cell);
+  });
+
+  // Stats
+  document.getElementById('st-step').textContent = `${step}/${N}`;
+  document.getElementById('st-cliq').textContent = bestSz;
+  document.getElementById('st-cos').textContent = numCosets;
+  document.getElementById('st-dim').textContent = step;
+  document.getElementById('st-sel').textContent =
+    sel1 ? (sel2 ? `${hex(sel1.root)}↔${hex(sel2.root)}` : `${hex(sel1.root)} (coset ${hex(sel1.rep)})`) : '-';
+  document.getElementById('st-ub').textContent = upperBound;
+
+  // Clique size distribution (non-singletons)
+  const distMap = new Map();
+  for (const r of bigCliques) {
+    const s = csz[r];
+    distMap.set(s, (distMap.get(s)||0) + 1);
+  }
+  const distWrap = document.getElementById('st-dist-wrap');
+  if (distMap.size > 0) {
+    const sorted = Array.from(distMap.entries()).sort((a,b) => b[0]-a[0]);
+    document.getElementById('st-dist').innerHTML = sorted.map(([s,c]) => c>1 ? `${s}<span style="font-size:.75em;font-weight:400;color:var(--text2)">×${c}</span>` : `${s}`).join(' ');
+    distWrap.style.display = '';
+  } else {
+    distWrap.style.display = 'none';
+  }
+
+  updateRunAllBtn();
+  updateUndoRedoUI();
+}
+
+function onGroupClick(idx, root, rep) {
+  if (step>=N || autoRun) return;
+  if (!sel1) {
+    sel1 = { idx, root, rep };
+    render();
+  } else if (sel1.idx === idx) {
+    sel1 = null; render();
+  } else {
+    if (lsHas(sel1.root ^ root)) { sel1=null; render(); return; }
+    sel2 = { idx, root, rep };
+    render();
+    setTimeout(() => {
+      const r = doStep(sel1.root, root);
+      sel1=sel2=null;
+      if (r) addLog(r);
+      render();
+    }, 80);
+  }
+}
+
+function addLog(r) {
+  const e = document.createElement('div');
+  e.className = 'entry';
+  e.innerHTML =
+    `<span class="stp">Step ${step}</span> ` +
+    `merge <span class="dx">${hex(r.a)}</span>↔<span class="dx">${hex(r.b)}</span><br>` +
+    `&nbsp; Δx=<span class="dx">${hex(r.dx)}</span> Δy=<span class="dx">${hex(r.dy)}</span>, ` +
+    `${r.merges} new edges<br>` +
+    `&nbsp; largest clique → <span class="sz">${r.best}</span>`;
+  logEl.appendChild(e);
+  logEl.scrollTop = logEl.scrollHeight;
+}
+
+// ── Controls ──
+function reset() {
+  stopAuto();
+  par = Array.from({length:SIZE},(_,i)=>i);
+  rnk = new Uint8Array(SIZE);
+  csz = new Uint16Array(SIZE).fill(1);
+  LSx = new Set([0]);
+  LSxy = [[0,0]];
+  step = 0;
+  sel1 = sel2 = null;
+  compBasis = [1, 2, 4, 8, 16, 32, 64, 128];
+  cosetRepOrder = Array.from({length:SIZE},(_,i)=>i);
+  history = [];
+  snapshots = [];
+  historyPos = 0;
+  logEl.innerHTML = '';
+  buildDDT();
+  render();
+}
+
+function loadSbox(name) {
+  S = name==='random'
+    ? Array.from({length:SIZE},()=>Math.floor(Math.random()*SIZE))
+    : [...SBOX[name]];
+  bestCliqueSet = BEST_STEPS[name]
+    ? computeBestClique(S, BEST_STEPS[name])
+    : new Set();
+  reset();
+}
+
+function stopAuto() {
+  autoRun = false;
+  if (autoTid) { clearTimeout(autoTid); autoTid=null; }
+  document.getElementById('btn-auto').textContent = '▶ Auto';
+  document.getElementById('btn-auto').classList.add('primary');
+}
+function startAuto() {
+  autoRun = true;
+  document.getElementById('btn-auto').textContent = '⏸ Pause';
+  document.getElementById('btn-auto').classList.remove('primary');
+  tick();
+}
+function tick() {
+  if (!autoRun || step>=N) { stopAuto(); render(); return; }
+  redoOrStep();
+  autoTid = setTimeout(tick, +document.getElementById('sel-speed').value);
+}
+
+function updateRunAllBtn() {
+  const btn = document.getElementById('btn-run-all');
+  if (step >= N) {
+    btn.textContent = '↻ Reset & Run All';
+    btn.classList.add('danger');
+  } else {
+    btn.textContent = 'Run All';
+    btn.classList.remove('danger');
+  }
+  const sel = document.getElementById('sel-sbox').value;
+  document.getElementById('btn-best').style.display = BEST_STEPS[sel] ? '' : 'none';
+}
+
+function updateUndoRedoUI() {
+  const undoBtn = document.getElementById('btn-undo');
+  const stepBtn = document.getElementById('btn-step');
+  undoBtn.disabled = historyPos <= 0;
+  const canReplay = historyPos < history.length;
+  stepBtn.textContent = (step >= N) ? '— Done' :
+    canReplay ? 'Redo \u2192' : 'Step $';
+  stepBtn.disabled = step >= N;
+}
+
+function undoStep() {
+  if (historyPos <= 0) return;
+  historyPos--;
+  restoreSnapshot(snapshots[historyPos]);
+  sel1 = sel2 = null;
+  // Remove last log entry
+  if (logEl.lastElementChild) logEl.removeChild(logEl.lastElementChild);
+  render();
+}
+
+function redoOrStep() {
+  if (step >= N) return;
+  if (historyPos < history.length) {
+    // Replay stored choice — restore exact snapshot first for determinism
+    restoreSnapshot(snapshots[historyPos]);
+    const {a, b} = history[historyPos];
+    const r = doStep(a, b);
+    if (r) { addLog(r); render(); }
+  } else {
+    // New random step
+    const r = doStep();
+    if (r) { addLog(r); render(); }
+  }
+}
+
+document.getElementById('sel-sbox').onchange = e => loadSbox(e.target.value);
+document.getElementById('btn-copy-sbox').onclick = () => {
+  const txt = '[' + S.join(',') + ']';
+  navigator.clipboard.writeText(txt).then(() => {
+    const b = document.getElementById('btn-copy-sbox');
+    b.textContent = '\u2714';
+    setTimeout(() => b.textContent = '\u2398', 1200);
+  });
+};
+document.getElementById('btn-undo').onclick = () => {
+  stopAuto();
+  undoStep();
+};
+document.getElementById('btn-step').onclick = () => {
+  stopAuto();
+  redoOrStep();
+};
+document.getElementById('btn-auto').onclick = () => autoRun ? stopAuto() : startAuto();
+document.getElementById('btn-run-all').onclick = () => {
+  if (step >= N) reset();
+  stopAuto();
+  while (step<N) redoOrStep();
+  render();
+  updateRunAllBtn();
+};
+document.getElementById('btn-best').onclick = () => {
+  const sel = document.getElementById('sel-sbox').value;
+  const seq = BEST_STEPS[sel];
+  if (!seq) return;
+  loadSbox(sel);
+  for (const [a, b] of seq) {
+    const r = doStep(a, b);
+    if (r) addLog(r);
+  }
+  render();
+};
+document.getElementById('btn-reset').onclick = reset;
+document.addEventListener('click', e => {
+  if (sel1 && !sel2 && !e.target.closest('.grp') && !e.target.closest('.controls')) {
+    sel1 = null; render();
+  }
+});
+
+// ── Theme toggle ──
+function setTheme(t) {
+  document.documentElement.setAttribute('data-theme', t);
+  try { localStorage.setItem('theme', t); } catch(e) {}
+  render();
+}
+(function initTheme() {
+  let t = 'dark';
+  try { t = localStorage.getItem('theme') || 'dark'; } catch(e) {}
+  document.documentElement.setAttribute('data-theme', t);
+})();
+document.getElementById('theme-toggle').onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme') || 'dark';
+  setTheme(cur === 'dark' ? 'light' : 'dark');
+};
+
+// ── Merge lines overlay ──
+const svgOvl = document.getElementById('lines-overlay');
+let mouseX = 0, mouseY = 0;
+
+let lastHoverTarget = null;
+document.addEventListener('mousemove', e => {
+  mouseX = e.clientX; mouseY = e.clientY;
+  lastHoverTarget = e.target;
+  if (sel1 && !sel2 && step < N) drawLines(e.target);
+});
+window.addEventListener('scroll', () => {
+  if (sel1 && !sel2 && step < N && lastHoverTarget) drawLines(lastHoverTarget);
+}, true);
+
+function grpCenter(el) {
+  const r = el.getBoundingClientRect();
+  return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+}
+
+function drawLines(hoverTarget) {
+  svgOvl.innerHTML = '';
+  if (!sel1 || sel2 || step >= N) return;
+
+  // Find the selected group element
+  const sel1El = gridEl.querySelector(`.grp[data-root="${sel1.root}"][data-coset-idx="${sel1.idx}"]`);
+  if (!sel1El) return;
+  const p1 = grpCenter(sel1El);
+
+  // Draw dashed line from sel1 to mouse
+  const ml = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+  ml.setAttribute('x1', p1.x); ml.setAttribute('y1', p1.y);
+  ml.setAttribute('x2', mouseX); ml.setAttribute('y2', mouseY);
+  ml.classList.add('sel-line');
+  svgOvl.appendChild(ml);
+
+  // Find hovered group
+  const hovGrp = hoverTarget.closest('.grp');
+  if (!hovGrp || !hovGrp.dataset.root) return;
+  const hovRoot = +hovGrp.dataset.root;
+  const hovIdx = +hovGrp.dataset.cosetIdx;
+  if (hovIdx === sel1.idx) return; // same coset
+  if (lsHas(sel1.root ^ hovRoot)) return;
+
+  // Compute which group pairs would merge
+  const dx = sel1.root ^ hovRoot, dy = S[sel1.root] ^ S[hovRoot];
+  const pairsToMerge = new Set(); // "rootA-rootB" dedupe
+  const n = LSxy.length;
+  for (let i = 0; i < n; i++) {
+    const tdx = LSxy[i][0] ^ dx, tdy = LSxy[i][1] ^ dy;
+    for (const x of ddtGet(tdx, tdy)) {
+      const ra = find(x), rb = find(x ^ tdx);
+      if (ra !== rb) {
+        const key = Math.min(ra, rb) + '-' + Math.max(ra, rb);
+        pairsToMerge.add(key);
+      }
+    }
+  }
+
+  // Draw lines for each merge pair
+  for (const key of pairsToMerge) {
+    const [ra, rb] = key.split('-').map(Number);
+    const elA = gridEl.querySelector(`.grp[data-root="${ra}"]`);
+    const elB = gridEl.querySelector(`.grp[data-root="${rb}"]`);
+    if (!elA || !elB) continue;
+    const a = grpCenter(elA), b = grpCenter(elB);
+    const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    ln.setAttribute('x1', a.x); ln.setAttribute('y1', a.y);
+    ln.setAttribute('x2', b.x); ln.setAttribute('y2', b.y);
+    svgOvl.appendChild(ln);
+  }
+}
+
+// Clear lines when selection changes
+const origRender = render;
+render = function() { origRender(); if (!sel1 || sel2) svgOvl.innerHTML = ''; };
+
+loadSbox('skinny');
+</script>
+</body>
+</html>

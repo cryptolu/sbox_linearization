@@ -26,6 +26,9 @@ The work was funded by Luxembourg's FNR projects CryptoFin (C22/IS/17415825) and
 
 A copy of this repository is available at [zenodo.org](https://doi.org/10.5281/zenodo.18715466).
 
+A vibe-coded interactive visualization of the GreedyExtension(DDT) algorithm is available at [affine.group/pages/greedy-extension](https://affine.group/pages/greedy-extension)and [./interactive-greedy-extension-AI.html](./interactive-greedy-extension-AI.html).
+
+
 ## S-box file format
 
 The programs take as input an S-box file which have format
