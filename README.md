@@ -1,6 +1,6 @@
 # Algorithmic Toolkit for Linearization of S-boxes
 
-This repository contains supporting code for the [EUROCRYPT 2026](https://eurocrypt.iacr.org/2026/) paper ([doi](https://doi.org/10.1007/978-3-032-25333-0_9)], ([eprint full version](https://eprint.iacr.org/2026/xx)):
+This repository contains supporting code for the [EUROCRYPT 2026](https://eurocrypt.iacr.org/2026/) paper ([doi](https://doi.org/10.1007/978-3-032-25333-0_9)), ([eprint full version](https://eprint.iacr.org/2026/xx)):
 
 > **Algorithmic Toolkit for Linearization of S-boxes**
 
