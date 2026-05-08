@@ -1,0 +1,6 @@
+logs_custom/n4_Remark1CCZinv.txt.bz2.greedyext.20260220_142550.txt | size 8 
+logs_custom/n4_Remark1CCZinv.txt.bz2.txt | size 8 
+logs_custom/n4_Remark1CCZ.txt.bz2.greedyext.20260220_142550.txt | size 7 
+logs_custom/n4_Remark1CCZ.txt.bz2.txt | size 7 
+logs_custom/n8_S15.txt.bz2.greedyext.20260220_142550.txt | size 15 
+logs_custom/n8_S15.txt.bz2.txt | size 15 
