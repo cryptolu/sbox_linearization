@@ -1,0 +1,488 @@
+[*] Computing DDT
+[+] DDT Computed
+DDT took 4.716029ms
+Iter#1 New set #1 of size 13 (1.0 its/hit = 0.000s/hit): seed=3308149340692741409 [9, 21, 36, 69, 79, 94, 107, 125, 168, 203, 212, 213, 244]
+Iter#2 New set #2 of size 13 (1.0 its/hit = 0.000s/hit): seed=14971444167218858769 [17, 56, 63, 102, 108, 123, 125, 127, 130, 164, 207, 244, 248]
+Iter#3 New set #1 of size 14 (3.0 its/hit = 0.000s/hit): seed=10628773695654526056 [3, 12, 24, 58, 70, 80, 83, 90, 103, 116, 118, 130, 170, 242]
+Iter#7 New set #2 of size 14 (3.5 its/hit = 0.000s/hit): seed=14062132831554564711 [23, 49, 87, 99, 131, 137, 157, 198, 202, 206, 225, 228, 243, 252]
+Iter#8 New set #3 of size 14 (2.7 its/hit = 0.000s/hit): seed=3838737172066647601 [9, 18, 44, 56, 116, 130, 131, 135, 158, 172, 194, 212, 238, 253]
+Iter#10 New set #4 of size 14 (2.5 its/hit = 0.000s/hit): seed=5349992763268830180 [17, 41, 50, 51, 61, 133, 137, 156, 184, 197, 217, 236, 238, 241]
+Iter#11 New set #5 of size 14 (2.2 its/hit = 0.000s/hit): seed=12543201628098905428 [3, 8, 32, 79, 126, 131, 137, 140, 174, 177, 181, 213, 219, 251]
+Iter#14 New set #1 of size 15 (14.0 its/hit = 0.000s/hit): seed=11971086183845106613 [0, 34, 72, 81, 109, 126, 131, 153, 155, 159, 177, 189, 218, 239, 249]
+Iter#26 New set #2 of size 15 (13.0 its/hit = 0.000s/hit): seed=27688509048720966 [30, 36, 59, 72, 77, 96, 126, 135, 142, 167, 198, 200, 233, 234, 243]
+Iter#28 New set #3 of size 15 (9.3 its/hit = 0.000s/hit): seed=11947182547454874897 [0, 21, 27, 47, 54, 69, 81, 83, 85, 99, 161, 166, 188, 209, 251]
+Iter#39 New set #4 of size 15 (9.8 its/hit = 0.000s/hit): seed=2258542168971781587 [1, 4, 14, 27, 41, 55, 103, 110, 115, 124, 125, 127, 144, 166, 254]
+Iter#48 New set #5 of size 15 (9.6 its/hit = 0.000s/hit): seed=4825727242465131846 [0, 1, 14, 38, 40, 74, 83, 99, 102, 111, 115, 124, 160, 170, 220]
+Iter#55 New set #6 of size 15 (9.2 its/hit = 0.000s/hit): seed=3037652874195197249 [0, 13, 16, 50, 54, 70, 85, 99, 101, 122, 127, 140, 146, 194, 234]
+Iter#65 New set #7 of size 15 (9.3 its/hit = 0.000s/hit): seed=7807773064996871464 [6, 32, 34, 66, 76, 97, 98, 109, 125, 145, 156, 168, 225, 228, 249]
+Iter#66 New set #8 of size 15 (8.2 its/hit = 0.000s/hit): seed=4436869282378718307 [28, 35, 75, 88, 112, 126, 128, 133, 180, 197, 198, 217, 219, 245, 248]
+Iter#68 New set #9 of size 15 (7.6 its/hit = 0.000s/hit): seed=6552785074301433960 [0, 31, 41, 47, 49, 58, 82, 85, 107, 149, 164, 174, 181, 220, 240]
+Iter#74 New set #10 of size 15 (7.4 its/hit = 0.000s/hit): seed=11802354278699704182 [1, 11, 43, 53, 62, 79, 84, 102, 153, 157, 158, 188, 220, 222, 246]
+Iter#111 New set #1 of size 16 (111.0 its/hit = 0.000s/hit): seed=15135204646999107277 [0, 1, 23, 48, 55, 57, 69, 114, 144, 150, 154, 162, 166, 169, 178, 203]
+Iter#152 New set #2 of size 16 (76.0 its/hit = 0.000s/hit): seed=977971364716376327 [0, 1, 2, 63, 77, 89, 96, 128, 149, 161, 198, 201, 205, 225, 239, 248]
+Iter#412 New set #3 of size 16 (137.3 its/hit = 0.000s/hit): seed=14326819503162150592 [1, 42, 54, 82, 95, 97, 105, 121, 124, 151, 160, 170, 187, 197, 211, 231]
+Iter#589 New set #4 of size 16 (147.2 its/hit = 0.000s/hit): seed=17496493999445762108 [0, 1, 28, 55, 89, 117, 119, 121, 144, 161, 166, 185, 192, 203, 218, 248]
+Iter#640 New set #5 of size 16 (128.0 its/hit = 0.000s/hit): seed=7754512457365069186 [0, 14, 19, 32, 38, 40, 42, 50, 54, 86, 143, 156, 190, 214, 223, 245]
+Iter#677 New set #6 of size 16 (112.8 its/hit = 0.000s/hit): seed=10003650453647955943 [0, 14, 20, 36, 38, 40, 46, 78, 115, 118, 139, 160, 190, 196, 207, 210]
+Iter#772 New set #7 of size 16 (110.3 its/hit = 0.000s/hit): seed=2344125993480070391 [0, 15, 22, 24, 34, 54, 68, 70, 85, 94, 96, 99, 159, 189, 196, 248]
+Iter#1006 New set #8 of size 16 (125.8 its/hit = 0.000s/hit): seed=9900502248152033267 [0, 1, 11, 17, 31, 46, 78, 94, 98, 104, 106, 110, 119, 171, 179, 201]
+Iter#1134 New set #9 of size 16 (126.0 its/hit = 0.000s/hit): seed=2268177327501660418 [0, 1, 23, 42, 82, 87, 105, 121, 152, 197, 201, 202, 214, 215, 223, 245]
+Iter#1162 New set #10 of size 16 (116.2 its/hit = 0.000s/hit): seed=12202091334279908980 [0, 5, 38, 48, 91, 101, 119, 122, 150, 162, 166, 192, 203, 218, 226, 242]
+Iter#2178 New set #20 of size 16 (108.9 its/hit = 0.000s/hit): seed=16093019754529206193 [0, 1, 10, 15, 36, 49, 53, 68, 100, 129, 146, 149, 164, 214, 215, 221]
+Iter#3413 New set #30 of size 16 (113.8 its/hit = 0.000s/hit): seed=5655378877468427299 [0, 27, 32, 36, 47, 54, 63, 77, 85, 99, 112, 139, 150, 151, 210, 220]
+Iter#3974 New set #40 of size 16 (99.3 its/hit = 0.000s/hit): seed=5896362970933731439 [0, 1, 8, 17, 25, 28, 43, 56, 91, 103, 112, 129, 147, 173, 207, 244]
+Iter#4604 New set #50 of size 16 (92.1 its/hit = 0.000s/hit): seed=9661574481862423188 [0, 1, 2, 10, 68, 128, 140, 146, 171, 214, 215, 216, 221, 226, 235, 254]
+Iter#4850 New set #1 of size 17 (4850.0 its/hit = 0.000s/hit): seed=7103778954401587842 [0, 1, 3, 27, 36, 63, 77, 79, 129, 130, 134, 137, 164, 192, 198, 211, 248]
+Iter#5408 New set #2 of size 17 (2704.0 its/hit = 0.000s/hit): seed=7033997893876115293 [0, 1, 11, 15, 24, 41, 70, 72, 88, 94, 98, 104, 167, 172, 175, 210, 245]
+Iter#6300 New set #3 of size 17 (2100.0 its/hit = 0.000s/hit): seed=16722650647690492267 [0, 1, 5, 10, 18, 23, 27, 46, 71, 103, 125, 143, 147, 214, 215, 221, 244]
+Iter#10264 New set #4 of size 17 (2566.0 its/hit = 0.000s/hit): seed=17723470986893924698 [0, 1, 8, 17, 21, 25, 57, 78, 94, 144, 151, 154, 162, 169, 177, 202, 212]
+Iter#13789 New set #5 of size 17 (2757.8 its/hit = 0.000s/hit): seed=15811292039342785383 [0, 1, 5, 7, 18, 23, 60, 82, 88, 100, 119, 152, 156, 198, 202, 222, 247]
+Iter#17614 New set #6 of size 17 (2935.7 its/hit = 0.000s/hit): seed=2670028263033959940 [1, 10, 11, 21, 41, 42, 60, 65, 67, 82, 121, 148, 186, 195, 202, 216, 247]
+Iter#18827 New set #7 of size 17 (2689.6 its/hit = 0.000s/hit): seed=1178679342279173141 [0, 1, 8, 11, 24, 65, 68, 70, 94, 102, 146, 167, 172, 192, 214, 215, 253]
+Iter#19548 New set #8 of size 17 (2443.5 its/hit = 0.000s/hit): seed=5074886939381309681 [0, 1, 3, 27, 36, 63, 77, 79, 129, 130, 134, 137, 164, 192, 198, 211, 248]
+Iter#23561 New set #9 of size 17 (2617.9 its/hit = 0.000s/hit): seed=14032818842549157708 [0, 1, 9, 10, 19, 23, 84, 103, 106, 143, 147, 156, 161, 214, 215, 221, 244]
+Iter#26235 New set #10 of size 17 (2623.5 its/hit = 0.000s/hit): seed=9797888947197511156 [0, 1, 26, 28, 55, 62, 64, 69, 91, 92, 114, 136, 173, 189, 222, 238, 249]
+Iter#56593 New set #20 of size 17 (2829.6 its/hit = 0.000s/hit): seed=13390711093049644635 [0, 1, 3, 52, 74, 77, 79, 80, 84, 88, 96, 128, 137, 188, 198, 205, 225]
+Iter#71663 New set #30 of size 17 (2388.8 its/hit = 0.000s/hit): seed=17754000809950905797 [0, 1, 5, 16, 19, 68, 108, 114, 143, 146, 152, 156, 166, 173, 214, 215, 222]
+Iter#95434 New set #40 of size 17 (2385.9 its/hit = 0.000s/hit): seed=11158054362789027992 [0, 1, 52, 74, 79, 80, 84, 88, 96, 116, 128, 137, 188, 198, 214, 215, 225]
+Iter#120438 New set #50 of size 17 (2408.8 its/hit = 0.000s/hit): seed=17775202918546134457 [0, 1, 8, 11, 17, 25, 32, 68, 70, 88, 146, 167, 172, 214, 215, 216, 245]
+Iter#139509 New set #60 of size 17 (2325.1 its/hit = 0.000s/hit): seed=11075149429377102715 [0, 1, 14, 17, 24, 34, 48, 59, 70, 78, 82, 94, 154, 195, 212, 222, 229]
+WARNING: mini-heap failure step 4 size 0 seed 7800924956693450915
+Iter#168336 New set #70 of size 17 (2404.8 its/hit = 0.014s/hit): seed=11843536567207265188 [0, 1, 8, 11, 17, 25, 32, 68, 70, 88, 146, 167, 172, 214, 215, 216, 245]
+Iter#190560 New set #80 of size 17 (2382.0 its/hit = 0.013s/hit): seed=6799812675193981792 [0, 31, 46, 58, 72, 78, 98, 103, 104, 106, 119, 147, 159, 168, 171, 201, 244]
+Iter#231088 New set #90 of size 17 (2567.6 its/hit = 0.011s/hit): seed=8228043671040537427 [0, 1, 8, 17, 21, 25, 57, 78, 94, 144, 151, 154, 162, 169, 177, 202, 212]
+WARNING: mini-heap failure step 4 size 0 seed 2184327403503288331
+WARNING: mini-heap failure step 5 size 0 seed 7477328938491004343
+Iter#268611 New set #100 of size 17 (2686.1 its/hit = 0.010s/hit): seed=2271978757870452134 [0, 1, 28, 44, 74, 84, 93, 105, 112, 132, 151, 153, 187, 211, 212, 217, 219]
+WARNING: mini-heap failure step 5 size 0 seed 17528719258113420136
+WARNING: mini-heap failure step 5 size 0 seed 10093261751908028872
+WARNING: mini-heap failure step 5 size 0 seed 16676401770127243345
+WARNING: mini-heap failure step 5 size 0 seed 12909986430719182662
+WARNING: mini-heap failure step 5 size 0 seed 5431416362052290660
+Iter#526139 New set #200 of size 17 (2630.7 its/hit = 0.015s/hit): seed=2202205833213851610 [0, 1, 3, 27, 36, 63, 77, 79, 129, 130, 134, 137, 164, 192, 198, 211, 248]
+WARNING: mini-heap failure step 4 size 0 seed 5172860670888115102
+WARNING: mini-heap failure step 5 size 0 seed 913169432979009497
+WARNING: mini-heap failure step 5 size 0 seed 10649896076516648039
+Iter#826055 New set #300 of size 17 (2753.5 its/hit = 0.017s/hit): seed=7466466750470530700 [0, 1, 3, 52, 74, 77, 79, 80, 84, 88, 96, 128, 137, 188, 198, 205, 225]
+WARNING: mini-heap failure step 4 size 0 seed 13724598341015292999
+WARNING: mini-heap failure step 4 size 0 seed 2147257206705477208
+Iter#1099313 New set #400 of size 17 (2748.3 its/hit = 0.018s/hit): seed=2660633126826151797 [0, 1, 2, 28, 64, 68, 84, 92, 125, 132, 146, 153, 161, 174, 214, 215, 244]
+Iter#1364693 New set #500 of size 17 (2729.4 its/hit = 0.016s/hit): seed=17100107071395839648 [0, 11, 32, 34, 39, 45, 72, 91, 141, 153, 159, 167, 172, 177, 189, 249, 253]
+WARNING: mini-heap failure step 4 size 0 seed 5904928592855438982
+WARNING: mini-heap failure step 4 size 0 seed 8076310849706712183
+WARNING: mini-heap failure step 4 size 0 seed 14628397512273364821
+WARNING: mini-heap failure step 6 size 0 seed 1071159869622157716
+Iter#1618159 New set #600 of size 17 (2696.9 its/hit = 0.017s/hit): seed=13316840232464057067 [0, 1, 5, 19, 42, 82, 121, 137, 143, 144, 152, 156, 171, 185, 192, 202, 208]
+WARNING: mini-heap failure step 5 size 0 seed 6340296875762915996
+WARNING: mini-heap failure step 4 size 0 seed 15306944453316733862
+WARNING: mini-heap failure step 4 size 0 seed 14582575490360908683
+WARNING: mini-heap failure step 4 size 0 seed 8766913263447970265
+WARNING: mini-heap failure step 4 size 0 seed 16533842612769034757
+Iter#1862269 New set #700 of size 17 (2660.4 its/hit = 0.017s/hit): seed=17357031846699820943 [0, 1, 14, 17, 24, 34, 48, 59, 70, 78, 82, 94, 154, 195, 212, 222, 229]
+WARNING: mini-heap failure step 5 size 0 seed 7628761034785554967
+WARNING: mini-heap failure step 4 size 0 seed 85646427728667839
+WARNING: mini-heap failure step 5 size 0 seed 14238166784196993489
+WARNING: mini-heap failure step 5 size 0 seed 11593319563405251478
+WARNING: mini-heap failure step 4 size 0 seed 14461834368211162739
+WARNING: mini-heap failure step 5 size 0 seed 15513687856322501356
+Iter#2157752 New set #800 of size 17 (2697.2 its/hit = 0.018s/hit): seed=11138800420939228729 [0, 1, 14, 17, 24, 34, 48, 59, 70, 78, 82, 94, 154, 195, 212, 222, 229]
+WARNING: mini-heap failure step 4 size 0 seed 18426712146374279425
+WARNING: mini-heap failure step 4 size 0 seed 3735893424030380553
+WARNING: mini-heap failure step 4 size 0 seed 3055466070358932547
+WARNING: mini-heap failure step 4 size 0 seed 10731651370947484861
+WARNING: mini-heap failure step 4 size 0 seed 8365453632788982122
+Iter#2415377 New set #900 of size 17 (2683.8 its/hit = 0.017s/hit): seed=10653974550895138535 [0, 1, 28, 44, 74, 84, 93, 105, 112, 132, 151, 153, 187, 211, 212, 217, 219]
+WARNING: mini-heap failure step 4 size 0 seed 18372337017810898503
+WARNING: mini-heap failure step 4 size 0 seed 2632863768034391425
+WARNING: mini-heap failure step 5 size 0 seed 16425001745408036334
+WARNING: mini-heap failure step 5 size 0 seed 6144740702198137306
+Iter#2724228 New set #1000 of size 17 (2724.2 its/hit = 0.017s/hit): seed=17121217131908522023 [1, 22, 40, 61, 73, 74, 80, 99, 105, 120, 134, 142, 158, 187, 211, 220, 221]
+WARNING: mini-heap failure step 4 size 0 seed 15414399557873529857
+WARNING: mini-heap failure step 5 size 0 seed 6842602245252128962
+WARNING: mini-heap failure step 4 size 0 seed 5622428207039207478
+WARNING: mini-heap failure step 4 size 0 seed 4735341578021798735
+WARNING: mini-heap failure step 4 size 0 seed 8323588907833481635
+WARNING: mini-heap failure step 5 size 0 seed 14564853291534768778
+WARNING: mini-heap failure step 4 size 0 seed 11296225129643481136
+WARNING: mini-heap failure step 5 size 0 seed 13338667816461748929
+WARNING: mini-heap failure step 4 size 0 seed 10772345007933415468
+WARNING: mini-heap failure step 5 size 0 seed 16321652621709355540
+WARNING: mini-heap failure step 5 size 0 seed 1419922061376350228
+WARNING: mini-heap failure step 5 size 0 seed 250894051865680712
+WARNING: mini-heap failure step 5 size 0 seed 6011359160221923703
+WARNING: mini-heap failure step 4 size 0 seed 15851642963376468777
+WARNING: mini-heap failure step 5 size 0 seed 7051775241020832694
+WARNING: mini-heap failure step 5 size 0 seed 11398958572660410102
+WARNING: mini-heap failure step 4 size 0 seed 8744679134225147835
+WARNING: mini-heap failure step 5 size 0 seed 14213549933489036938
+WARNING: mini-heap failure step 5 size 0 seed 14419204146206398681
+WARNING: mini-heap failure step 4 size 0 seed 11781991713596988683
+WARNING: mini-heap failure step 5 size 0 seed 6112147150489624426
+WARNING: mini-heap failure step 6 size 0 seed 5619260182544978643
+WARNING: mini-heap failure step 5 size 0 seed 17660925513338287004
+WARNING: mini-heap failure step 5 size 0 seed 14387790100308191322
+WARNING: mini-heap failure step 5 size 0 seed 1449467743124872555
+WARNING: mini-heap failure step 4 size 0 seed 1979113441320578193
+WARNING: mini-heap failure step 5 size 0 seed 17093224236564695079
+WARNING: mini-heap failure step 4 size 0 seed 12293965887673771175
+WARNING: mini-heap failure step 5 size 0 seed 2564969224195246749
+WARNING: mini-heap failure step 5 size 0 seed 9416565345114638240
+WARNING: mini-heap failure step 4 size 0 seed 10856587228942508832
+WARNING: mini-heap failure step 5 size 0 seed 17336861096045424564
+WARNING: mini-heap failure step 5 size 0 seed 9989690510376661848
+WARNING: mini-heap failure step 4 size 0 seed 3975955198711950014
+WARNING: mini-heap failure step 5 size 0 seed 148748388850449515
+WARNING: mini-heap failure step 5 size 0 seed 10267819802116528064
+WARNING: mini-heap failure step 6 size 0 seed 6589544753673094655
+Iter#5632590 New set #2000 of size 17 (2816.3 its/hit = 0.019s/hit): seed=2390928866354074800 [0, 1, 2, 28, 64, 68, 84, 92, 125, 132, 146, 153, 161, 174, 214, 215, 244]
+WARNING: mini-heap failure step 5 size 0 seed 11931848630186755221
+WARNING: mini-heap failure step 5 size 0 seed 7774423962589438943
+WARNING: mini-heap failure step 4 size 0 seed 13002860394502259180
+WARNING: mini-heap failure step 6 size 0 seed 1487592593641422602
+WARNING: mini-heap failure step 5 size 0 seed 1562849584085058213
+WARNING: mini-heap failure step 5 size 0 seed 17304331008995112597
+WARNING: mini-heap failure step 5 size 0 seed 12800899843834157747
+WARNING: mini-heap failure step 4 size 0 seed 5883047606360129512
+WARNING: mini-heap failure step 5 size 0 seed 1685531094163646343
+WARNING: mini-heap failure step 5 size 0 seed 14788217129952392963
+WARNING: mini-heap failure step 4 size 0 seed 3329431776955845594
+WARNING: mini-heap failure step 5 size 0 seed 8111215180912500681
+WARNING: mini-heap failure step 5 size 0 seed 16398714369910013088
+WARNING: mini-heap failure step 4 size 0 seed 5883181761733665596
+WARNING: mini-heap failure step 5 size 0 seed 15708746539270695393
+WARNING: mini-heap failure step 4 size 0 seed 5446348253113190963
+WARNING: mini-heap failure step 4 size 0 seed 8373792200918528509
+WARNING: mini-heap failure step 6 size 0 seed 4310986441481102070
+WARNING: mini-heap failure step 5 size 0 seed 5069783970100192015
+WARNING: mini-heap failure step 5 size 0 seed 1162079688372001634
+WARNING: mini-heap failure step 4 size 0 seed 10861080959220835837
+WARNING: mini-heap failure step 5 size 0 seed 12922668836151366638
+WARNING: mini-heap failure step 4 size 0 seed 16132556318418020869
+WARNING: mini-heap failure step 4 size 0 seed 17475032239494457725
+WARNING: mini-heap failure step 4 size 0 seed 4517348758329470377
+WARNING: mini-heap failure step 4 size 0 seed 12414002906981471319
+WARNING: mini-heap failure step 5 size 0 seed 7579000691292107808
+WARNING: mini-heap failure step 4 size 0 seed 5463564743419729578
+WARNING: mini-heap failure step 5 size 0 seed 3633762713485100796
+Iter#8597810 New set #3000 of size 17 (2865.9 its/hit = 0.019s/hit): seed=5479922504866326757 [0, 1, 8, 10, 14, 17, 25, 54, 78, 94, 115, 124, 133, 214, 215, 221, 226]
+WARNING: mini-heap failure step 5 size 0 seed 17061784172988966197
+WARNING: mini-heap failure step 5 size 0 seed 14567734103061605666
+WARNING: mini-heap failure step 5 size 0 seed 12304286136306695661
+WARNING: mini-heap failure step 5 size 0 seed 1121980502185034084
+WARNING: mini-heap failure step 5 size 0 seed 8751857752185548401
+WARNING: mini-heap failure step 5 size 0 seed 5695909723758619889
+WARNING: mini-heap failure step 6 size 0 seed 16376995475015805111
+WARNING: mini-heap failure step 5 size 0 seed 4661258023807287773
+WARNING: mini-heap failure step 4 size 0 seed 135180902725592338
+WARNING: mini-heap failure step 4 size 0 seed 7351170868309574582
+WARNING: mini-heap failure step 4 size 0 seed 11389061416608351990
+WARNING: mini-heap failure step 5 size 0 seed 228388196608408124
+WARNING: mini-heap failure step 5 size 0 seed 7438670386503169852
+WARNING: mini-heap failure step 5 size 0 seed 5176991256837606233
+WARNING: mini-heap failure step 5 size 0 seed 12307632676750953144
+WARNING: mini-heap failure step 5 size 0 seed 915591111128787828
+WARNING: mini-heap failure step 4 size 0 seed 17929632999581522581
+WARNING: mini-heap failure step 5 size 0 seed 1184361195246722671
+WARNING: mini-heap failure step 4 size 0 seed 10057378344537629501
+WARNING: mini-heap failure step 5 size 0 seed 2017573356225365690
+Iter#11398604 New set #4000 of size 17 (2849.7 its/hit = 0.018s/hit): seed=3762649241122362618 [0, 1, 27, 36, 63, 79, 129, 134, 137, 164, 192, 198, 211, 214, 215, 230, 248]
+WARNING: mini-heap failure step 4 size 0 seed 17659908767224709328
+WARNING: mini-heap failure step 4 size 0 seed 1970087986887278853
+WARNING: mini-heap failure step 4 size 0 seed 6279488831780323251
+WARNING: mini-heap failure step 5 size 0 seed 17678349459598844585
+WARNING: mini-heap failure step 4 size 0 seed 9100692180341800959
+WARNING: mini-heap failure step 5 size 0 seed 9601643501854831732
+WARNING: mini-heap failure step 4 size 0 seed 8737387712254315617
+WARNING: mini-heap failure step 4 size 0 seed 970813882475459249
+WARNING: mini-heap failure step 4 size 0 seed 2637273079070652086
+WARNING: mini-heap failure step 5 size 0 seed 14635748857571734523
+WARNING: mini-heap failure step 4 size 0 seed 15930872601086731825
+WARNING: mini-heap failure step 5 size 0 seed 12119110524698500671
+WARNING: mini-heap failure step 5 size 0 seed 6043939896217631422
+WARNING: mini-heap failure step 5 size 0 seed 4976603314999620656
+WARNING: mini-heap failure step 4 size 0 seed 15492318281591307192
+WARNING: mini-heap failure step 4 size 0 seed 6395638579663356065
+WARNING: mini-heap failure step 5 size 0 seed 1047483636791914437
+WARNING: mini-heap failure step 4 size 0 seed 2119331156130425993
+WARNING: mini-heap failure step 5 size 0 seed 12576745392334287393
+WARNING: mini-heap failure step 4 size 0 seed 12087710191510366925
+WARNING: mini-heap failure step 4 size 0 seed 1478332315932330803
+WARNING: mini-heap failure step 5 size 0 seed 15893173502009272242
+WARNING: mini-heap failure step 5 size 0 seed 11952462232089037605
+WARNING: mini-heap failure step 5 size 0 seed 7598784944172065469
+WARNING: mini-heap failure step 5 size 0 seed 9614178871403238297
+WARNING: mini-heap failure step 5 size 0 seed 15783870038479183005
+WARNING: mini-heap failure step 4 size 0 seed 4855333160687167349
+WARNING: mini-heap failure step 5 size 0 seed 7828483054758191711
+WARNING: mini-heap failure step 4 size 0 seed 5544691767426010761
+WARNING: mini-heap failure step 5 size 0 seed 6229602604017982700
+WARNING: mini-heap failure step 5 size 0 seed 11556870604589820777
+WARNING: mini-heap failure step 4 size 0 seed 11981514964979441566
+WARNING: mini-heap failure step 4 size 0 seed 15224113885019420285
+WARNING: mini-heap failure step 5 size 0 seed 11066623052297792240
+WARNING: mini-heap failure step 5 size 0 seed 15897423696150332934
+WARNING: mini-heap failure step 5 size 0 seed 12957570069834576939
+Iter#14205826 New set #5000 of size 17 (2841.2 its/hit = 0.018s/hit): seed=16146818133659425009 [0, 1, 5, 19, 42, 82, 121, 137, 143, 144, 152, 156, 171, 185, 192, 202, 208]
+WARNING: mini-heap failure step 5 size 0 seed 16634390714707409335
+WARNING: mini-heap failure step 4 size 0 seed 18223095866110524117
+WARNING: mini-heap failure step 4 size 0 seed 2007329395645593804
+WARNING: mini-heap failure step 5 size 0 seed 6341835545051170500
+WARNING: mini-heap failure step 5 size 0 seed 17324196331485031017
+WARNING: mini-heap failure step 5 size 0 seed 11826752778469286436
+WARNING: mini-heap failure step 5 size 0 seed 16148100039308404090
+WARNING: mini-heap failure step 4 size 0 seed 11552495398702401109
+WARNING: mini-heap failure step 5 size 0 seed 17068058126466523113
+WARNING: mini-heap failure step 5 size 0 seed 5158527149062109597
+WARNING: mini-heap failure step 5 size 0 seed 3636196775797095623
+WARNING: mini-heap failure step 5 size 0 seed 4449054196944513755
+WARNING: mini-heap failure step 5 size 0 seed 6337043217087670897
+WARNING: mini-heap failure step 5 size 0 seed 3192754018943009234
+WARNING: mini-heap failure step 4 size 0 seed 18058232210083683516
+WARNING: mini-heap failure step 4 size 0 seed 12994761633725372944
+WARNING: mini-heap failure step 4 size 0 seed 15244294570311046534
+WARNING: mini-heap failure step 4 size 0 seed 6401102449911110967
+WARNING: mini-heap failure step 4 size 0 seed 11891473932466542490
+WARNING: mini-heap failure step 4 size 0 seed 5279041822627537516
+WARNING: mini-heap failure step 5 size 0 seed 15512359967560926088
+WARNING: mini-heap failure step 5 size 0 seed 13679800723330729291
+WARNING: mini-heap failure step 4 size 0 seed 10131320560624069729
+WARNING: mini-heap failure step 5 size 0 seed 11416137654879206295
+WARNING: mini-heap failure step 5 size 0 seed 13744663261804691425
+WARNING: mini-heap failure step 4 size 0 seed 14833017375312460879
+Iter#17045879 New set #6000 of size 17 (2841.0 its/hit = 0.018s/hit): seed=14793379583451833093 [0, 1, 8, 17, 21, 25, 57, 78, 94, 144, 151, 154, 162, 169, 177, 202, 212]
+WARNING: mini-heap failure step 5 size 0 seed 18408037425106737509
+WARNING: mini-heap failure step 5 size 0 seed 7068434401533097602
+WARNING: mini-heap failure step 5 size 0 seed 3768246342793923880
+WARNING: mini-heap failure step 4 size 0 seed 6401821183015936922
+WARNING: mini-heap failure step 5 size 0 seed 1912896995690370242
+WARNING: mini-heap failure step 5 size 0 seed 16926475013196835361
+WARNING: mini-heap failure step 4 size 0 seed 4587848265516442220
+WARNING: mini-heap failure step 5 size 0 seed 15524914313422648647
+WARNING: mini-heap failure step 4 size 0 seed 1813362394242667572
+WARNING: mini-heap failure step 5 size 0 seed 14807337472416416341
+WARNING: mini-heap failure step 4 size 0 seed 7646871332327628665
+WARNING: mini-heap failure step 5 size 0 seed 7109926885601564421
+WARNING: mini-heap failure step 4 size 0 seed 17321353141578001371
+WARNING: mini-heap failure step 5 size 0 seed 7525706662947944751
+WARNING: mini-heap failure step 5 size 0 seed 6572517385066431157
+WARNING: mini-heap failure step 4 size 0 seed 1874497398019933937
+WARNING: mini-heap failure step 5 size 0 seed 10295237639326166506
+WARNING: mini-heap failure step 5 size 0 seed 15744240256506225693
+WARNING: mini-heap failure step 4 size 0 seed 8875373808394897762
+WARNING: mini-heap failure step 5 size 0 seed 4026893165957013846
+WARNING: mini-heap failure step 5 size 0 seed 17742755658278074624
+WARNING: mini-heap failure step 4 size 0 seed 2198588135432769531
+Iter#19779861 New set #7000 of size 17 (2825.7 its/hit = 0.018s/hit): seed=10627276812260176750 [0, 1, 5, 7, 18, 23, 60, 82, 88, 100, 119, 152, 156, 198, 202, 222, 247]
+WARNING: mini-heap failure step 5 size 0 seed 10341257104883409893
+WARNING: mini-heap failure step 5 size 0 seed 9629090656043354758
+WARNING: mini-heap failure step 5 size 0 seed 6252417135891780270
+WARNING: mini-heap failure step 5 size 0 seed 13374186916760142168
+WARNING: mini-heap failure step 5 size 0 seed 11455152668570671902
+WARNING: mini-heap failure step 4 size 0 seed 4834643356198371513
+WARNING: mini-heap failure step 5 size 0 seed 1793179210932613552
+WARNING: mini-heap failure step 5 size 0 seed 1528543054187438594
+WARNING: mini-heap failure step 4 size 0 seed 70904907731864514
+WARNING: mini-heap failure step 4 size 0 seed 12061712616667172299
+WARNING: mini-heap failure step 5 size 0 seed 2562711206119198107
+WARNING: mini-heap failure step 4 size 0 seed 13045882041531062441
+WARNING: mini-heap failure step 5 size 0 seed 13254032495052879020
+WARNING: mini-heap failure step 5 size 0 seed 2803156035043963973
+WARNING: mini-heap failure step 5 size 0 seed 10732188429827203018
+WARNING: mini-heap failure step 4 size 0 seed 17081239724997961781
+WARNING: mini-heap failure step 4 size 0 seed 14574715838142466006
+WARNING: mini-heap failure step 6 size 0 seed 6546190482637665914
+WARNING: mini-heap failure step 4 size 0 seed 6004302600920996186
+WARNING: mini-heap failure step 5 size 0 seed 1549288589136192254
+WARNING: mini-heap failure step 4 size 0 seed 3113896656393112831
+WARNING: mini-heap failure step 4 size 0 seed 1973314847563966367
+WARNING: mini-heap failure step 5 size 0 seed 7361006151874011049
+WARNING: mini-heap failure step 5 size 0 seed 1545418906307032489
+WARNING: mini-heap failure step 5 size 0 seed 6460297129888295592
+WARNING: mini-heap failure step 5 size 0 seed 8920599214791757016
+WARNING: mini-heap failure step 4 size 0 seed 6649285317073631212
+WARNING: mini-heap failure step 4 size 0 seed 15308789989998161673
+WARNING: mini-heap failure step 4 size 0 seed 15128584837343809010
+WARNING: mini-heap failure step 5 size 0 seed 13209447149573893629
+Iter#22609637 New set #8000 of size 17 (2826.2 its/hit = 0.019s/hit): seed=3631797896964774197 [0, 1, 5, 7, 18, 23, 60, 82, 88, 100, 119, 152, 156, 198, 202, 222, 247]
+WARNING: mini-heap failure step 4 size 0 seed 13099693957067140327
+WARNING: mini-heap failure step 4 size 0 seed 3997805870759692813
+WARNING: mini-heap failure step 6 size 0 seed 6465113388987280584
+WARNING: mini-heap failure step 4 size 0 seed 14560619062756341205
+WARNING: mini-heap failure step 5 size 0 seed 5256460802722965721
+WARNING: mini-heap failure step 5 size 0 seed 4953194073912231210
+WARNING: mini-heap failure step 4 size 0 seed 14640267847113874776
+WARNING: mini-heap failure step 5 size 0 seed 6178112808044229738
+WARNING: mini-heap failure step 4 size 0 seed 9176307243477295144
+WARNING: mini-heap failure step 4 size 0 seed 5909241932945108607
+WARNING: mini-heap failure step 5 size 0 seed 17761131816295016424
+WARNING: mini-heap failure step 4 size 0 seed 1922748198450130326
+WARNING: mini-heap failure step 4 size 0 seed 8553306047475215752
+WARNING: mini-heap failure step 5 size 0 seed 4372771542021019542
+WARNING: mini-heap failure step 5 size 0 seed 5964005162583119590
+WARNING: mini-heap failure step 4 size 0 seed 16947422530207315964
+WARNING: mini-heap failure step 5 size 0 seed 607935418193107989
+WARNING: mini-heap failure step 4 size 0 seed 10521267539244300638
+WARNING: mini-heap failure step 5 size 0 seed 6826472502054803602
+WARNING: mini-heap failure step 4 size 0 seed 2609222364054493321
+WARNING: mini-heap failure step 5 size 0 seed 17503745269416600390
+WARNING: mini-heap failure step 4 size 0 seed 12149836478048670882
+WARNING: mini-heap failure step 4 size 0 seed 16746389451128775983
+WARNING: mini-heap failure step 4 size 0 seed 5153685199641972816
+WARNING: mini-heap failure step 4 size 0 seed 17783556368508298391
+WARNING: mini-heap failure step 5 size 0 seed 17909277372636570000
+WARNING: mini-heap failure step 4 size 0 seed 14028862599636232794
+WARNING: mini-heap failure step 5 size 0 seed 680507230234052033
+WARNING: mini-heap failure step 4 size 0 seed 6173652091011247170
+WARNING: mini-heap failure step 5 size 0 seed 12604661776056057048
+WARNING: mini-heap failure step 4 size 0 seed 614049210686610343
+WARNING: mini-heap failure step 4 size 0 seed 13903351306952221435
+WARNING: mini-heap failure step 4 size 0 seed 9804897880042593993
+WARNING: mini-heap failure step 5 size 0 seed 16093980673564580900
+WARNING: mini-heap failure step 4 size 0 seed 5654947451220072240
+WARNING: mini-heap failure step 4 size 0 seed 6300383122062343085
+WARNING: mini-heap failure step 5 size 0 seed 12100285039651523923
+WARNING: mini-heap failure step 4 size 0 seed 17360364592046441331
+Iter#25617762 New set #9000 of size 17 (2846.4 its/hit = 0.020s/hit): seed=14574161182408335208 [0, 1, 8, 17, 21, 25, 57, 78, 94, 144, 151, 154, 162, 169, 177, 202, 212]
+WARNING: mini-heap failure step 5 size 0 seed 51406802939733161
+WARNING: mini-heap failure step 5 size 0 seed 12026742432767843359
+WARNING: mini-heap failure step 4 size 0 seed 12855896879278105883
+WARNING: mini-heap failure step 6 size 0 seed 2389837258472364287
+WARNING: mini-heap failure step 4 size 0 seed 17748257137453843104
+WARNING: mini-heap failure step 4 size 0 seed 3409383609884710546
+WARNING: mini-heap failure step 4 size 0 seed 303976326842006221
+WARNING: mini-heap failure step 4 size 0 seed 6384018746310515658
+WARNING: mini-heap failure step 4 size 0 seed 2694934618384112712
+WARNING: mini-heap failure step 5 size 0 seed 2038389549032125666
+WARNING: mini-heap failure step 5 size 0 seed 17942755427868534848
+WARNING: mini-heap failure step 4 size 0 seed 14424880225379572063
+WARNING: mini-heap failure step 4 size 0 seed 15827807091841221061
+WARNING: mini-heap failure step 4 size 0 seed 9913023892502279825
+WARNING: mini-heap failure step 4 size 0 seed 9187435072158929181
+WARNING: mini-heap failure step 4 size 0 seed 16984564970228905145
+WARNING: mini-heap failure step 5 size 0 seed 9542876134369089994
+WARNING: mini-heap failure step 4 size 0 seed 11545445855258663559
+WARNING: mini-heap failure step 5 size 0 seed 1079249753487140008
+WARNING: mini-heap failure step 5 size 0 seed 271172132698679719
+WARNING: mini-heap failure step 4 size 0 seed 17699919890424917154
+WARNING: mini-heap failure step 5 size 0 seed 1328185816394347494
+WARNING: mini-heap failure step 4 size 0 seed 1960733891851978466
+WARNING: mini-heap failure step 4 size 0 seed 9451712345148108317
+WARNING: mini-heap failure step 5 size 0 seed 13314886253869847947
+WARNING: mini-heap failure step 5 size 0 seed 1567413092274085521
+WARNING: mini-heap failure step 4 size 0 seed 13562834893559186293
+Iter#28374964 New set #10000 of size 17 (2837.5 its/hit = 0.020s/hit): seed=5946950329016562712 [0, 31, 49, 66, 101, 124, 149, 152, 160, 163, 164, 180, 184, 190, 201, 220, 225]
+WARNING: mini-heap failure step 5 size 0 seed 1948391424564687676
+WARNING: mini-heap failure step 5 size 0 seed 2532701864829857675
+WARNING: mini-heap failure step 4 size 0 seed 2600798828514731907
+WARNING: mini-heap failure step 5 size 0 seed 16902020960261582684
+WARNING: mini-heap failure step 4 size 0 seed 15023967324418670970
+WARNING: mini-heap failure step 5 size 0 seed 7094831948569890522
+WARNING: mini-heap failure step 5 size 0 seed 16920116482582707394
+WARNING: mini-heap failure step 5 size 0 seed 3768330303392475945
+WARNING: mini-heap failure step 5 size 0 seed 5065952273761226392
+WARNING: mini-heap failure step 5 size 0 seed 10056146755608742863
+WARNING: mini-heap failure step 4 size 0 seed 7109019533190566666
+WARNING: mini-heap failure step 6 size 0 seed 832201274323387950
+WARNING: mini-heap failure step 5 size 0 seed 6509095844120944796
+WARNING: mini-heap failure step 5 size 0 seed 16188351872357520050
+WARNING: mini-heap failure step 5 size 0 seed 6029335353300701343
+WARNING: mini-heap failure step 5 size 0 seed 14501360655143532881
+WARNING: mini-heap failure step 5 size 0 seed 5393799704585497400
+WARNING: mini-heap failure step 5 size 0 seed 15259376023796554964
+WARNING: mini-heap failure step 5 size 0 seed 6482121174339604738
+WARNING: mini-heap failure step 4 size 0 seed 928078350640042235
+WARNING: mini-heap failure step 5 size 0 seed 14435403815274487044
+WARNING: mini-heap failure step 6 size 0 seed 11315581811118217876
+WARNING: mini-heap failure step 5 size 0 seed 10003649056142536146
+WARNING: mini-heap failure step 5 size 0 seed 14007922893340919349
+WARNING: mini-heap failure step 5 size 0 seed 3298157632904069898
+WARNING: mini-heap failure step 4 size 0 seed 5879493929346106548
+WARNING: mini-heap failure step 5 size 0 seed 10778973449359888564
+WARNING: mini-heap failure step 5 size 0 seed 5548573627030194737
+WARNING: mini-heap failure step 5 size 0 seed 8190992149802729317
+WARNING: mini-heap failure step 4 size 0 seed 1749896325507563252
+WARNING: mini-heap failure step 4 size 0 seed 15682786013206000274
+WARNING: mini-heap failure step 4 size 0 seed 11930447643899064538
+WARNING: mini-heap failure step 5 size 0 seed 8815727658921180405
+WARNING: mini-heap failure step 5 size 0 seed 5848874415980187179
+WARNING: mini-heap failure step 5 size 0 seed 980146793886471408
+WARNING: mini-heap failure step 4 size 0 seed 932144477399682872
+WARNING: mini-heap failure step 5 size 0 seed 7762756153589605455
+WARNING: mini-heap failure step 5 size 0 seed 16587753981746400381
+WARNING: mini-heap failure step 5 size 0 seed 17650090762243975130
+WARNING: mini-heap failure step 4 size 0 seed 8638118213396647671
+WARNING: mini-heap failure step 4 size 0 seed 16142835473969791146
+WARNING: mini-heap failure step 5 size 0 seed 1331235526809062096
+WARNING: mini-heap failure step 5 size 0 seed 1768567484348358419
+WARNING: mini-heap failure step 4 size 0 seed 497100595899825009
+WARNING: mini-heap failure step 5 size 0 seed 2638175585213789438
+WARNING: mini-heap failure step 4 size 0 seed 17989064160847944657
+WARNING: mini-heap failure step 4 size 0 seed 1893369831304245040
+WARNING: mini-heap failure step 4 size 0 seed 9420975544830167023
+WARNING: mini-heap failure step 4 size 0 seed 4212552715003033794
+WARNING: mini-heap failure step 4 size 0 seed 9197272062156858789
+WARNING: mini-heap failure step 5 size 0 seed 12309866531484092675
+WARNING: mini-heap failure step 5 size 0 seed 1036922827436923266
+WARNING: mini-heap failure step 5 size 0 seed 1212876635274349355
+WARNING: mini-heap failure step 4 size 0 seed 6691475986342617948
+WARNING: mini-heap failure step 5 size 0 seed 13485884676508096150
+WARNING: mini-heap failure step 5 size 0 seed 17388142318932829921
+WARNING: mini-heap failure step 5 size 0 seed 12630243144889252082
+WARNING: mini-heap failure step 4 size 0 seed 15648289957934815013
+WARNING: mini-heap failure step 4 size 0 seed 4239555760885651009
+WARNING: mini-heap failure step 4 size 0 seed 4606827151839563000
+WARNING: mini-heap failure step 5 size 0 seed 9318451119153446117
+WARNING: mini-heap failure step 4 size 0 seed 16707419360859012803
+WARNING: mini-heap failure step 4 size 0 seed 13485271769681069922
+WARNING: mini-heap failure step 6 size 0 seed 3303852894321588444
+WARNING: mini-heap failure step 4 size 0 seed 13987443588844231917
+WARNING: mini-heap failure step 4 size 0 seed 13696771672650725000
+WARNING: mini-heap failure step 5 size 0 seed 13325789475215402350
+WARNING: mini-heap failure step 5 size 0 seed 15386492234160268278
+WARNING: mini-heap failure step 5 size 0 seed 6278015478837075709
+WARNING: mini-heap failure step 5 size 0 seed 12848882915229417758
+WARNING: mini-heap failure step 5 size 0 seed 8327809977955785481
+WARNING: mini-heap failure step 5 size 0 seed 9048126403256132115
+WARNING: mini-heap failure step 4 size 0 seed 2667926920243045974
+WARNING: mini-heap failure step 5 size 0 seed 10921170972298320599
+WARNING: mini-heap failure step 5 size 0 seed 4278967894555243303
+WARNING: mini-heap failure step 4 size 0 seed 16342931214315429886
+WARNING: mini-heap failure step 4 size 0 seed 18032761518406902770
+WARNING: mini-heap failure step 5 size 0 seed 13692754743900862388
+WARNING: mini-heap failure step 5 size 0 seed 12177557071466820314
+WARNING: mini-heap failure step 5 size 0 seed 3047479998478637208
+WARNING: mini-heap failure step 5 size 0 seed 11656882368934838779
+WARNING: mini-heap failure step 5 size 0 seed 13708132388322512033
+WARNING: mini-heap failure step 4 size 0 seed 4228728103050723004
+WARNING: mini-heap failure step 4 size 0 seed 16002265308624670773
+WARNING: mini-heap failure step 4 size 0 seed 2456779420126395195
+WARNING: mini-heap failure step 5 size 0 seed 15021233993437742132
+WARNING: mini-heap failure step 4 size 0 seed 2354408817080259989
+WARNING: mini-heap failure step 5 size 0 seed 10419806316638729456
+WARNING: mini-heap failure step 5 size 0 seed 4771611696957008466
+WARNING: mini-heap failure step 4 size 0 seed 5311040882369420553
+WARNING: mini-heap failure step 4 size 0 seed 2592238565706664499
+WARNING: mini-heap failure step 4 size 0 seed 6694771240884557560
+WARNING: mini-heap failure step 4 size 0 seed 9434637084699938915
+WARNING: mini-heap failure step 5 size 0 seed 1955990666354733577
+WARNING: mini-heap failure step 5 size 0 seed 14408669695160971616
+WARNING: mini-heap failure step 4 size 0 seed 16349904135369597539
+WARNING: mini-heap failure step 5 size 0 seed 14435424107678728569
+WARNING: mini-heap failure step 4 size 0 seed 14091927174516750477
+WARNING: mini-heap failure step 4 size 0 seed 17686786072022843398
+WARNING: mini-heap failure step 5 size 0 seed 13254027508605675110
+WARNING: mini-heap failure step 5 size 0 seed 3695371043853576221
+WARNING: mini-heap failure step 4 size 0 seed 8679037701100124583
+WARNING: mini-heap failure step 5 size 0 seed 1866832422570956782
+WARNING: mini-heap failure step 4 size 0 seed 4900067745939005914
+WARNING: mini-heap failure step 5 size 0 seed 2794872691216523637
+WARNING: mini-heap failure step 5 size 0 seed 4256131212028093939
+WARNING: mini-heap failure step 4 size 0 seed 5657144537476923809
+WARNING: mini-heap failure step 5 size 0 seed 1037162215803818751
+WARNING: mini-heap failure step 4 size 0 seed 8011605079586202125
+WARNING: mini-heap failure step 5 size 0 seed 6086672221907570426
+WARNING: mini-heap failure step 4 size 0 seed 9242836111571021833
+WARNING: mini-heap failure step 4 size 0 seed 8889177596723585912
+WARNING: mini-heap failure step 4 size 0 seed 5904398482998889030
+WARNING: mini-heap failure step 4 size 0 seed 18376665089611541191
+WARNING: mini-heap failure step 5 size 0 seed 14607623917070993924
