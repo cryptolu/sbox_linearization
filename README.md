@@ -26,7 +26,7 @@ The work was funded by Luxembourg's FNR projects CryptoFin (C22/IS/17415825) and
 
 A copy of this repository is available at [zenodo.org](https://doi.org/10.5281/zenodo.18715466).
 
-A vibe-coded interactive visualization of the GreedyExtension(DDT) algorithm is available at [affine.group/pages/greedy-extension](https://affine.group/pages/greedy-extension)and [./interactive-greedy-extension-AI.html](./interactive-greedy-extension-AI.html).
+A vibe-coded interactive visualization of the GreedyExtension(DDT) algorithm is available at [affine.group/pages/greedy-extension](https://affine.group/pages/greedy-extension) and [./interactive-greedy-extension-AI.html](./interactive-greedy-extension-AI.html).
 
 
 ## S-box file format
@@ -109,7 +109,7 @@ logs_sage/n9_DryGASCON256.txt.bz2.greedyext.20260220_155550.txt | size 77
 
 ## Greedy extension algorithm (DDT-related), heuristic
 
-The first algorithm is the fastest and produces the best results. It is implemented in Rust.
+The first algorithm is the fastest and produces the best results. It is implemented in Rust. See [greedy_extension](./greedy_extension) for a python wrapper (`pip install veclin-greedy-extension`).
 
 This version is limited to 16-bit S-boxes (inputs and outputs) for optimization purposes. In principle, supporting larger **output** sizes is not a problem; supporing larger **input** sizes is not feasible due to DDT precomputation.
 
@@ -133,6 +133,25 @@ Iter#71 New set #10 of size 47 (7.1 its/hit = 0.000s/hit): seed=1480662208752990
 ```
 
 The output lists correspond to the matching input points of the approximation.
+
+Python wrapper example:
+
+```py
+from veclin_greedy_extension import GreedyExtensionU16
+
+# SKINNY-8
+sbox = [101, 76, 106, 66, 75, 99, 67, 107, 85, 117, 90, 122, 83, 115, 91, 123, 53, 140, 58, 129, 137, 51, 128, 59, 149, 37, 152, 42, 144, 35, 153, 43, 229, 204, 232, 193, 201, 224, 192, 233, 213, 245, 216, 248, 208, 240, 217, 249, 165, 28, 168, 18, 27, 160, 19, 169, 5, 181, 10, 184, 3, 176, 11, 185, 50, 136, 60, 133, 141, 52, 132, 61, 145, 34, 156, 44, 148, 36, 157, 45, 98, 74, 108, 69, 77, 100, 68, 109, 82, 114, 92, 124, 84, 116, 93, 125, 161, 26, 172, 21, 29, 164, 20, 173, 2, 177, 12, 188, 4, 180, 13, 189, 225, 200, 236, 197, 205, 228, 196, 237, 209, 241, 220, 252, 212, 244, 221, 253, 54, 142, 56, 130, 139, 48, 131, 57, 150, 38, 154, 40, 147, 32, 155, 41, 102, 78, 104, 65, 73, 96, 64, 105, 86, 118, 88, 120, 80, 112, 89, 121, 166, 30, 170, 17, 25, 163, 16, 171, 6, 182, 8, 186, 0, 179, 9, 187, 230, 206, 234, 194, 203, 227, 195, 235, 214, 246, 218, 250, 211, 243, 219, 251, 49, 138, 62, 134, 143, 55, 135, 63, 146, 33, 158, 46, 151, 39, 159, 47, 97, 72, 110, 70, 79, 103, 71, 111, 81, 113, 94, 126, 87, 119, 95, 127, 162, 24, 174, 22, 31, 167, 23, 175, 1, 178, 14, 190, 7, 183, 15, 191, 226, 202, 238, 198, 207, 231, 199, 239, 210, 242, 222, 254, 215, 247, 223, 255]
+
+GE = GreedyExtensionU16(sbox)
+
+# one execution of the algorithm: the first argument is initial points to include in the final set, the second one is the random seed
+xs = GE.run()
+print(xs)  # [7, 10, 11, 14, 15, 23, 27, 31, 37, 39, 42, 43, 44, 45, 46, 47, 69, 71, 75, 77, 79, 85, 87, 90, 91, 92, 93, 94, 95, 133, 135, 139, 141, 143, 149, 151, 154, 155, 156, 157, 158, 159, 183, 186, 187, 190, 191]
+
+# best of 100 runs or 1 second
+xs = GE.best_of(100, time=1.0)
+print(xs)  # [20, 22, 26, 28, 30, 36, 38, 42, 44, 46, 59, 61, 63, 68, 70, 74, 75, 76, 77, 78, 79, 100, 102, 106, 107, 108, 109, 110, 111, 116, 118, 122, 124, 126, 196, 202, 203, 206, 207, 228, 234, 235, 238, 239, 244, 250, 254]
+```
 
 
 ## Exhaustive reduction algorithm (LAT-related)
