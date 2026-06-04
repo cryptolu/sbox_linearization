@@ -1,15 +1,15 @@
 use pyo3::prelude::*;
 use std::ops::{Deref, DerefMut};
-use crate::{algorithm::Algorithm};
+use crate::algorithm::Algorithm;
 use crate::greedy_extension::greedy_extension_py;
 
 #[pyclass]
-pub struct AlgorithmU16 {
+pub struct GreedyExtensionU16 {
     pub implemented: Algorithm
 }
 
 #[pymethods]
-impl AlgorithmU16 {
+impl GreedyExtensionU16 {
     #[new]
     pub fn new(s_box: Vec<u16>, n: usize, m: usize) -> Self {
         Self {
@@ -29,13 +29,13 @@ impl AlgorithmU16 {
     }
 }
 
-impl Deref for AlgorithmU16 {
+impl Deref for GreedyExtensionU16 {
     type Target = Algorithm;
     fn deref(&self) -> &Algorithm {
         &self.implemented
     }
 }
-impl DerefMut for AlgorithmU16 {
+impl DerefMut for GreedyExtensionU16 {
     fn deref_mut(&mut self) -> &mut Algorithm {
         &mut self.implemented
     }
