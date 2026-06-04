@@ -1,0 +1,27 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "veclin_greedy_extension"
+version = "1.0.0"
+description = "Greedy extension algorithm for S-box vectorial linearization"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "CryptoLUX"},
+]
+readme = "README.md"
+keywords = ["cryptography", "sbox", "linearization", "greedy"]
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.urls]
+Repository = "https://github.com/cryptolu/sbox_linearization"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]

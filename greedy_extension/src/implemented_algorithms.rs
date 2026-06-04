@@ -20,6 +20,13 @@ impl AlgorithmU16 {
     pub fn greedy_extension(&mut self, py: Python, init: Vec<u16>, seed: u64) ->  PyResult<Vec<u16>>{
         Ok(greedy_extension_py(py, &mut self.implemented, &init, seed)?)
     }
+
+    pub fn greedy_extension_ext(&mut self, py: Python, init: Vec<u16>, seed: u64) -> PyResult<(Vec<u16>, Vec<usize>, Vec<(usize, usize)>)> {
+        let xs = greedy_extension_py(py, &mut self.implemented, &init, seed)?;
+        let profile = self.implemented.profile.clone();
+        let last_merges = self.implemented.last_merges.clone();
+        Ok((xs, profile, last_merges))
+    }
 }
 
 impl Deref for AlgorithmU16 {
