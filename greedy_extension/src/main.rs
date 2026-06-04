@@ -68,10 +68,10 @@ fn main() {
             if num_seen % print_interval == 0 {
                 let time_per_itr = start.elapsed().as_secs() as f32 / i as f32;
                 let itrs_per_hit = (i as f32) / (num_seen as f32);
-                println!("Iter#{} New set #{} of size {} ({:.1} its/hit = {:.3}s/hit): seed={} {:?}",
+                println!("Iter#{} New set #{} of size {} ({:.1} its/hit = {:.3}s/hit): seed={} {:?} {:?} {:?}",
                     i, num_seen, resp.len(),
                     itrs_per_hit, itrs_per_hit * time_per_itr,
-                    seed, resp);
+                    seed, resp, alg.profile, alg.last_merges);
                 // println!("Merges: {:?}", alg.last_merges);
             }
             if num_seen == limit {

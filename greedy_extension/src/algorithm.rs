@@ -5,7 +5,8 @@ pub struct Algorithm {
     pub domain: Vec<u16>,
     pub min_solutions: Vec<u16>,
     pub indexes: Vec<(u32, u32)>,
-    pub last_merges: Vec<(usize, usize)>
+    pub last_merges: Vec<(usize, usize)>,
+    pub profile: Vec<usize>
 }
 
 impl Algorithm {
@@ -64,7 +65,8 @@ impl Algorithm {
         println!("[+] DDT Computed");
 
         let last_merges = vec![];
-        return Self {s_box, n, m, domain, min_solutions, indexes, last_merges};
+        let profile = vec![];
+        return Self {s_box, n, m, domain, min_solutions, indexes, last_merges, profile};
     }
 
     pub fn query_ddt(&self, diff: (u16, u16)) -> &[u16] {

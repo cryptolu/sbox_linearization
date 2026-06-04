@@ -205,11 +205,13 @@ pub fn greedy_extension_rust(alg: &mut Algorithm, initial: &Vec<u16>, seed: u64)
     let s = &alg.s_box;
 
     alg.last_merges = vec![];
+    alg.profile = vec![1];
     for itr in 0..alg.n {
         let cl1 = GreedyExtension.cl1;
         let cl2 = GreedyExtension.select_clique_to_merge(initial, itr);
         GreedyExtension.merge_cliques(cl1, cl2);
         alg.last_merges.push((cl1, cl2));
+        alg.profile.push(GreedyExtension.cliques.size(cl1 as u16));
         
         if itr == alg.n-1 {
             // finished
@@ -234,12 +236,14 @@ pub fn greedy_extension_py(py: Python, alg: &mut Algorithm, initial: &Vec<u16>, 
     let s = &alg.s_box;
 
     alg.last_merges = vec![];
+    alg.profile = vec![1];
     for itr in 0..alg.n {
         py.check_signals()?;
         let cl1 = GreedyExtension.cl1;
         let cl2 = GreedyExtension.select_clique_to_merge(initial, itr);
         GreedyExtension.merge_cliques(cl1, cl2);
         alg.last_merges.push((cl1, cl2));
+        alg.profile.push(GreedyExtension.cliques.size(cl1 as u16));
         
         if itr == alg.n-1 {
             // finished
