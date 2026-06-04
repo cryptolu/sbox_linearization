@@ -82,7 +82,7 @@ impl GreedyExtensionU16 {
         let mut best_seed: u64 = 0;
 
         let init: Vec<u16> = vec![];
-        for i in 0..num {
+        for _i in 0..num {
             py.check_signals()?;
 
             let seed: u64 = rng.gen();

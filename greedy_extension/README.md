@@ -4,7 +4,7 @@ Rust-powered Python package implementing the greedy extension algorithm for S-bo
 
 Part of the [sbox_linearization](https://github.com/cryptolu/sbox_linearization) project.
 
-This is a temporary simple wrapper to provide easy access to the algorithm. Later, it should be embedded in the S-box analysis packages such as [sboxU](https://github.com/lpp_crypto/sboxU) or SageMath.
+This is a temporary simple wrapper to provide easy access to the algorithm. Later, it should be embedded in the S-box analysis packages such as [sboxU](https://github.com/lpp-crypto/sboxU) or SageMath.
 
 
 ## Installation

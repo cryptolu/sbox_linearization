@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "veclin_greedy_extension"
-version = "1.0.0"
+version = "1.0.1"
 description = "Greedy extension algorithm for S-box vectorial linearization"
 requires-python = ">=3.8"
 license = {text = "MIT"}
