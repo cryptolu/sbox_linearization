@@ -1,10 +1,10 @@
 use std::collections::BinaryHeap;
-use rand::{Rng};
+use rand::Rng;
 use rand::seq::index;
 use rand::SeedableRng;
 use rand::rngs::StdRng;
 use crate::dsu::RangeDSU;
-use crate::algorithm::{Algorithm};
+use crate::algorithm::Algorithm;
 use pyo3::prelude::*;
 use pyo3::exceptions::PyKeyboardInterrupt;
 use std::cmp::Reverse;
