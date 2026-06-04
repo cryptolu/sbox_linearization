@@ -8,8 +8,9 @@ use crate::algorithm::{Algorithm};
 use pyo3::prelude::*;
 use pyo3::exceptions::PyKeyboardInterrupt;
 use std::cmp::Reverse;
+use std::cmp::min;
 
-const GREEDY_H: usize = 7;
+const GREEDY_H: usize = 20;
 
 pub struct GreedyExtension {
     pub n: usize,
@@ -34,7 +35,7 @@ impl GreedyExtension {
         
         let mut rng = StdRng::seed_from_u64(seed);
         let mut queue: BinaryHeap<Reverse<(usize, i16, usize)>> = BinaryHeap::from(
-            index::sample(&mut rng, 1usize << n, GREEDY_H + 1)
+            index::sample(&mut rng, 1usize << n, min(1usize << n, GREEDY_H + 1))
                 .into_iter()
                 .map(|i| Reverse((1usize, rng.gen::<i16>(), i)))
                 .collect::<Vec<_>>()
