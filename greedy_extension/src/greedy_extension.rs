@@ -101,7 +101,7 @@ impl GreedyExtension {
         if cl2_sz == 0 {
             // mini-heap failure, find merge by full iteration
             // should happen VERY rarely, increase H otherwise
-            println!("WARNING: mini-heap failure step {} size {} seed {}", itr, self.queue.len(), self.seed);
+            // println!("WARNING: mini-heap failure step {} size {} seed {}", itr, self.queue.len(), self.seed);
             for cl in 0..1usize<<self.n {
                 let cl_sz = self.cliques.size(cl as u16);
                 // if !lsx.contains(&(cl1 ^ cl)){

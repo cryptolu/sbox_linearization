@@ -20,7 +20,7 @@ impl Algorithm {
             panic!("S-box elements do dot respect bounds!");
         }
         let domain = (0..domain_size).map(|value| value as u16).collect();
-        println!("[*] Computing DDT");      
+        // println!("[*] Computing DDT");      
 
         // let rows = 1usize << n;
         // let cols = 1usize << m;
@@ -62,7 +62,7 @@ impl Algorithm {
             start as u32,
             (min_solutions.len() - start) as u32
         );
-        println!("[+] DDT Computed");
+        // println!("[+] DDT Computed");
 
         let last_merges = vec![];
         let profile = vec![];
