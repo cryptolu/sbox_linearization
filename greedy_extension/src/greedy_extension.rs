@@ -1,15 +1,16 @@
 use std::collections::BinaryHeap;
-use rand::{Rng};
+use rand::Rng;
 use rand::seq::index;
 use rand::SeedableRng;
 use rand::rngs::StdRng;
 use crate::dsu::RangeDSU;
-use crate::algorithm::{Algorithm};
+use crate::algorithm::Algorithm;
 use pyo3::prelude::*;
 use pyo3::exceptions::PyKeyboardInterrupt;
 use std::cmp::Reverse;
+use std::cmp::min;
 
-const GREEDY_H: usize = 7;
+const GREEDY_H: usize = 20;
 
 pub struct GreedyExtension {
     pub n: usize,
@@ -34,7 +35,7 @@ impl GreedyExtension {
         
         let mut rng = StdRng::seed_from_u64(seed);
         let mut queue: BinaryHeap<Reverse<(usize, i16, usize)>> = BinaryHeap::from(
-            index::sample(&mut rng, 1usize << n, GREEDY_H + 1)
+            index::sample(&mut rng, 1usize << n, min(1usize << n, GREEDY_H + 1))
                 .into_iter()
                 .map(|i| Reverse((1usize, rng.gen::<i16>(), i)))
                 .collect::<Vec<_>>()
@@ -101,7 +102,7 @@ impl GreedyExtension {
         if cl2_sz == 0 {
             // mini-heap failure, find merge by full iteration
             // should happen VERY rarely, increase H otherwise
-            println!("WARNING: mini-heap failure step {} size {} seed {}", itr, self.queue.len(), self.seed);
+            // println!("WARNING: mini-heap failure step {} size {} seed {}", itr, self.queue.len(), self.seed);
             for cl in 0..1usize<<self.n {
                 let cl_sz = self.cliques.size(cl as u16);
                 // if !lsx.contains(&(cl1 ^ cl)){
@@ -204,12 +205,15 @@ pub fn greedy_extension_rust(alg: &mut Algorithm, initial: &Vec<u16>, seed: u64)
     let mut GreedyExtension = GreedyExtension::new(alg, initial, seed);
     let s = &alg.s_box;
 
+    alg.last_seed = seed;
     alg.last_merges = vec![];
+    alg.profile = vec![1];
     for itr in 0..alg.n {
         let cl1 = GreedyExtension.cl1;
         let cl2 = GreedyExtension.select_clique_to_merge(initial, itr);
         GreedyExtension.merge_cliques(cl1, cl2);
         alg.last_merges.push((cl1, cl2));
+        alg.profile.push(GreedyExtension.cliques.size(cl1 as u16));
         
         if itr == alg.n-1 {
             // finished
@@ -233,13 +237,16 @@ pub fn greedy_extension_py(py: Python, alg: &mut Algorithm, initial: &Vec<u16>, 
     let mut GreedyExtension = GreedyExtension::new(alg, initial, seed);
     let s = &alg.s_box;
 
+    alg.last_seed = seed;
     alg.last_merges = vec![];
+    alg.profile = vec![1];
     for itr in 0..alg.n {
         py.check_signals()?;
         let cl1 = GreedyExtension.cl1;
         let cl2 = GreedyExtension.select_clique_to_merge(initial, itr);
         GreedyExtension.merge_cliques(cl1, cl2);
         alg.last_merges.push((cl1, cl2));
+        alg.profile.push(GreedyExtension.cliques.size(cl1 as u16));
         
         if itr == alg.n-1 {
             // finished

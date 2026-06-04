@@ -5,7 +5,9 @@ pub struct Algorithm {
     pub domain: Vec<u16>,
     pub min_solutions: Vec<u16>,
     pub indexes: Vec<(u32, u32)>,
-    pub last_merges: Vec<(usize, usize)>
+    pub last_merges: Vec<(usize, usize)>,
+    pub profile: Vec<usize>,
+    pub last_seed: u64
 }
 
 impl Algorithm {
@@ -19,7 +21,7 @@ impl Algorithm {
             panic!("S-box elements do dot respect bounds!");
         }
         let domain = (0..domain_size).map(|value| value as u16).collect();
-        println!("[*] Computing DDT");      
+        // println!("[*] Computing DDT");      
 
         // let rows = 1usize << n;
         // let cols = 1usize << m;
@@ -61,10 +63,12 @@ impl Algorithm {
             start as u32,
             (min_solutions.len() - start) as u32
         );
-        println!("[+] DDT Computed");
+        // println!("[+] DDT Computed");
 
         let last_merges = vec![];
-        return Self {s_box, n, m, domain, min_solutions, indexes, last_merges};
+        let profile = vec![];
+        let last_seed = 0;
+        return Self {s_box, n, m, domain, min_solutions, indexes, last_merges, profile, last_seed};
     }
 
     pub fn query_ddt(&self, diff: (u16, u16)) -> &[u16] {

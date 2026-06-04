@@ -1,14 +1,18 @@
 [package]
-name = "greedy_extention"
+name = "veclin_greedy_extension"
 version = "1.0.0"
 edition = "2021"
 
 [lib]
-name = "greedy_extention"
+name = "veclin_greedy_extension"
 crate-type = ["cdylib"]
 
+[[bin]]
+name = "greedy_extention"
+path = "src/main.rs"
+
 [dependencies]
-pyo3 = "0.24.0"
+pyo3 = { version = "0.24.0", features = ["extension-module"] }
 itertools = "0.10"
 rand = "0.8"
 clap = { version = "4.5", features = ["derive"] }
