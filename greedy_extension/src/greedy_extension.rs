@@ -205,6 +205,7 @@ pub fn greedy_extension_rust(alg: &mut Algorithm, initial: &Vec<u16>, seed: u64)
     let mut GreedyExtension = GreedyExtension::new(alg, initial, seed);
     let s = &alg.s_box;
 
+    alg.last_seed = seed;
     alg.last_merges = vec![];
     alg.profile = vec![1];
     for itr in 0..alg.n {
@@ -236,6 +237,7 @@ pub fn greedy_extension_py(py: Python, alg: &mut Algorithm, initial: &Vec<u16>, 
     let mut GreedyExtension = GreedyExtension::new(alg, initial, seed);
     let s = &alg.s_box;
 
+    alg.last_seed = seed;
     alg.last_merges = vec![];
     alg.profile = vec![1];
     for itr in 0..alg.n {
